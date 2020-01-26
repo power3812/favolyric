@@ -1,0 +1,51 @@
+[
+    {
+        "title":"Pretender",
+        "artist": "Official髭男dism",
+        "emotions": {
+            "happy": 3.05,
+            "sad": 3.45,
+            "disgust": 7.35,
+            "anger": 5.9,
+            "fear": 4.95,
+            "surprise": 3.5
+           }
+    },
+
+    {
+        "title":"Lemon",
+        "artist": "米津玄師",
+        "emotions": {
+            "happy": 2.0,
+            "sad": 3.9,
+            "disgust": 7.9,
+            "anger": 4.2,
+            "fear": 5.5,
+            "surprise": 2.4
+           }
+    },
+    {
+        "title":"Pemon",
+        "artist": "米津玄師",
+        "emotions": {
+            "happy": 2.0,
+            "sad": 3.9,
+            "disgust": 7.9,
+            "anger": 4.2,
+            "fear": 5.5,
+            "surprise": 2.4
+        }
+    },
+    {
+        "title":"monmon",
+        "artist": "米津玄師",
+        "emotions": {
+            "happy": 2.0,
+            "sad": 3.9,
+            "disgust": 7.9,
+            "anger": 4.2,
+            "fear": 5.5,
+            "surprise": 2.4
+        }
+    }
+]

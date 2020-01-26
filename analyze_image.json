@@ -1,0 +1,2571 @@
+[
+    {
+        "title": "HOPE",
+        "artist": "wanima",
+        "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+        "emotions": {
+            "happy": 1.5,
+            "sad": 2.5,
+            "disgust": 17.5,
+            "anger": 7.5,
+            "fear": 22.75,
+            "surprise": 1.75
+        }
+    }
+ , {
+    "title": "Hey Lady",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 3.375,
+        "sad": 3.5,
+        "disgust": 6.75,
+        "anger": 6.875,
+        "fear": 5.625,
+        "surprise": 3.375
+    }
+} , {
+    "title": "シグナル",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 2.7714285714285714,
+        "sad": 3.4571428571428573,
+        "disgust": 8.0,
+        "anger": 5.3428571428571425,
+        "fear": 4.857142857142857,
+        "surprise": 3.3142857142857145
+    }
+} , {
+    "title": "リベンジ",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 3.3191489361702127,
+        "sad": 7.23404255319149,
+        "disgust": 6.446808510638298,
+        "anger": 5.340425531914893,
+        "fear": 5.702127659574468,
+        "surprise": 2.9361702127659575
+    }
+} , {
+    "title": "TRACE",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 3.2857142857142856,
+        "sad": 8.714285714285714,
+        "disgust": 5.761904761904762,
+        "anger": 3.6666666666666665,
+        "fear": 5.380952380952381,
+        "surprise": 2.0952380952380953
+    }
+} , {
+    "title": "CHARM",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 6.0,
+        "sad": 6.0,
+        "disgust": 11.0,
+        "anger": 15.0,
+        "fear": 6.0,
+        "surprise": 6.0
+    }
+} , {
+    "title": "夏の面影",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 2.7142857142857144,
+        "sad": 3.9285714285714284,
+        "disgust": 6.0,
+        "anger": 4.071428571428571,
+        "fear": 2.0714285714285716,
+        "surprise": 3.7857142857142856
+    }
+} , {
+    "title": "Drive",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 2.721311475409836,
+        "sad": 3.6557377049180326,
+        "disgust": 6.737704918032787,
+        "anger": 4.508196721311475,
+        "fear": 4.967213114754099,
+        "surprise": 4.426229508196721
+    }
+} , {
+    "title": "アゲイン",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 2.0,
+        "sad": 3.9,
+        "disgust": 7.9,
+        "anger": 4.2,
+        "fear": 5.5,
+        "surprise": 2.4
+    }
+} , {
+    "title": "Everybody!!",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 3.7142857142857144,
+        "sad": 5.428571428571429,
+        "disgust": 7.714285714285714,
+        "anger": 6.285714285714286,
+        "fear": 4.142857142857143,
+        "surprise": 3.857142857142857
+    }
+} , {
+    "title": "Hey yo",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 3.347826086956522,
+        "sad": 4.739130434782608,
+        "disgust": 7.434782608695652,
+        "anger": 5.391304347826087,
+        "fear": 6.956521739130435,
+        "surprise": 3.1739130434782608
+    }
+} , {
+    "title": "CHEEKY",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 4.186046511627907,
+        "sad": 2.0930232558139537,
+        "disgust": 7.5813953488372094,
+        "anger": 7.883720930232558,
+        "fear": 5.0,
+        "surprise": 4.0
+    }
+} , {
+    "title": "エム",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 1.9473684210526316,
+        "sad": 3.3684210526315788,
+        "disgust": 10.210526315789474,
+        "anger": 8.421052631578947,
+        "fear": 7.368421052631579,
+        "surprise": 2.3684210526315788
+    }
+} , {
+    "title": "1CHANCE",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 2.608695652173913,
+        "sad": 3.108695652173913,
+        "disgust": 9.91304347826087,
+        "anger": 9.391304347826088,
+        "fear": 4.0,
+        "surprise": 3.108695652173913
+    }
+} , {
+    "title": "夏のどこかへ",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 6.0,
+        "sad": 5.0,
+        "disgust": 4.375,
+        "anger": 5.625,
+        "fear": 2.625,
+        "surprise": 3.0
+    }
+} , {
+    "title": "ヒューマン",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 6.0,
+        "sad": 6.0,
+        "disgust": 11.0,
+        "anger": 15.0,
+        "fear": 6.0,
+        "surprise": 6.0
+    }
+} , {
+    "title": "1106",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 4.5,
+        "sad": 4.944444444444445,
+        "disgust": 3.388888888888889,
+        "anger": 2.9444444444444446,
+        "fear": 3.2777777777777777,
+        "surprise": 3.5
+    }
+} , {
+    "title": "ララバイ",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 3.0,
+        "sad": 4.0,
+        "disgust": 9.5,
+        "anger": 8.0,
+        "fear": 9.5,
+        "surprise": 3.0
+    }
+} , {
+    "title": "サンセットストリップ",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 4.371428571428571,
+        "sad": 2.142857142857143,
+        "disgust": 8.085714285714285,
+        "anger": 6.457142857142857,
+        "fear": 4.771428571428571,
+        "surprise": 3.657142857142857
+    }
+} , {
+    "title": "オドルヨル",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 3.0,
+        "sad": 4.071428571428571,
+        "disgust": 6.892857142857143,
+        "anger": 8.214285714285714,
+        "fear": 5.964285714285714,
+        "surprise": 3.25
+    }
+} , {
+    "title": "雨あがり",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 2.7777777777777777,
+        "sad": 7.888888888888889,
+        "disgust": 7.888888888888889,
+        "anger": 5.555555555555555,
+        "fear": 4.444444444444445,
+        "surprise": 2.0
+    }
+} , {
+    "title": "これだけは",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 6.0,
+        "sad": 6.0,
+        "disgust": 11.0,
+        "anger": 15.0,
+        "fear": 6.0,
+        "surprise": 6.0
+    }
+} , {
+    "title": "HOME",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 3.25,
+        "sad": 6.0,
+        "disgust": 5.125,
+        "anger": 5.25,
+        "fear": 4.25,
+        "surprise": 3.5
+    }
+} , {
+    "title": "For you",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 3.206896551724138,
+        "sad": 4.931034482758621,
+        "disgust": 6.758620689655173,
+        "anger": 4.413793103448276,
+        "fear": 3.8620689655172415,
+        "surprise": 2.6551724137931036
+    }
+} , {
+    "title": "SNOW",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 2.25,
+        "sad": 3.5,
+        "disgust": 6.0,
+        "anger": 6.25,
+        "fear": 3.25,
+        "surprise": 4.5
+    }
+} , {
+    "title": "BIG UP",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 3.8333333333333335,
+        "sad": 3.375,
+        "disgust": 5.666666666666667,
+        "anger": 4.916666666666667,
+        "fear": 4.458333333333333,
+        "surprise": 3.25
+    }
+} , {
+    "title": "終わりのはじまり",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 2.25,
+        "sad": 2.0,
+        "disgust": 5.0,
+        "anger": 7.5,
+        "fear": 4.25,
+        "surprise": 3.25
+    }
+} , {
+    "title": "Japanese Pride",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 3.757575757575758,
+        "sad": 2.484848484848485,
+        "disgust": 8.0,
+        "anger": 5.2727272727272725,
+        "fear": 3.6363636363636362,
+        "surprise": 4.424242424242424
+    }
+} , {
+    "title": "SLOW",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 2.0,
+        "sad": 3.375,
+        "disgust": 5.625,
+        "anger": 4.625,
+        "fear": 5.125,
+        "surprise": 2.375
+    }
+} , {
+    "title": "つづくもの",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 2.3684210526315788,
+        "sad": 4.2105263157894735,
+        "disgust": 7.473684210526316,
+        "anger": 4.2105263157894735,
+        "fear": 4.894736842105263,
+        "surprise": 2.473684210526316
+    }
+} , {
+    "title": "サブマリン",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 3.477272727272727,
+        "sad": 3.4318181818181817,
+        "disgust": 6.431818181818182,
+        "anger": 5.9772727272727275,
+        "fear": 3.9545454545454546,
+        "surprise": 3.090909090909091
+    }
+} , {
+    "title": "エル",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 2.6,
+        "sad": 3.4,
+        "disgust": 7.4,
+        "anger": 11.2,
+        "fear": 5.4,
+        "surprise": 2.8
+    }
+} , {
+    "title": "やってみよう",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 5.314285714285714,
+        "sad": 4.3428571428571425,
+        "disgust": 6.714285714285714,
+        "anger": 4.542857142857143,
+        "fear": 4.285714285714286,
+        "surprise": 3.4571428571428573
+    }
+} , {
+    "title": "ここから",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 3.3333333333333335,
+        "sad": 4.8,
+        "disgust": 9.266666666666667,
+        "anger": 6.733333333333333,
+        "fear": 5.8,
+        "surprise": 3.933333333333333
+    }
+} , {
+    "title": "ANCHOR",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 3.697674418604651,
+        "sad": 2.9302325581395348,
+        "disgust": 5.6976744186046515,
+        "anger": 6.72093023255814,
+        "fear": 4.534883720930233,
+        "surprise": 4.465116279069767
+    }
+} , {
+    "title": "GONG",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 6.75,
+        "sad": 5.875,
+        "disgust": 7.25,
+        "anger": 9.8125,
+        "fear": 3.875,
+        "surprise": 3.375
+    }
+} , {
+    "title": "いつもの流れ",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 3.75,
+        "sad": 3.25,
+        "disgust": 6.833333333333333,
+        "anger": 8.270833333333334,
+        "fear": 5.1875,
+        "surprise": 2.6458333333333335
+    }
+} , {
+    "title": "JUICE UP!!のテーマ",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 3.2857142857142856,
+        "sad": 3.2142857142857144,
+        "disgust": 16.75,
+        "anger": 8.0,
+        "fear": 4.071428571428571,
+        "surprise": 3.607142857142857
+    }
+} , {
+    "title": "花火",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 2.1785714285714284,
+        "sad": 3.9642857142857144,
+        "disgust": 6.857142857142857,
+        "anger": 3.857142857142857,
+        "fear": 3.4642857142857144,
+        "surprise": 2.392857142857143
+    }
+} , {
+    "title": "Mom",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 2.55,
+        "sad": 3.2,
+        "disgust": 6.5,
+        "anger": 6.8,
+        "fear": 4.55,
+        "surprise": 2.9
+    }
+} , {
+    "title": "OLE!!",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 4.0,
+        "sad": 2.3,
+        "disgust": 8.0,
+        "anger": 9.8,
+        "fear": 3.2,
+        "surprise": 2.3
+    }
+} , {
+    "title": "ANSWER",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 3.2857142857142856,
+        "sad": 3.642857142857143,
+        "disgust": 12.642857142857142,
+        "anger": 9.142857142857142,
+        "fear": 8.785714285714286,
+        "surprise": 3.7142857142857144
+    }
+} , {
+    "title": "THANX",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 2.6363636363636362,
+        "sad": 5.045454545454546,
+        "disgust": 9.227272727272727,
+        "anger": 5.363636363636363,
+        "fear": 4.0,
+        "surprise": 2.9545454545454546
+    }
+} , {
+    "title": "また逢える日まで",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 3.230769230769231,
+        "sad": 10.615384615384615,
+        "disgust": 8.461538461538462,
+        "anger": 5.461538461538462,
+        "fear": 4.153846153846154,
+        "surprise": 2.4615384615384617
+    }
+} , {
+    "title": "いいから",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 3.5833333333333335,
+        "sad": 3.6666666666666665,
+        "disgust": 9.041666666666666,
+        "anger": 5.458333333333333,
+        "fear": 4.5,
+        "surprise": 3.375
+    }
+} , {
+    "title": "渚の泡沫",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 3.896551724137931,
+        "sad": 3.0689655172413794,
+        "disgust": 7.620689655172414,
+        "anger": 10.241379310344827,
+        "fear": 3.8275862068965516,
+        "surprise": 2.896551724137931
+    }
+} , {
+    "title": "ともに",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 3.5,
+        "sad": 7.6923076923076925,
+        "disgust": 7.076923076923077,
+        "anger": 4.3076923076923075,
+        "fear": 4.461538461538462,
+        "surprise": 2.5384615384615383
+    }
+} , {
+    "title": "昨日の歌",
+    "artist": "wanima",
+    "img": "https://contents.oricon.co.jp/special/img/53000/53465/detail/img660/1565321903812.jpg",
+    "emotions": {
+        "happy": 5.5,
+        "sad": 4.5,
+        "disgust": 8.5,
+        "anger": 8.0,
+        "fear": 4.5,
+        "surprise": 4.5
+    }
+} , {
+    "title": "Second LINE",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 10.666666666666666,
+        "sad": 3.0,
+        "disgust": 4.0,
+        "anger": 7.5,
+        "fear": 4.333333333333333,
+        "surprise": 2.5
+    }
+} , {
+    "title": "ダーリン。",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 1.9285714285714286,
+        "sad": 6.785714285714286,
+        "disgust": 9.928571428571429,
+        "anger": 5.857142857142857,
+        "fear": 4.928571428571429,
+        "surprise": 1.8571428571428572
+    }
+} , {
+    "title": "相思相愛",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 2.4,
+        "sad": 11.0,
+        "disgust": 8.8,
+        "anger": 6.8,
+        "fear": 4.2,
+        "surprise": 2.4
+    }
+} , {
+    "title": "コーヒーとシロップ",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 2.1176470588235294,
+        "sad": 1.8235294117647058,
+        "disgust": 18.0,
+        "anger": 4.0588235294117645,
+        "fear": 8.882352941176471,
+        "surprise": 2.8823529411764706
+    }
+} , {
+    "title": "イコール",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 3.6666666666666665,
+        "sad": 14.666666666666666,
+        "disgust": 5.0,
+        "anger": 9.0,
+        "fear": 2.6666666666666665,
+        "surprise": 2.3333333333333335
+    }
+} , {
+    "title": "異端なスター",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 2.8636363636363638,
+        "sad": 4.909090909090909,
+        "disgust": 7.909090909090909,
+        "anger": 6.7727272727272725,
+        "fear": 5.0,
+        "surprise": 3.8636363636363638
+    }
+} , {
+    "title": "ブラザーズ",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 2.3214285714285716,
+        "sad": 2.142857142857143,
+        "disgust": 7.285714285714286,
+        "anger": 4.107142857142857,
+        "fear": 6.821428571428571,
+        "surprise": 3.857142857142857
+    }
+} , {
+    "title": "されど日々は",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 2.857142857142857,
+        "sad": 8.857142857142858,
+        "disgust": 7.714285714285714,
+        "anger": 10.0,
+        "fear": 4.285714285714286,
+        "surprise": 2.857142857142857
+    }
+} , {
+    "title": "可能性 (prod.Masayoshi Iimori)",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 2.6666666666666665,
+        "sad": 2.6666666666666665,
+        "disgust": 8.666666666666666,
+        "anger": 7.0,
+        "fear": 3.6666666666666665,
+        "surprise": 2.5
+    }
+} , {
+    "title": "たかがアイラブユー",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 1.9230769230769231,
+        "sad": 4.076923076923077,
+        "disgust": 7.846153846153846,
+        "anger": 14.461538461538462,
+        "fear": 2.923076923076923,
+        "surprise": 1.8461538461538463
+    }
+} , {
+    "title": "日曜日のラブレター",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 7.0,
+        "sad": 5.588235294117647,
+        "disgust": 8.058823529411764,
+        "anger": 6.0588235294117645,
+        "fear": 3.2941176470588234,
+        "surprise": 3.0
+    }
+} , {
+    "title": "バッドフォーミー",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 2.8222222222222224,
+        "sad": 4.066666666666666,
+        "disgust": 8.311111111111112,
+        "anger": 5.377777777777778,
+        "fear": 5.466666666666667,
+        "surprise": 4.111111111111111
+    }
+} , {
+    "title": "Clap Clap",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 3.32,
+        "sad": 2.76,
+        "disgust": 7.4,
+        "anger": 9.28,
+        "fear": 4.08,
+        "surprise": 3.2
+    }
+} , {
+    "title": "黄色い車",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 11.777777777777779,
+        "sad": 6.0,
+        "disgust": 5.0,
+        "anger": 4.777777777777778,
+        "fear": 6.111111111111111,
+        "surprise": 2.6666666666666665
+    }
+} , {
+    "title": "LADY",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 3.8484848484848486,
+        "sad": 4.7272727272727275,
+        "disgust": 5.545454545454546,
+        "anger": 4.818181818181818,
+        "fear": 3.878787878787879,
+        "surprise": 3.0
+    }
+} , {
+    "title": "115万キロのフィルム",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 4.0,
+        "sad": 3.5,
+        "disgust": 6.0,
+        "anger": 7.5,
+        "fear": 3.0,
+        "surprise": 3.5
+    }
+} , {
+    "title": "Trailer",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 3.875,
+        "sad": 3.0,
+        "disgust": 6.4375,
+        "anger": 6.5625,
+        "fear": 3.6875,
+        "surprise": 2.5625
+    }
+} , {
+    "title": "Tell Me Baby",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 2.4285714285714284,
+        "sad": 10.285714285714286,
+        "disgust": 14.428571428571429,
+        "anger": 13.0,
+        "fear": 6.0,
+        "surprise": 2.142857142857143
+    }
+} , {
+    "title": "Driver",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 3.515151515151515,
+        "sad": 2.8181818181818183,
+        "disgust": 5.757575757575758,
+        "anger": 7.0606060606060606,
+        "fear": 3.5454545454545454,
+        "surprise": 3.727272727272727
+    }
+} , {
+    "title": "55",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 2.1,
+        "sad": 5.0,
+        "disgust": 13.9,
+        "anger": 4.55,
+        "fear": 4.7,
+        "surprise": 2.85
+    }
+} , {
+    "title": "Stand By You",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 4.116279069767442,
+        "sad": 5.023255813953488,
+        "disgust": 7.837209302325581,
+        "anger": 9.418604651162791,
+        "fear": 4.465116279069767,
+        "surprise": 4.186046511627907
+    }
+} , {
+    "title": "発明家",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 1.5714285714285714,
+        "sad": 2.0,
+        "disgust": 12.428571428571429,
+        "anger": 5.857142857142857,
+        "fear": 3.7142857142857144,
+        "surprise": 3.4285714285714284
+    }
+} , {
+    "title": "始発が導く幸福論",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 3.5,
+        "sad": 5.111111111111111,
+        "disgust": 6.055555555555555,
+        "anger": 6.111111111111111,
+        "fear": 4.0,
+        "surprise": 3.111111111111111
+    }
+} , {
+    "title": "未完成なままで",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 2.0,
+        "sad": 3.0,
+        "disgust": 5.352941176470588,
+        "anger": 9.529411764705882,
+        "fear": 4.117647058823529,
+        "surprise": 2.235294117647059
+    }
+} , {
+    "title": "parade",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 5.090909090909091,
+        "sad": 2.8636363636363638,
+        "disgust": 5.863636363636363,
+        "anger": 6.454545454545454,
+        "fear": 4.136363636363637,
+        "surprise": 4.090909090909091
+    }
+} , {
+    "title": "愛なんだが…",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 1.8571428571428572,
+        "sad": 5.428571428571429,
+        "disgust": 10.785714285714286,
+        "anger": 11.714285714285714,
+        "fear": 5.357142857142857,
+        "surprise": 3.0714285714285716
+    }
+} , {
+    "title": "Amazing",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 3.590909090909091,
+        "sad": 3.3181818181818183,
+        "disgust": 8.181818181818182,
+        "anger": 6.954545454545454,
+        "fear": 5.181818181818182,
+        "surprise": 3.0454545454545454
+    }
+} , {
+    "title": "夕暮れ沿い",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 2.5714285714285716,
+        "sad": 3.857142857142857,
+        "disgust": 5.571428571428571,
+        "anger": 5.761904761904762,
+        "fear": 5.380952380952381,
+        "surprise": 3.857142857142857
+    }
+} , {
+    "title": "What's Going On?",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 3.638888888888889,
+        "sad": 4.833333333333333,
+        "disgust": 9.027777777777779,
+        "anger": 7.5,
+        "fear": 4.527777777777778,
+        "surprise": 2.8333333333333335
+    }
+} , {
+    "title": "犬かキャットかで死ぬまで喧嘩しよう！",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 3.0344827586206895,
+        "sad": 3.103448275862069,
+        "disgust": 8.03448275862069,
+        "anger": 5.931034482758621,
+        "fear": 4.862068965517241,
+        "surprise": 2.9655172413793105
+    }
+} , {
+    "title": "ニットの帽子",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 3.2,
+        "sad": 5.4,
+        "disgust": 5.0,
+        "anger": 7.2,
+        "fear": 2.6,
+        "surprise": 3.2
+    }
+} , {
+    "title": "FIRE GROUND",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 2.2222222222222223,
+        "sad": 2.6296296296296298,
+        "disgust": 5.888888888888889,
+        "anger": 6.037037037037037,
+        "fear": 4.703703703703703,
+        "surprise": 3.074074074074074
+    }
+} , {
+    "title": "Pretender",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 3.05,
+        "sad": 3.45,
+        "disgust": 7.35,
+        "anger": 5.9,
+        "fear": 4.95,
+        "surprise": 3.5
+    }
+} , {
+    "title": "恋の去り際",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 3.0,
+        "sad": 10.272727272727273,
+        "disgust": 7.818181818181818,
+        "anger": 5.909090909090909,
+        "fear": 5.818181818181818,
+        "surprise": 2.4545454545454546
+    }
+} , {
+    "title": "ゼロのままでいられたら",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 2.1,
+        "sad": 18.5,
+        "disgust": 6.2,
+        "anger": 5.1,
+        "fear": 6.2,
+        "surprise": 2.6
+    }
+} , {
+    "title": "雪急く朝が来る",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 2.5833333333333335,
+        "sad": 6.583333333333333,
+        "disgust": 7.916666666666667,
+        "anger": 6.75,
+        "fear": 4.666666666666667,
+        "surprise": 3.0
+    }
+} , {
+    "title": "恋の前ならえ",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 2.1666666666666665,
+        "sad": 3.6666666666666665,
+        "disgust": 4.833333333333333,
+        "anger": 7.0,
+        "fear": 4.166666666666667,
+        "surprise": 2.6666666666666665
+    }
+} , {
+    "title": "宿命",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 1.71875,
+        "sad": 3.65625,
+        "disgust": 5.4375,
+        "anger": 7.71875,
+        "fear": 5.5,
+        "surprise": 2.84375
+    }
+} , {
+    "title": "ノーダウト",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 4.025,
+        "sad": 4.075,
+        "disgust": 9.325,
+        "anger": 9.675,
+        "fear": 5.175,
+        "surprise": 4.0
+    }
+} , {
+    "title": "Happy Birthday To You",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 2.6315789473684212,
+        "sad": 3.9473684210526314,
+        "disgust": 9.052631578947368,
+        "anger": 5.421052631578948,
+        "fear": 5.368421052631579,
+        "surprise": 3.210526315789474
+    }
+} , {
+    "title": "Sweet Twee",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 2.8,
+        "sad": 3.0,
+        "disgust": 7.4,
+        "anger": 5.6,
+        "fear": 2.8,
+        "surprise": 2.0
+    }
+} , {
+    "title": "Rolling",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 2.2,
+        "sad": 4.466666666666667,
+        "disgust": 9.066666666666666,
+        "anger": 6.333333333333333,
+        "fear": 5.133333333333334,
+        "surprise": 3.0
+    }
+} , {
+    "title": "始まりの朝",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 3.391304347826087,
+        "sad": 2.347826086956522,
+        "disgust": 7.608695652173913,
+        "anger": 10.26086956521739,
+        "fear": 4.0,
+        "surprise": 3.6956521739130435
+    }
+} , {
+    "title": "ESCAPADE",
+    "artist": "Official髭男dism",
+    "img": "https://ro69-bucket.s3.amazonaws.com/uploads/text_image/image/326422/default/resize_image.jpeg",
+    "emotions": {
+        "happy": 5.0,
+        "sad": 5.5,
+        "disgust": 10.5,
+        "anger": 11.0,
+        "fear": 6.0,
+        "surprise": 5.5
+    }
+} , {
+    "title": "ア・プリオリ",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 6.0,
+        "sad": 6.0,
+        "disgust": 11.0,
+        "anger": 15.0,
+        "fear": 6.0,
+        "surprise": 6.0
+    }
+} , {
+    "title": "光のうた",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 2.25,
+        "sad": 14.75,
+        "disgust": 9.75,
+        "anger": 5.5,
+        "fear": 9.0,
+        "surprise": 3.0
+    }
+} , {
+    "title": "リスキーゲーム",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 2.727272727272727,
+        "sad": 4.545454545454546,
+        "disgust": 8.818181818181818,
+        "anger": 7.090909090909091,
+        "fear": 4.090909090909091,
+        "surprise": 4.454545454545454
+    }
+} , {
+    "title": "Lion",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 6.0,
+        "sad": 6.0,
+        "disgust": 11.0,
+        "anger": 15.0,
+        "fear": 6.0,
+        "surprise": 6.0
+    }
+} , {
+    "title": "愛情と矛先",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 4.357142857142857,
+        "sad": 4.357142857142857,
+        "disgust": 5.357142857142857,
+        "anger": 14.642857142857142,
+        "fear": 3.9285714285714284,
+        "surprise": 3.357142857142857
+    }
+} , {
+    "title": "パブリック",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 3.090909090909091,
+        "sad": 6.7272727272727275,
+        "disgust": 7.0,
+        "anger": 10.909090909090908,
+        "fear": 6.545454545454546,
+        "surprise": 3.0
+    }
+} , {
+    "title": "PARTY",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 1.75,
+        "sad": 9.5,
+        "disgust": 13.0,
+        "anger": 6.25,
+        "fear": 2.75,
+        "surprise": 1.75
+    }
+} , {
+    "title": "In the Morning",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 3.3,
+        "sad": 13.6,
+        "disgust": 5.7,
+        "anger": 5.0,
+        "fear": 4.8,
+        "surprise": 3.0
+    }
+} , {
+    "title": "春愁",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 3.933333333333333,
+        "sad": 7.2,
+        "disgust": 7.733333333333333,
+        "anger": 5.533333333333333,
+        "fear": 4.8,
+        "surprise": 3.4
+    }
+} , {
+    "title": "スマイロブドリーマ",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 6.0,
+        "sad": 6.0,
+        "disgust": 11.0,
+        "anger": 15.0,
+        "fear": 6.0,
+        "surprise": 6.0
+    }
+} , {
+    "title": "CONFLICT",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 2.4,
+        "sad": 5.4,
+        "disgust": 7.8,
+        "anger": 13.4,
+        "fear": 8.8,
+        "surprise": 2.4
+    }
+} , {
+    "title": "Log (feat.坂口有望)",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 1.8333333333333333,
+        "sad": 4.0,
+        "disgust": 11.25,
+        "anger": 13.75,
+        "fear": 7.083333333333333,
+        "surprise": 2.9166666666666665
+    }
+} , {
+    "title": "No.7",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 4.894736842105263,
+        "sad": 5.526315789473684,
+        "disgust": 5.7368421052631575,
+        "anger": 7.684210526315789,
+        "fear": 3.1578947368421053,
+        "surprise": 2.8421052631578947
+    }
+} , {
+    "title": "How-to",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 6.0,
+        "sad": 6.0,
+        "disgust": 11.0,
+        "anger": 15.0,
+        "fear": 6.0,
+        "surprise": 6.0
+    }
+} , {
+    "title": "ナニヲナニヲ",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 4.363636363636363,
+        "sad": 4.818181818181818,
+        "disgust": 6.636363636363637,
+        "anger": 13.545454545454545,
+        "fear": 3.090909090909091,
+        "surprise": 2.3636363636363638
+    }
+} , {
+    "title": "はじまり feat. キヨサク from MONGOL800",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 4.5,
+        "sad": 26.0,
+        "disgust": 6.166666666666667,
+        "anger": 5.666666666666667,
+        "fear": 5.166666666666667,
+        "surprise": 1.8333333333333333
+    }
+} , {
+    "title": "絶世生物",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 1.6666666666666667,
+        "sad": 2.0,
+        "disgust": 5.333333333333333,
+        "anger": 10.4,
+        "fear": 4.266666666666667,
+        "surprise": 1.9333333333333333
+    }
+} , {
+    "title": "Coffee",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 7.666666666666667,
+        "sad": 3.3333333333333335,
+        "disgust": 5.0,
+        "anger": 12.333333333333334,
+        "fear": 3.3333333333333335,
+        "surprise": 2.3333333333333335
+    }
+} , {
+    "title": "僕のこと",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 3.25,
+        "sad": 4.25,
+        "disgust": 6.416666666666667,
+        "anger": 5.083333333333333,
+        "fear": 5.0,
+        "surprise": 3.0
+    }
+} , {
+    "title": "アンゼンパイ",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 3.2222222222222223,
+        "sad": 8.666666666666666,
+        "disgust": 5.888888888888889,
+        "anger": 5.222222222222222,
+        "fear": 5.888888888888889,
+        "surprise": 2.7777777777777777
+    }
+} , {
+    "title": "REVERSE",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 1.3333333333333333,
+        "sad": 3.0,
+        "disgust": 10.222222222222221,
+        "anger": 14.11111111111111,
+        "fear": 3.4444444444444446,
+        "surprise": 1.5555555555555556
+    }
+} , {
+    "title": "Oz [Album Version]",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 4.166666666666667,
+        "sad": 2.3333333333333335,
+        "disgust": 5.5,
+        "anger": 6.833333333333333,
+        "fear": 4.833333333333333,
+        "surprise": 3.0
+    }
+} , {
+    "title": "lovin'",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 2.6,
+        "sad": 2.6,
+        "disgust": 11.0,
+        "anger": 9.2,
+        "fear": 8.4,
+        "surprise": 3.2
+    }
+} , {
+    "title": "アウフヘーベン",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 1.75,
+        "sad": 4.0,
+        "disgust": 5.25,
+        "anger": 4.75,
+        "fear": 8.0,
+        "surprise": 2.0
+    }
+} , {
+    "title": "日々と君",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 2.0,
+        "sad": 27.0,
+        "disgust": 14.333333333333334,
+        "anger": 7.0,
+        "fear": 5.333333333333333,
+        "surprise": 2.3333333333333335
+    }
+} , {
+    "title": "えほん",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 3.3333333333333335,
+        "sad": 2.5,
+        "disgust": 3.3333333333333335,
+        "anger": 4.666666666666667,
+        "fear": 3.6666666666666665,
+        "surprise": 5.833333333333333
+    }
+} , {
+    "title": "soFt-dRink",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 2.4,
+        "sad": 3.8666666666666667,
+        "disgust": 6.533333333333333,
+        "anger": 5.466666666666667,
+        "fear": 4.0,
+        "surprise": 2.533333333333333
+    }
+} , {
+    "title": "どこかで日は昇る",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 2.3333333333333335,
+        "sad": 4.0,
+        "disgust": 7.666666666666667,
+        "anger": 5.666666666666667,
+        "fear": 9.0,
+        "surprise": 3.3333333333333335
+    }
+} , {
+    "title": "Folktale",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 6.0,
+        "sad": 6.0,
+        "disgust": 11.0,
+        "anger": 15.0,
+        "fear": 6.0,
+        "surprise": 6.0
+    }
+} , {
+    "title": "ゼンマイ",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 2.5,
+        "sad": 12.714285714285714,
+        "disgust": 19.5,
+        "anger": 3.357142857142857,
+        "fear": 6.285714285714286,
+        "surprise": 3.857142857142857
+    }
+} , {
+    "title": "流星",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 2.857142857142857,
+        "sad": 5.428571428571429,
+        "disgust": 6.190476190476191,
+        "anger": 4.666666666666667,
+        "fear": 4.761904761904762,
+        "surprise": 3.238095238095238
+    }
+} , {
+    "title": "WanteD! WanteD!",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 2.3333333333333335,
+        "sad": 3.3333333333333335,
+        "disgust": 12.333333333333334,
+        "anger": 16.0,
+        "fear": 3.6666666666666665,
+        "surprise": 2.3333333333333335
+    }
+} , {
+    "title": "恋と吟",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 6.0,
+        "sad": 6.0,
+        "disgust": 11.0,
+        "anger": 15.0,
+        "fear": 6.0,
+        "surprise": 6.0
+    }
+} , {
+    "title": "鯨の唄",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 3.25,
+        "sad": 7.166666666666667,
+        "disgust": 4.083333333333333,
+        "anger": 8.583333333333334,
+        "fear": 3.5833333333333335,
+        "surprise": 2.0
+    }
+} , {
+    "title": "VIP",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 2.0,
+        "sad": 2.409090909090909,
+        "disgust": 10.0,
+        "anger": 9.318181818181818,
+        "fear": 4.2272727272727275,
+        "surprise": 1.8636363636363635
+    }
+} , {
+    "title": "ロマンチシズム",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 6.0,
+        "sad": 6.0,
+        "disgust": 11.0,
+        "anger": 15.0,
+        "fear": 6.0,
+        "surprise": 6.0
+    }
+} , {
+    "title": "おもちゃの兵隊",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 2.75,
+        "sad": 3.125,
+        "disgust": 5.25,
+        "anger": 15.0,
+        "fear": 2.625,
+        "surprise": 2.125
+    }
+} , {
+    "title": "WHOO WHOO WHOO",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 6.0,
+        "sad": 3.5,
+        "disgust": 6.0,
+        "anger": 8.0,
+        "fear": 3.5,
+        "surprise": 6.0
+    }
+} , {
+    "title": "道徳と皿",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 2.4615384615384617,
+        "sad": 4.0,
+        "disgust": 6.0,
+        "anger": 6.0,
+        "fear": 6.3076923076923075,
+        "surprise": 3.3076923076923075
+    }
+} , {
+    "title": "庶幾の唄",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 5.714285714285714,
+        "sad": 5.0,
+        "disgust": 8.428571428571429,
+        "anger": 5.857142857142857,
+        "fear": 3.142857142857143,
+        "surprise": 3.5714285714285716
+    }
+} , {
+    "title": "ミスカサズ",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 3.795918367346939,
+        "sad": 4.755102040816326,
+        "disgust": 7.204081632653061,
+        "anger": 7.938775510204081,
+        "fear": 4.959183673469388,
+        "surprise": 3.795918367346939
+    }
+} , {
+    "title": "SwitCh",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 5.5,
+        "sad": 3.75,
+        "disgust": 5.5,
+        "anger": 6.25,
+        "fear": 3.0,
+        "surprise": 4.0
+    }
+} , {
+    "title": "L.P",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 2.0,
+        "sad": 7.03030303030303,
+        "disgust": 7.848484848484849,
+        "anger": 8.666666666666666,
+        "fear": 6.878787878787879,
+        "surprise": 3.1818181818181817
+    }
+} , {
+    "title": "キコリ時計",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 2.8,
+        "sad": 6.8,
+        "disgust": 8.8,
+        "anger": 9.7,
+        "fear": 7.8,
+        "surprise": 2.8
+    }
+} , {
+    "title": "JOURNEY",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 2.090909090909091,
+        "sad": 3.3636363636363638,
+        "disgust": 5.090909090909091,
+        "anger": 5.545454545454546,
+        "fear": 6.545454545454546,
+        "surprise": 3.4545454545454546
+    }
+} , {
+    "title": "They are",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 4.0,
+        "sad": 3.5,
+        "disgust": 6.0,
+        "anger": 8.0,
+        "fear": 6.5,
+        "surprise": 5.5
+    }
+} , {
+    "title": "ツキマシテハ",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 3.142857142857143,
+        "sad": 5.428571428571429,
+        "disgust": 10.285714285714286,
+        "anger": 10.285714285714286,
+        "fear": 4.428571428571429,
+        "surprise": 2.2857142857142856
+    }
+} , {
+    "title": "灯火",
+    "artist": "Mrs. GREEN APPLE",
+    "img": "https://realsound.jp/wp-content/uploads/2017/05/20151211-mga1.jpg",
+    "emotions": {
+        "happy": 1.5,
+        "sad": 3.8333333333333335,
+        "disgust": 2.5,
+        "anger": 11.333333333333334,
+        "fear": 6.0,
+        "surprise": 2.0
+    }
+} , {
+    "title": "24REVERSE",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 3.736842105263158,
+        "sad": 4.578947368421052,
+        "disgust": 5.7894736842105265,
+        "anger": 7.052631578947368,
+        "fear": 4.052631578947368,
+        "surprise": 4.2105263157894735
+    }
+} , {
+    "title": "Ultra Overcorrection",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 2.35,
+        "sad": 2.2,
+        "disgust": 5.65,
+        "anger": 6.4,
+        "fear": 4.15,
+        "surprise": 2.35
+    }
+} , {
+    "title": "Who What Who Wha",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 4.3076923076923075,
+        "sad": 3.6923076923076925,
+        "disgust": 5.923076923076923,
+        "anger": 6.923076923076923,
+        "fear": 4.230769230769231,
+        "surprise": 2.5384615384615383
+    }
+} , {
+    "title": "MONSTER",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 2.0,
+        "sad": 2.8,
+        "disgust": 8.6,
+        "anger": 9.6,
+        "fear": 17.2,
+        "surprise": 2.4
+    }
+} , {
+    "title": "Sergio Echigo",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 4.923076923076923,
+        "sad": 3.1538461538461537,
+        "disgust": 12.076923076923077,
+        "anger": 7.846153846153846,
+        "fear": 2.8461538461538463,
+        "surprise": 3.1538461538461537
+    }
+} , {
+    "title": "a symmetry",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 1.5454545454545454,
+        "sad": 4.409090909090909,
+        "disgust": 7.590909090909091,
+        "anger": 5.7727272727272725,
+        "fear": 4.7272727272727275,
+        "surprise": 2.909090909090909
+    }
+} , {
+    "title": "a over die",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 1.8,
+        "sad": 2.5,
+        "disgust": 6.6,
+        "anger": 9.1,
+        "fear": 6.0,
+        "surprise": 2.3
+    }
+} , {
+    "title": "a 7days wonder",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 7.833333333333333,
+        "sad": 3.1666666666666665,
+        "disgust": 4.333333333333333,
+        "anger": 5.5,
+        "fear": 2.6666666666666665,
+        "surprise": 3.3333333333333335
+    }
+} , {
+    "title": "TK in the 夕景",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 4.478260869565218,
+        "sad": 4.086956521739131,
+        "disgust": 6.304347826086956,
+        "anger": 5.6521739130434785,
+        "fear": 4.956521739130435,
+        "surprise": 2.9130434782608696
+    }
+} , {
+    "title": "end roll fiction",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 3.4,
+        "sad": 3.68,
+        "disgust": 5.2,
+        "anger": 4.2,
+        "fear": 4.08,
+        "surprise": 3.28
+    }
+} , {
+    "title": "DIE meets HARD",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 2.2222222222222223,
+        "sad": 6.222222222222222,
+        "disgust": 8.222222222222221,
+        "anger": 9.555555555555555,
+        "fear": 6.111111111111111,
+        "surprise": 3.3333333333333335
+    }
+} , {
+    "title": "キミトオク",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 2.2666666666666666,
+        "sad": 3.2666666666666666,
+        "disgust": 6.2,
+        "anger": 9.866666666666667,
+        "fear": 4.733333333333333,
+        "surprise": 3.066666666666667
+    }
+} , {
+    "title": "Chocolate Passion",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 1.7647058823529411,
+        "sad": 2.3529411764705883,
+        "disgust": 7.705882352941177,
+        "anger": 3.8823529411764706,
+        "fear": 4.235294117647059,
+        "surprise": 2.411764705882353
+    }
+} , {
+    "title": "O.F.T",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 3.238095238095238,
+        "sad": 3.238095238095238,
+        "disgust": 5.428571428571429,
+        "anger": 7.428571428571429,
+        "fear": 4.428571428571429,
+        "surprise": 3.9523809523809526
+    }
+} , {
+    "title": "I was music",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 3.357142857142857,
+        "sad": 2.9285714285714284,
+        "disgust": 6.642857142857143,
+        "anger": 4.714285714285714,
+        "fear": 4.785714285714286,
+        "surprise": 3.7857142857142856
+    }
+} , {
+    "title": "Neighbormind",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 2.857142857142857,
+        "sad": 3.5714285714285716,
+        "disgust": 8.071428571428571,
+        "anger": 7.0,
+        "fear": 3.642857142857143,
+        "surprise": 2.2857142857142856
+    }
+} , {
+    "title": "illusion is mine",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 2.909090909090909,
+        "sad": 3.6818181818181817,
+        "disgust": 6.681818181818182,
+        "anger": 4.7727272727272725,
+        "fear": 4.954545454545454,
+        "surprise": 5.454545454545454
+    }
+} , {
+    "title": "Enigmatic Feeling",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 2.8125,
+        "sad": 3.96875,
+        "disgust": 8.5625,
+        "anger": 10.84375,
+        "fear": 4.34375,
+        "surprise": 2.78125
+    }
+} , {
+    "title": "Tornado Minority",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 2.289473684210526,
+        "sad": 3.1578947368421053,
+        "disgust": 6.973684210526316,
+        "anger": 7.184210526315789,
+        "fear": 5.605263157894737,
+        "surprise": 3.710526315789474
+    }
+} , {
+    "title": "Beautiful Circus",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 2.5714285714285716,
+        "sad": 2.2857142857142856,
+        "disgust": 5.142857142857143,
+        "anger": 4.142857142857143,
+        "fear": 8.142857142857142,
+        "surprise": 2.2857142857142856
+    }
+} , {
+    "title": "Missing ling",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 2.962962962962963,
+        "sad": 4.407407407407407,
+        "disgust": 7.37037037037037,
+        "anger": 5.592592592592593,
+        "fear": 4.925925925925926,
+        "surprise": 2.888888888888889
+    }
+} , {
+    "title": "Sitai miss me",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 2.466666666666667,
+        "sad": 3.4,
+        "disgust": 6.733333333333333,
+        "anger": 4.733333333333333,
+        "fear": 4.266666666666667,
+        "surprise": 2.8666666666666667
+    }
+} , {
+    "title": "鮮やかな殺人 (2015 mix)",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 3.6857142857142855,
+        "sad": 3.5714285714285716,
+        "disgust": 5.571428571428571,
+        "anger": 4.3428571428571425,
+        "fear": 4.6571428571428575,
+        "surprise": 4.371428571428571
+    }
+} , {
+    "title": "Sadistic Summer",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 3.0,
+        "sad": 5.666666666666667,
+        "disgust": 8.666666666666666,
+        "anger": 14.0,
+        "fear": 4.333333333333333,
+        "surprise": 2.6666666666666665
+    }
+} , {
+    "title": "nakano kill you",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 2.12,
+        "sad": 3.28,
+        "disgust": 5.64,
+        "anger": 6.4,
+        "fear": 6.04,
+        "surprise": 4.36
+    }
+} , {
+    "title": "seacret cm",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 3.5,
+        "sad": 2.1666666666666665,
+        "disgust": 4.666666666666667,
+        "anger": 5.166666666666667,
+        "fear": 5.666666666666667,
+        "surprise": 4.333333333333333
+    }
+} , {
+    "title": "JPOP Xfile",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 4.142857142857143,
+        "sad": 2.857142857142857,
+        "disgust": 4.928571428571429,
+        "anger": 7.142857142857143,
+        "fear": 3.7142857142857144,
+        "surprise": 4.571428571428571
+    }
+} , {
+    "title": "CRAZY感情STYLE",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 4.4,
+        "sad": 2.3,
+        "disgust": 5.0,
+        "anger": 4.2,
+        "fear": 3.2,
+        "surprise": 2.6
+    }
+} , {
+    "title": "ハカイヨノユメ",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 3.6,
+        "sad": 4.2,
+        "disgust": 6.3,
+        "anger": 7.1,
+        "fear": 4.5,
+        "surprise": 4.7
+    }
+} , {
+    "title": "赤い誘惑",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 2.909090909090909,
+        "sad": 2.5454545454545454,
+        "disgust": 6.090909090909091,
+        "anger": 5.090909090909091,
+        "fear": 7.2727272727272725,
+        "surprise": 5.636363636363637
+    }
+} , {
+    "title": "Metamorphose",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 10.0,
+        "sad": 3.5,
+        "disgust": 6.5,
+        "anger": 10.5,
+        "fear": 5.0,
+        "surprise": 9.5
+    }
+} , {
+    "title": "i not crazy am you are",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 1.9259259259259258,
+        "sad": 2.185185185185185,
+        "disgust": 4.7407407407407405,
+        "anger": 6.222222222222222,
+        "fear": 4.2592592592592595,
+        "surprise": 2.111111111111111
+    }
+} , {
+    "title": "am3:45",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 4.75,
+        "sad": 4.0,
+        "disgust": 8.0,
+        "anger": 7.75,
+        "fear": 9.0,
+        "surprise": 3.5
+    }
+} , {
+    "title": "eF",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 2.5555555555555554,
+        "sad": 3.4444444444444446,
+        "disgust": 4.888888888888889,
+        "anger": 8.777777777777779,
+        "fear": 3.3333333333333335,
+        "surprise": 3.4444444444444446
+    }
+} , {
+    "title": "テレキャスターの真実 (2015 mix)",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 2.5555555555555554,
+        "sad": 1.8888888888888888,
+        "disgust": 6.111111111111111,
+        "anger": 5.444444444444445,
+        "fear": 4.222222222222222,
+        "surprise": 2.3333333333333335
+    }
+} , {
+    "title": "Dynamite Nonsense",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 2.5,
+        "sad": 3.9285714285714284,
+        "disgust": 7.071428571428571,
+        "anger": 5.214285714285714,
+        "fear": 6.642857142857143,
+        "surprise": 3.142857142857143
+    }
+} , {
+    "title": "Can you kill a secret?",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 9.545454545454545,
+        "sad": 1.9090909090909092,
+        "disgust": 2.909090909090909,
+        "anger": 3.8181818181818183,
+        "fear": 2.0,
+        "surprise": 5.545454545454546
+    }
+} , {
+    "title": "Telecastic fake show",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 2.1923076923076925,
+        "sad": 3.230769230769231,
+        "disgust": 6.230769230769231,
+        "anger": 6.5,
+        "fear": 5.1923076923076925,
+        "surprise": 2.3846153846153846
+    }
+} , {
+    "title": "EneMe",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 2.5405405405405403,
+        "sad": 4.216216216216216,
+        "disgust": 8.486486486486486,
+        "anger": 8.945945945945946,
+        "fear": 4.8108108108108105,
+        "surprise": 3.189189189189189
+    }
+} , {
+    "title": "abnormalize",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 2.625,
+        "sad": 2.625,
+        "disgust": 5.75,
+        "anger": 5.3125,
+        "fear": 4.125,
+        "surprise": 3.5
+    }
+} , {
+    "title": "knife vacation",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 3.3333333333333335,
+        "sad": 3.2222222222222223,
+        "disgust": 4.888888888888889,
+        "anger": 5.0,
+        "fear": 4.555555555555555,
+        "surprise": 4.666666666666667
+    }
+} , {
+    "title": "ターボチャージャーON",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 2.5714285714285716,
+        "sad": 2.357142857142857,
+        "disgust": 6.714285714285714,
+        "anger": 6.428571428571429,
+        "fear": 3.857142857142857,
+        "surprise": 3.4285714285714284
+    }
+} , {
+    "title": "Karma Siren",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 2.25,
+        "sad": 5.916666666666667,
+        "disgust": 7.333333333333333,
+        "anger": 8.916666666666666,
+        "fear": 6.5,
+        "surprise": 2.3333333333333335
+    }
+} , {
+    "title": "laser beamer",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 2.823529411764706,
+        "sad": 5.411764705882353,
+        "disgust": 6.705882352941177,
+        "anger": 8.705882352941176,
+        "fear": 3.7058823529411766,
+        "surprise": 2.235294117647059
+    }
+} , {
+    "title": "秋の気配のアルペジオ",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 2.227272727272727,
+        "sad": 3.590909090909091,
+        "disgust": 6.2272727272727275,
+        "anger": 4.545454545454546,
+        "fear": 7.318181818181818,
+        "surprise": 3.590909090909091
+    }
+} , {
+    "title": "ラストダンスレボリューション",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 2.3333333333333335,
+        "sad": 3.0,
+        "disgust": 7.666666666666667,
+        "anger": 6.333333333333333,
+        "fear": 15.0,
+        "surprise": 5.0
+    }
+} , {
+    "title": "replica",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 2.142857142857143,
+        "sad": 2.4285714285714284,
+        "disgust": 6.0,
+        "anger": 5.714285714285714,
+        "fear": 12.142857142857142,
+        "surprise": 3.2857142857142856
+    }
+} , {
+    "title": "Tornado Mystery",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 1.875,
+        "sad": 4.125,
+        "disgust": 6.25,
+        "anger": 5.25,
+        "fear": 3.75,
+        "surprise": 2.375
+    }
+} , {
+    "title": "想像のSecurity (2015 mix)",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 3.875,
+        "sad": 2.0833333333333335,
+        "disgust": 4.125,
+        "anger": 4.416666666666667,
+        "fear": 3.8333333333333335,
+        "surprise": 5.375
+    }
+} , {
+    "title": "シャンディ",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 2.0,
+        "sad": 2.6666666666666665,
+        "disgust": 6.666666666666667,
+        "anger": 5.666666666666667,
+        "fear": 5.333333333333333,
+        "surprise": 2.0
+    }
+} , {
+    "title": "Filmsick Mystery",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 2.8214285714285716,
+        "sad": 3.9285714285714284,
+        "disgust": 6.928571428571429,
+        "anger": 7.642857142857143,
+        "fear": 5.0,
+        "surprise": 4.071428571428571
+    }
+} , {
+    "title": "Acoustic",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 5.0,
+        "sad": 4.5,
+        "disgust": 6.166666666666667,
+        "anger": 5.0,
+        "fear": 6.0,
+        "surprise": 4.0
+    }
+} , {
+    "title": "mib126",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 3.4761904761904763,
+        "sad": 4.380952380952381,
+        "disgust": 7.714285714285714,
+        "anger": 8.095238095238095,
+        "fear": 5.619047619047619,
+        "surprise": 3.857142857142857
+    }
+} , {
+    "title": "make up syndrome",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 2.5,
+        "sad": 2.5833333333333335,
+        "disgust": 8.333333333333334,
+        "anger": 5.916666666666667,
+        "fear": 5.166666666666667,
+        "surprise": 3.1666666666666665
+    }
+} , {
+    "title": "this is is this?",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 4.0,
+        "sad": 10.5,
+        "disgust": 7.75,
+        "anger": 6.75,
+        "fear": 3.5,
+        "surprise": 3.0
+    }
+} , {
+    "title": "シークレットG",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 3.75,
+        "sad": 2.0,
+        "disgust": 3.0,
+        "anger": 5.416666666666667,
+        "fear": 3.9166666666666665,
+        "surprise": 2.75
+    }
+} , {
+    "title": "Hysteric phase show",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 2.75,
+        "sad": 2.5,
+        "disgust": 5.0,
+        "anger": 15.3125,
+        "fear": 3.0625,
+        "surprise": 2.1875
+    }
+} , {
+    "title": "Mirror Frustration",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 1.7777777777777777,
+        "sad": 3.111111111111111,
+        "disgust": 5.166666666666667,
+        "anger": 7.333333333333333,
+        "fear": 5.166666666666667,
+        "surprise": 2.7222222222222223
+    }
+} , {
+    "title": "Tremolo+A",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 1.6428571428571428,
+        "sad": 4.0,
+        "disgust": 8.857142857142858,
+        "anger": 6.142857142857143,
+        "fear": 9.5,
+        "surprise": 3.857142857142857
+    }
+} , {
+    "title": "傍観",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 2.054054054054054,
+        "sad": 2.8378378378378377,
+        "disgust": 9.64864864864865,
+        "anger": 6.324324324324325,
+        "fear": 5.486486486486487,
+        "surprise": 2.4594594594594597
+    }
+} , {
+    "title": "ten to ten",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 1.588235294117647,
+        "sad": 5.352941176470588,
+        "disgust": 11.470588235294118,
+        "anger": 8.529411764705882,
+        "fear": 5.9411764705882355,
+        "surprise": 1.7058823529411764
+    }
+} , {
+    "title": "感覚UFO",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 6.0,
+        "sad": 6.0,
+        "disgust": 11.0,
+        "anger": 15.0,
+        "fear": 6.0,
+        "surprise": 6.0
+    }
+} , {
+    "title": "High Energy Vacuum",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 3.375,
+        "sad": 2.9375,
+        "disgust": 6.0625,
+        "anger": 7.75,
+        "fear": 4.53125,
+        "surprise": 4.03125
+    }
+} , {
+    "title": "SOSOS",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 1.125,
+        "sad": 3.0,
+        "disgust": 6.5,
+        "anger": 5.0,
+        "fear": 8.875,
+        "surprise": 1.375
+    }
+} , {
+    "title": "夕景の記憶",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 2.2857142857142856,
+        "sad": 2.2857142857142856,
+        "disgust": 10.285714285714286,
+        "anger": 10.142857142857142,
+        "fear": 14.0,
+        "surprise": 4.285714285714286
+    }
+} , {
+    "title": "I'm Machine",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 1.4545454545454546,
+        "sad": 5.909090909090909,
+        "disgust": 7.7272727272727275,
+        "anger": 4.454545454545454,
+        "fear": 8.090909090909092,
+        "surprise": 2.6363636363636362
+    }
+} , {
+    "title": "#5",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 2.3125,
+        "sad": 4.0625,
+        "disgust": 6.0625,
+        "anger": 8.0625,
+        "fear": 4.75,
+        "surprise": 2.0625
+    }
+} , {
+    "title": "Who's WhoFO",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 3.4583333333333335,
+        "sad": 3.0416666666666665,
+        "disgust": 5.458333333333333,
+        "anger": 5.208333333333333,
+        "fear": 4.375,
+        "surprise": 4.833333333333333
+    }
+} , {
+    "title": "Re:automation",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 2.25,
+        "sad": 4.5,
+        "disgust": 5.25,
+        "anger": 10.75,
+        "fear": 5.0,
+        "surprise": 2.25
+    }
+} , {
+    "title": "DISCO FLIGHT",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 4.076923076923077,
+        "sad": 2.769230769230769,
+        "disgust": 5.846153846153846,
+        "anger": 5.0,
+        "fear": 5.230769230769231,
+        "surprise": 3.4615384615384617
+    }
+} , {
+    "title": "moment A rhythm",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 3.6315789473684212,
+        "sad": 2.473684210526316,
+        "disgust": 4.7368421052631575,
+        "anger": 8.947368421052632,
+        "fear": 3.263157894736842,
+        "surprise": 3.210526315789474
+    }
+} , {
+    "title": "トルネードG",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 2.111111111111111,
+        "sad": 2.2222222222222223,
+        "disgust": 10.444444444444445,
+        "anger": 7.0,
+        "fear": 4.444444444444445,
+        "surprise": 2.0
+    }
+} , {
+    "title": "Serial Number Of Turbo",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 4.130434782608695,
+        "sad": 5.086956521739131,
+        "disgust": 8.652173913043478,
+        "anger": 8.434782608695652,
+        "fear": 4.260869565217392,
+        "surprise": 3.391304347826087
+    }
+} , {
+    "title": "COOL J",
+    "artist": "凛として時雨",
+    "img": "https://gekirock.com/news/assets_c/2017/03/sigure2017AP-thumb-700xauto-42675.jpg",
+    "emotions": {
+        "happy": 1.368421052631579,
+        "sad": 2.0526315789473686,
+        "disgust": 8.31578947368421,
+        "anger": 4.315789473684211,
+        "fear": 7.157894736842105,
+        "surprise": 2.3157894736842106
+    }
+}]
