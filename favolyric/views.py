@@ -2,9 +2,14 @@ from django.shortcuts import render
 from . rating import pearson_score, find_similar_users
 import json
 from pymongo import Connection
+from django.contrib.auth import login
+from django.http import HttpResponseRedirect
+from django.urls import reverse_lazy
+from django.views.generic.edit import CreateView
+
 
 def input(request):
-    return render(request, 'input.html')
+    return render(request, 'favolyric/input.html')
 
 def response(request):
     databaseName = "mydb"
@@ -39,4 +44,4 @@ def response(request):
     params = {
         'res':res,
     }
-    return render(request, 'response.html', params)
+    return render(request, 'favolyric/response.html', params)
