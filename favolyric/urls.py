@@ -10,6 +10,6 @@ from . import views
 app_name = 'favolyric'
 
 urlpatterns = [
-    path('',views.input, name='input'),
-    path('result/',views.response, name='response'),
-    ]
+    path('',views.index, name='index'),
+    path('result/',views.result, name='result'),
+]
