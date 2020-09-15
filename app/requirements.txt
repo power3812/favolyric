@@ -1,7 +1,6 @@
 dj-database-url==0.5.0
-django>=2.2.13
-django-heroku==0.3.1
-numpy==1.17.2
+django==2.2.3
+numpy==1.17
 psycopg2==2.8.3
 pytz==2019.2
 sqlparse==0.3.0

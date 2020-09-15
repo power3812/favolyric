@@ -15,17 +15,23 @@ RUN apk update \
     && apk add --virtual build-deps gcc python3-dev musl-dev \
     && apk add postgresql-dev \
     && pip install psycopg2 \
-    && apk del build-deps
+    && apk del build-deps \
+	&& apk --no-cache add gcc python3-dev musl-dev
 
 # Pipenvをインストール
 RUN pip install --upgrade pip \
-&& pip install pipenv
+&& pip install pipenv \
+&& pip install numpy
+
+# requirements.txtをコピー
+COPY ./requirements.txt /usr/src/app/requirements.txt
 
 # ホストのpipfileをコンテナの作業ディレクトリにコピー
 COPY ./Pipfile /usr/src/app/Pipfile
 
 # pipfileからパッケージをインストールしてDjango環境を構築
 RUN pipenv install --skip-lock --system --dev
+RUN pip install django==2.2.3 
 
 # entrypoint.shをコピー
 COPY ./entrypoint.sh /usr/src/app/entrypoint.sh

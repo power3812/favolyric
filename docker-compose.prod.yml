@@ -8,13 +8,13 @@ services:
             context: ./app
             dockerfile: Dockerfile.prod
         # サービス起動後に入力されるコマンドを設定
-        command: gunicorn django_demo.wsgi:application --bind 0.0.0.0:8000
+        command: gunicorn config.wsgi:application --bind 0.0.0.0:8000
         # データを永続化させる場合の設定。`host:container`でパスを記載
         volumes:
-            - ./app/:/usr/src/app/
-        # 開放するポートを指定。`host:container`でポートを記載
-        ports:
-            - 8000:8000
+            - static_volume:/usr/src/app/static
+        # 指定されたポートは接続されたサービスからアクセス可能
+        expose:
+            - 8000
         # 環境変数を指定
         env_file: .env
         # 接続するサービスを指定
@@ -29,6 +29,16 @@ services:
             - postgres_data:/var/lib/postgresql/data
         env_file: .env.db
 
+    nginx:
+        build: ./nginx
+        volumes:
+            - static_volume:/usr/src/app/static
+        ports:
+            - 1337:80
+        depends_on:
+            - django
+
 # トップレベルに書く「名前付きvolumes」は複数サービスから参照できる
 volumes:
     postgres_data:
+    static_volume:
