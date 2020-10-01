@@ -5,12 +5,18 @@ from django.contrib.auth.models import User
 from django.views.generic import CreateView, TemplateView
 from . forms import UserCreateForm, LoginForm
 
-#indexページ
-class Index(TemplateView):
-    template_name = 'accounts/index.html'
+def top(request):
+    return render(request, 'accounts/top.html')
 
-index = Index.as_view()
+def create(request):
+    return render(request, 'accounts/create.html')
 
+def login(request):
+    return render(request, 'accounts/login.html')
+
+def logout(request):
+    return render(request, 'accounts/logged_out.html')
+"""
 #アカウント作成
 class Create_Account(CreateView):
     def post(self, request, *args, **kwargs):
@@ -49,3 +55,4 @@ class Account_login(View):
         return render(request, 'accounts/login.html', {'form': form,})
 
 account_login = Account_login.as_view()
+"""

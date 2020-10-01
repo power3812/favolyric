@@ -23,10 +23,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('SECRET_KEY')
+#SECRET_KEY = os.environ.get('SECRET_KEY')
+SECRET_KEY = ")n+tp_1uujeyo!-u^%jm&^hb4kdhsil2pky6^w*y4=wiwqtp&%"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = int(os.environ.get('DEBUG', default=0))
+#DEBUG = int(os.environ.get('DEBUG', default=0))
+DEBUG = True
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
@@ -42,6 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django_cleanup',
     'bootstrap4',
+    'social_django',
 ]
 
 MIDDLEWARE = [
@@ -68,6 +71,8 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
 				'django.template.context_processors.static',
+                'social_django.context_processors.backends', 
+                'social_django.context_processors.login_redirect',
             ],
             'builtins': [
                 'bootstrap4.templatetags.bootstrap4',
@@ -112,6 +117,27 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+AUTHENTICATION_BACKENDS = (
+ 'social_core.backends.open_id.OpenIdAuth',  # for Google authentication
+ 'social_core.backends.google.GoogleOpenId',  # for Google authentication
+ 'social_core.backends.google.GoogleOAuth2',  # for Google authentication
+ 'social_core.backends.github.GithubOAuth2',  # for Github authentication
+ 'social_core.backends.facebook.FacebookOAuth2',  # for Facebook authentication
+
+ 'django.contrib.auth.backends.ModelBackend',
+)
+
+
+
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '219626606098-q6ls8jsil47gd2mm0ddprvhkqeiketn4.apps.googleusercontent.com'
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'tK8XWDoGhfOOEX1WvVKYiDyk'
+LOGIN_URL = 'accounts:login'
+LOGIN_REDIRECT_URL = 'accounts:top'
+LOGOUT_REDIRECT_URL = 'accounts:login'
+SOCIAL_AUTH_URL_NAMESPACE = "accounts:social"
+
+SOCIAL_AUTH_POSTGRES_JSONFIELD = True
+
 
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
@@ -134,8 +160,8 @@ PROJECT_ROOT = os.path.dirname(DJANGO_ROOT)
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
-#STATIC_URL = '/static/'
 STATIC_URL = '/static/'
+#STATIC_URL = '/Users/nakashimayuta/Documents/GitHub/favolyric/app/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'resources/static'),
