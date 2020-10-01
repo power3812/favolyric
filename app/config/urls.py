@@ -20,13 +20,9 @@ from django.conf.urls import url, static
 from django.conf.urls.static import static
 from . import settings
 
-def trigger_error(request):
-    division_by_zero = 1 / 0
-
 urlpatterns = [
-	path('sentry-debug/', trigger_error),
     path('admin/', admin.site.urls),
-    path('',include('favolyric.urls')),
+    path('',include('favolyric.urls')), 
     path('accounts/',include('accounts.urls')),
 ]
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

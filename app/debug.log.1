@@ -1,0 +1,515 @@
+[19/Sep/2020 04:52:08] ERROR [django.request:228] Internal Server Error: /accounts/auth/login/google-oauth2/
+Traceback (most recent call last):
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/urls/base.py", line 75, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'social'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_django/utils.py", line 37, in wrapper
+    uri = reverse(redirect_uri, args=(backend,))
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/urls/base.py", line 86, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'social' is not a registered namespace
+[19/Sep/2020 04:52:08] ERROR [django.server:154] "GET /accounts/auth/login/google-oauth2/ HTTP/1.1" 500 99454
+[19/Sep/2020 04:52:20] INFO [django.utils.autoreload:213] /Users/nakashimayuta/Documents/GitHub/favolyric/app/config/settings.py changed, reloading.
+[19/Sep/2020 04:52:21] INFO [django.utils.autoreload:586] Watching for file changes with StatReloader
+[19/Sep/2020 04:52:23] INFO [django.server:154] "GET /accounts/login HTTP/1.1" 200 443
+[19/Sep/2020 04:52:25] INFO [django.server:154] "GET /accounts/auth/login/google-oauth2/ HTTP/1.1" 302 0
+[19/Sep/2020 04:52:25] ERROR [django.request:228] Internal Server Error: /accounts/auth/complete/google-oauth2/
+Traceback (most recent call last):
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_django/utils.py", line 49, in wrapper
+    return func(request, backend, *args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_django/views.py", line 33, in complete
+    *args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/actions.py", line 82, in do_complete
+    'LOGIN_REDIRECT_URL')
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/utils.py", line 242, in setting_url
+    value = backend.setting(name)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/backends/base.py", line 31, in setting
+    return self.strategy.setting(name, default=default, backend=self)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/strategy.py", line 47, in setting
+    return self.get_setting(name)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_django/strategy.py", line 48, in get_setting
+    value = resolve_url(value)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/shortcuts.py", line 148, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/urls/resolvers.py", line 668, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '' not found. '' is not a valid view function or pattern name.
+[19/Sep/2020 04:52:25] ERROR [django.server:154] "GET /accounts/auth/complete/google-oauth2/?state=LFLW22UMqL5yjBmd5AJSGCmZZbhVkjfq&code=4%2F4QE-682sdkmEQ_Pw7TEo_OvCIliU9GWdxGJACgB6FDHGWpC92XHtkkG-k4NOE754tKG77hPCuB5sq5O_NnxeyQI&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=none HTTP/1.1" 500 136181
+[19/Sep/2020 04:52:36] INFO [django.utils.autoreload:213] /Users/nakashimayuta/Documents/GitHub/favolyric/app/config/settings.py changed, reloading.
+[19/Sep/2020 04:52:37] INFO [django.utils.autoreload:586] Watching for file changes with StatReloader
+[19/Sep/2020 04:52:39] INFO [django.server:154] "GET /accounts/login HTTP/1.1" 200 443
+[19/Sep/2020 04:52:40] INFO [django.server:154] "GET /accounts/auth/login/google-oauth2/ HTTP/1.1" 302 0
+[19/Sep/2020 04:52:41] ERROR [django.request:228] Internal Server Error: /accounts/auth/complete/google-oauth2/
+Traceback (most recent call last):
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_django/utils.py", line 49, in wrapper
+    return func(request, backend, *args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_django/views.py", line 33, in complete
+    *args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/actions.py", line 82, in do_complete
+    'LOGIN_REDIRECT_URL')
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/utils.py", line 242, in setting_url
+    value = backend.setting(name)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/backends/base.py", line 31, in setting
+    return self.strategy.setting(name, default=default, backend=self)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/strategy.py", line 47, in setting
+    return self.get_setting(name)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_django/strategy.py", line 48, in get_setting
+    value = resolve_url(value)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/shortcuts.py", line 148, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/urls/resolvers.py", line 668, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '' not found. '' is not a valid view function or pattern name.
+[19/Sep/2020 04:52:41] ERROR [django.server:154] "GET /accounts/auth/complete/google-oauth2/?state=vbhfEfYhF6PYd2noEAfsxzdkhtddijU8&code=4%2F4QGYAX_WcsJVSBHXAKn7MJJt1sbReD8Q1i9WF9MbH_-Dde4HAtlnp0KIVAotHBkaKyBR-IiOJicRuHZv6h_muLU&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&authuser=0&prompt=none HTTP/1.1" 500 136183
+[19/Sep/2020 04:52:45] INFO [django.server:154] "GET /accounts/login HTTP/1.1" 200 443
+[19/Sep/2020 04:52:54] INFO [django.utils.autoreload:213] /Users/nakashimayuta/Documents/GitHub/favolyric/app/config/settings.py changed, reloading.
+[19/Sep/2020 04:52:55] INFO [django.utils.autoreload:586] Watching for file changes with StatReloader
+[19/Sep/2020 04:53:02] INFO [django.utils.autoreload:213] /Users/nakashimayuta/Documents/GitHub/favolyric/app/config/settings.py changed, reloading.
+[19/Sep/2020 04:53:02] INFO [django.utils.autoreload:586] Watching for file changes with StatReloader
+[19/Sep/2020 04:53:11] INFO [django.server:154] "GET /accounts/auth/login/google-oauth2/ HTTP/1.1" 302 0
+[19/Sep/2020 04:53:12] ERROR [django.request:228] Internal Server Error: /accounts/auth/complete/google-oauth2/
+Traceback (most recent call last):
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_django/utils.py", line 49, in wrapper
+    return func(request, backend, *args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_django/views.py", line 33, in complete
+    *args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/actions.py", line 82, in do_complete
+    'LOGIN_REDIRECT_URL')
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/utils.py", line 242, in setting_url
+    value = backend.setting(name)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/backends/base.py", line 31, in setting
+    return self.strategy.setting(name, default=default, backend=self)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/strategy.py", line 47, in setting
+    return self.get_setting(name)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_django/strategy.py", line 48, in get_setting
+    value = resolve_url(value)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/shortcuts.py", line 148, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/urls/resolvers.py", line 668, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '' not found. '' is not a valid view function or pattern name.
+[19/Sep/2020 04:53:12] ERROR [django.server:154] "GET /accounts/auth/complete/google-oauth2/?state=tSIHggYDVKt0FV11DZtsUM5Fd7CiMehm&code=4%2F4QE97Sv1GduQ1yTie5pxdpODNMCx2ZHHYrKhrDNPjRkwlY2XXeT53RVdgMuJgraWsPt8H6RYEPmZyJrWHDcYpDI&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&authuser=0&prompt=none HTTP/1.1" 500 136181
+[19/Sep/2020 04:53:15] INFO [django.server:154] "GET /accounts/login HTTP/1.1" 200 443
+[19/Sep/2020 04:53:37] INFO [django.utils.autoreload:213] /Users/nakashimayuta/Documents/GitHub/favolyric/app/config/settings.py changed, reloading.
+[19/Sep/2020 04:53:37] INFO [django.utils.autoreload:586] Watching for file changes with StatReloader
+[19/Sep/2020 04:53:40] INFO [django.server:154] "GET /accounts/auth/login/google-oauth2/ HTTP/1.1" 302 0
+[19/Sep/2020 04:53:41] ERROR [django.request:228] Internal Server Error: /accounts/auth/complete/google-oauth2/
+Traceback (most recent call last):
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_django/utils.py", line 49, in wrapper
+    return func(request, backend, *args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_django/views.py", line 33, in complete
+    *args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/actions.py", line 82, in do_complete
+    'LOGIN_REDIRECT_URL')
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/utils.py", line 242, in setting_url
+    value = backend.setting(name)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/backends/base.py", line 31, in setting
+    return self.strategy.setting(name, default=default, backend=self)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/strategy.py", line 47, in setting
+    return self.get_setting(name)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_django/strategy.py", line 48, in get_setting
+    value = resolve_url(value)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/shortcuts.py", line 148, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/urls/resolvers.py", line 668, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '' not found. '' is not a valid view function or pattern name.
+[19/Sep/2020 04:53:41] ERROR [django.server:154] "GET /accounts/auth/complete/google-oauth2/?state=UbprvdRLPLAOy3WMB4uymbKChak8FFvH&code=4%2F4QG4hBtuQ0RSyixb1i6Gv4vYH-ZZ3yugXObTROLBKM8yM1-7z_jLp8N1HVNmo7GW2WpM64OFPYDCvZswa8EQZ94&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=none HTTP/1.1" 500 136202
+[19/Sep/2020 04:53:47] INFO [django.server:154] "GET /accounts/login HTTP/1.1" 200 443
+[19/Sep/2020 04:53:55] INFO [django.server:154] "GET /accounts/login HTTP/1.1" 200 443
+[19/Sep/2020 04:53:55] WARNING [django.request:228] Not Found: /favicon.ico
+[19/Sep/2020 04:53:55] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2538
+[19/Sep/2020 04:53:57] INFO [django.server:154] "GET /accounts/auth/login/google-oauth2/ HTTP/1.1" 302 0
+[19/Sep/2020 04:54:25] ERROR [django.request:228] Internal Server Error: /accounts/auth/complete/google-oauth2/
+Traceback (most recent call last):
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_django/utils.py", line 49, in wrapper
+    return func(request, backend, *args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_django/views.py", line 33, in complete
+    *args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/actions.py", line 82, in do_complete
+    'LOGIN_REDIRECT_URL')
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/utils.py", line 242, in setting_url
+    value = backend.setting(name)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/backends/base.py", line 31, in setting
+    return self.strategy.setting(name, default=default, backend=self)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/strategy.py", line 47, in setting
+    return self.get_setting(name)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_django/strategy.py", line 48, in get_setting
+    value = resolve_url(value)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/shortcuts.py", line 148, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/urls/resolvers.py", line 668, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '' not found. '' is not a valid view function or pattern name.
+[19/Sep/2020 04:54:25] ERROR [django.server:154] "GET /accounts/auth/complete/google-oauth2/?state=LKjLNFsXGqSht1lubComU0BTUiPoZMiv&code=4%2F4QGCQ8pliFOPPyxeH7HgKknn2t77yy7fjXtcYIU1dRvgYKU1vY2N4UIuis9nmn-OKyAjgq8dieSyCoLfV0T9KEg&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&authuser=0&prompt=consent HTTP/1.1" 500 134733
+[19/Sep/2020 04:54:25] WARNING [django.request:228] Not Found: /favicon.ico
+[19/Sep/2020 04:54:25] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2538
+[19/Sep/2020 04:55:01] INFO [django.utils.autoreload:213] /Users/nakashimayuta/Documents/GitHub/favolyric/app/accounts/urls.py changed, reloading.
+[19/Sep/2020 04:55:02] INFO [django.utils.autoreload:586] Watching for file changes with StatReloader
+[19/Sep/2020 04:55:32] INFO [django.utils.autoreload:213] /Users/nakashimayuta/Documents/GitHub/favolyric/app/config/settings.py changed, reloading.
+[19/Sep/2020 04:55:32] INFO [django.utils.autoreload:586] Watching for file changes with StatReloader
+[19/Sep/2020 04:55:34] ERROR [django.request:228] Internal Server Error: /accounts/auth/complete/google-oauth2/
+Traceback (most recent call last):
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_django/utils.py", line 49, in wrapper
+    return func(request, backend, *args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_django/views.py", line 33, in complete
+    *args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/actions.py", line 45, in do_complete
+    user = backend.complete(user=user, *args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/backends/base.py", line 40, in complete
+    return self.auth_complete(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/utils.py", line 251, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/backends/oauth.py", line 388, in auth_complete
+    state = self.validate_state()
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/backends/oauth.py", line 90, in validate_state
+    raise AuthStateMissing(self, 'state')
+social_core.exceptions.AuthStateMissing: Session value state missing.
+[19/Sep/2020 04:55:34] ERROR [django.server:154] "GET /accounts/auth/complete/google-oauth2/?state=LKjLNFsXGqSht1lubComU0BTUiPoZMiv&code=4%2F4QGCQ8pliFOPPyxeH7HgKknn2t77yy7fjXtcYIU1dRvgYKU1vY2N4UIuis9nmn-OKyAjgq8dieSyCoLfV0T9KEg&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&authuser=0&prompt=consent HTTP/1.1" 500 120569
+[19/Sep/2020 04:55:38] INFO [django.server:154] "GET /accounts/auth/login/google-oauth2/ HTTP/1.1" 302 0
+[19/Sep/2020 04:55:39] ERROR [django.request:228] Internal Server Error: /accounts/auth/complete/google-oauth2/
+Traceback (most recent call last):
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_django/utils.py", line 49, in wrapper
+    return func(request, backend, *args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_django/views.py", line 33, in complete
+    *args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/actions.py", line 82, in do_complete
+    'LOGIN_REDIRECT_URL')
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/utils.py", line 242, in setting_url
+    value = backend.setting(name)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/backends/base.py", line 31, in setting
+    return self.strategy.setting(name, default=default, backend=self)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/strategy.py", line 47, in setting
+    return self.get_setting(name)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_django/strategy.py", line 48, in get_setting
+    value = resolve_url(value)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/shortcuts.py", line 148, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/urls/resolvers.py", line 668, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'top' not found. 'top' is not a valid view function or pattern name.
+[19/Sep/2020 04:55:39] ERROR [django.server:154] "GET /accounts/auth/complete/google-oauth2/?state=MYHDRWgK6MyL5LbCZathVbl052zyvhmO&code=4%2F4QHtC4ugHRyP6MXcfzblI3epux3i3dNm1us0KTmoFBCcWPexBx1hNnYro8UHA9R1YWmxUblMgTHoOKkf_RBf1R0&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=none HTTP/1.1" 500 136249
+[19/Sep/2020 04:55:45] ERROR [django.request:228] Internal Server Error: /accounts/auth/complete/google-oauth2/
+Traceback (most recent call last):
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_django/utils.py", line 49, in wrapper
+    return func(request, backend, *args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_django/views.py", line 33, in complete
+    *args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/actions.py", line 45, in do_complete
+    user = backend.complete(user=user, *args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/backends/base.py", line 40, in complete
+    return self.auth_complete(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/utils.py", line 251, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/backends/oauth.py", line 388, in auth_complete
+    state = self.validate_state()
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/backends/oauth.py", line 90, in validate_state
+    raise AuthStateMissing(self, 'state')
+social_core.exceptions.AuthStateMissing: Session value state missing.
+[19/Sep/2020 04:55:45] ERROR [django.server:154] "GET /accounts/auth/complete/google-oauth2/?state=LKjLNFsXGqSht1lubComU0BTUiPoZMiv&code=4%2F4QFHjWLE1PjK-Pkftsc7Z8M8NoxIOKwDgZgvCEKUqECZA96ceChhHvXKvLJ6n5-pjXcbnrwvUbzkvmfAbePI7uA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=none HTTP/1.1" 500 120316
+[19/Sep/2020 04:55:45] WARNING [django.request:228] Not Found: /favicon.ico
+[19/Sep/2020 04:55:45] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2538
+[19/Sep/2020 04:55:47] ERROR [django.request:228] Internal Server Error: /accounts/auth/complete/google-oauth2/
+Traceback (most recent call last):
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_django/utils.py", line 49, in wrapper
+    return func(request, backend, *args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_django/views.py", line 33, in complete
+    *args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/actions.py", line 45, in do_complete
+    user = backend.complete(user=user, *args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/backends/base.py", line 40, in complete
+    return self.auth_complete(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/utils.py", line 251, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/backends/oauth.py", line 388, in auth_complete
+    state = self.validate_state()
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/backends/oauth.py", line 90, in validate_state
+    raise AuthStateMissing(self, 'state')
+social_core.exceptions.AuthStateMissing: Session value state missing.
+[19/Sep/2020 04:55:47] ERROR [django.server:154] "GET /accounts/auth/complete/google-oauth2/?state=LKjLNFsXGqSht1lubComU0BTUiPoZMiv&code=4%2F4QHZwjW7PjNcc9tAB8s7Et0Oidzq22deJcg3OiSMZtPwvZvMY2i3zD3OQc0xW2qiyH-VVqq4KmECjbWT0zbX870&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&authuser=0&prompt=none HTTP/1.1" 500 120316
+[19/Sep/2020 04:55:47] WARNING [django.request:228] Not Found: /favicon.ico
+[19/Sep/2020 04:55:47] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2538
+[19/Sep/2020 04:55:47] INFO [django.server:154] "GET /accounts/login HTTP/1.1" 200 443
+[19/Sep/2020 04:55:48] INFO [django.server:154] "GET /accounts/auth/login/google-oauth2/ HTTP/1.1" 302 0
+[19/Sep/2020 04:55:49] ERROR [django.request:228] Internal Server Error: /accounts/auth/complete/google-oauth2/
+Traceback (most recent call last):
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_django/utils.py", line 49, in wrapper
+    return func(request, backend, *args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_django/views.py", line 33, in complete
+    *args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/actions.py", line 82, in do_complete
+    'LOGIN_REDIRECT_URL')
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/utils.py", line 242, in setting_url
+    value = backend.setting(name)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/backends/base.py", line 31, in setting
+    return self.strategy.setting(name, default=default, backend=self)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_core/strategy.py", line 47, in setting
+    return self.get_setting(name)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/social_django/strategy.py", line 48, in get_setting
+    value = resolve_url(value)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/shortcuts.py", line 148, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/urls/resolvers.py", line 668, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'top' not found. 'top' is not a valid view function or pattern name.
+[19/Sep/2020 04:55:49] ERROR [django.server:154] "GET /accounts/auth/complete/google-oauth2/?state=S9JIzXxt1UJrUuLcMrGeEWuv0BEyo7fS&code=4%2F4QHhHNrr7iGPuPhFAxrDQ5sMDZL_mcFoBcRUeg3IrtYtoOcefIvMCYprSu8GTD_RAffosxOqIU31Vs5AMbUnTgE&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&authuser=0&prompt=none HTTP/1.1" 500 134905
+[19/Sep/2020 04:55:49] WARNING [django.request:228] Not Found: /favicon.ico
+[19/Sep/2020 04:55:49] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2538
+[19/Sep/2020 04:56:06] INFO [django.utils.autoreload:213] /Users/nakashimayuta/Documents/GitHub/favolyric/app/config/settings.py changed, reloading.
+[19/Sep/2020 04:56:07] INFO [django.utils.autoreload:586] Watching for file changes with StatReloader
+[19/Sep/2020 04:56:09] INFO [django.server:154] "GET /accounts/ HTTP/1.1" 200 189
+[19/Sep/2020 04:56:10] INFO [django.server:154] "GET /accounts/login HTTP/1.1" 200 443
+[19/Sep/2020 04:56:12] INFO [django.server:154] "GET /accounts/auth/login/google-oauth2/ HTTP/1.1" 302 0
+[19/Sep/2020 04:56:12] INFO [django.server:154] "GET /accounts/auth/complete/google-oauth2/?state=3GzTmDJ6EFcxlg1zzsAj1alAdveU9kXU&code=4%2F4QFSGUOsMPhhNPmVwoM2IL8IcH6c4jscd0ySe4JEUh2qfC0aMk8qRbEfQzAK1Gw5Q2sfMkMqjfxR9scpjmEeqqo&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&authuser=0&prompt=none HTTP/1.1" 302 0
+[19/Sep/2020 04:56:12] INFO [django.server:154] "GET /accounts/ HTTP/1.1" 200 249
+[19/Sep/2020 04:56:24] INFO [django.utils.autoreload:213] /Users/nakashimayuta/Documents/GitHub/favolyric/app/config/settings.py changed, reloading.
+[19/Sep/2020 04:56:24] INFO [django.utils.autoreload:586] Watching for file changes with StatReloader
+[19/Sep/2020 04:56:25] ERROR [django.request:228] Internal Server Error: /accounts/logout
+Traceback (most recent call last):
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/Documents/GitHub/favolyric/app/accounts/views.py", line 18, in logout
+    return render(request, 'accounts/logged_out.html')
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/template/defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/urls/resolvers.py", line 668, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '/accounts/top' not found. '/accounts/top' is not a valid view function or pattern name.
+[19/Sep/2020 04:56:25] ERROR [django.server:154] "GET /accounts/logout HTTP/1.1" 500 123530
+[19/Sep/2020 04:56:59] INFO [django.server:154] "GET /accounts/logout HTTP/1.1" 200 199
+[19/Sep/2020 04:57:02] INFO [django.server:154] "GET /accounts/ HTTP/1.1" 200 249
+[19/Sep/2020 04:57:03] INFO [django.server:154] "GET /accounts/logout HTTP/1.1" 200 199
+[19/Sep/2020 04:57:04] INFO [django.server:154] "GET /accounts/ HTTP/1.1" 200 249
+[19/Sep/2020 04:57:05] INFO [django.server:154] "GET /accounts/logout HTTP/1.1" 200 199
+[19/Sep/2020 05:01:08] INFO [django.utils.autoreload:213] /Users/nakashimayuta/Documents/GitHub/favolyric/app/config/settings.py changed, reloading.
+[19/Sep/2020 05:01:09] INFO [django.utils.autoreload:586] Watching for file changes with StatReloader
+[19/Sep/2020 05:02:58] INFO [django.utils.autoreload:213] /Users/nakashimayuta/Documents/GitHub/favolyric/app/config/settings.py changed, reloading.
+[19/Sep/2020 05:02:59] INFO [django.utils.autoreload:586] Watching for file changes with StatReloader
+[19/Sep/2020 05:03:05] INFO [django.server:154] "GET /accounts/ HTTP/1.1" 200 249
+[19/Sep/2020 05:03:06] INFO [django.server:154] "GET /accounts/logout HTTP/1.1" 200 199
+[19/Sep/2020 05:03:08] INFO [django.server:154] "GET /accounts/ HTTP/1.1" 200 249
+[19/Sep/2020 05:03:09] INFO [django.server:154] "GET /accounts/logout HTTP/1.1" 200 199
+[19/Sep/2020 05:03:10] INFO [django.server:154] "GET /accounts/ HTTP/1.1" 200 249
+[19/Sep/2020 05:03:12] INFO [django.server:154] "GET /accounts/logout HTTP/1.1" 200 199
+[19/Sep/2020 05:03:13] INFO [django.server:154] "GET /accounts/ HTTP/1.1" 200 249
+[19/Sep/2020 05:03:14] INFO [django.server:154] "GET /accounts/logout HTTP/1.1" 200 199
+[19/Sep/2020 05:03:15] INFO [django.server:154] "GET /accounts/ HTTP/1.1" 200 249
+[19/Sep/2020 05:03:16] INFO [django.server:154] "GET /accounts/logout HTTP/1.1" 200 199
+[19/Sep/2020 05:03:16] INFO [django.server:154] "GET /accounts/ HTTP/1.1" 200 249
+[19/Sep/2020 05:03:16] INFO [django.server:154] "GET /accounts/logout HTTP/1.1" 200 199

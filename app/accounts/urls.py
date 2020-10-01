@@ -1,3 +1,4 @@
+from django.conf.urls import include
 from django.urls import path
 from django.conf.urls import url
 from django.contrib import admin
@@ -9,9 +10,11 @@ from . import views
 app_name = 'accounts'
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
-    url(r'^$', views.index, name='index'),
-    path('create', views.create_account, name='accounts/create.html'),
-    path('login', views.account_login, name='accounts/login.html'),
+    path('', views.top, name='top'),
+    path('create', views.create, name='create'),
+    path('login', views.login, name='login'),
+    #path('logout', views.logout, name='logout'),
+    path('auth/', include('social_django.urls', namespace='social')),
+    path('logout/', auth_views.LogoutView.as_view(), name='logout'),
     #url(r'^logout/$', logout, {'template_name': 'index.html'}, name='logout'),
     ]

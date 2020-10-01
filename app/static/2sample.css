@@ -1,0 +1,40 @@
+#music-list {
+    background-color: white;
+    list-style: none;
+    padding-left: 0;
+}
+
+#music-list li {
+    border-bottom: thin solid black;
+}
+
+.jacket-wrapper, .description {
+    padding: 2%;
+}
+
+.jacket-wrapper {
+    width: 20%;
+    vertical-align: middle;
+    text-align: center;
+    border-right: thin solid black;
+}
+
+.jacket-wrapper>div {
+    display: inline-block;
+}
+
+.jacket {
+    height: 64px;
+}
+
+.description {
+    width: 80%;
+    vertical-align: middle;
+}
+
+@media (min-width: 600px) {
+    .flexbox {
+        display: -webkit-flex;
+        display: flex;
+    }
+}
