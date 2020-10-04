@@ -2,25 +2,48 @@ from django.shortcuts import render
 from . rating import pearson_score, find_similar_users
 import json
 from pymongo import Connection
+from pymongo import MongoClient
 from django.contrib.auth import login
 from django.http import HttpResponseRedirect
 from django.urls import reverse_lazy
 from django.views.generic.edit import CreateView
+import urllib.request
+import urllib.parse
 
 
 def index(request):
-    return render(request, 'favolyric/index.html')
+    return render(request, 'favolyric/index2.html')
 
 def result(request):
+    DATABASE_NAME = 'music'
+    COLLECTION_NAME = 'lyrics'
+    client = MongoClient('mongodb://root:MongoDB2019!@mongo:27017/music')
+    db = client[DATABASE_NAME]
+    collection = db[COLLECTION_NAME]
+    music = db[COLLECTION_NAME]
+    ratings = list(music.find())
+    client.close()
+
     """
-    databaseName = "mydb"
+    mongoPath = "mongodb://mongo:27017/"
+    mongoUsr  = "root"
+    mongoPass = "MongoDB2019!"
+    mongoUsr  = urllib.parse.quote_plus(mongoUsr)
+    mongoPass = urllib.parse.quote_plus(mongoPass)
+    accessor = "mongodb://%s:%s@mongo:27017/" % (mongoUsr, mongoPass)
+    client = MongoClient(accessor)
+    # Get DB "test_database" from MongoDB / Create DB on MongoDB if not found
+    db = client.music
+    # Call collection / Create if nothing
+    collection = db.lyrics
+    ratings = list(collection.find())
+    databaseName = "music"
     connection = Connection()
     db = connection[databaseName]
-    music = db['music']
-    data=list(music.find())
     """
-    ratings_file = 'analyze_image_ituens.json'
-    ratings = json.load(open(ratings_file, "r", encoding="utf-8"))
+
+    #ratings_file = 'analyze_image_ituens.json'
+    #ratings = json.load(open(ratings_file, "r", encoding="utf-8"))
 
     #データ変換
     dic = {}
