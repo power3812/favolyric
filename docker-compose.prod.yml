@@ -34,28 +34,26 @@ services:
         networks:
             - db_net
 
-
     mongo:
-        image: mongo
-        container_name: mongo
+        image: mongo:3.4.2
         restart: always
         environment:
-            MONGO_INITDB_ROOT_USERNAME: root
-            MONGO_INITDB_ROOT_PASSWORD: MongoDB2019!
-            MONGO_INITDB_DATABASE: music
-            TZ: Asia/Tokyo
+            - MONGO_INITDB_ROOT_USERNAME=root
+            - MONGO_INITDB_ROOT_PASSWORD=MongoDB2019!
+            - MONGO_INITDB_DATABASE=music
         ports:
-            - 27018:27017
+            - 27017:27017
+        restart: unless-stopped
+        command: mongod --auth
         volumes:
             - ./docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
         networks:
             - db_net
 
-
     mongo-express:
         image: mongo-express
         ports:
-            - 8081:8081
+            - 8082:8081
         environment:
             ME_CONFIG_BASICAUTH_USERNAME: admin
             ME_CONFIG_BASICAUTH_PASSWORD: password
@@ -66,7 +64,6 @@ services:
             - mongo
         networks:
             - db_net
-
 
     nginx:
         build: ./nginx
@@ -79,9 +76,9 @@ services:
         networks:
             - db_net
 
-
 networks:
     db_net:
+        external: true
 
 # トップレベルに書く「名前付きvolumes」は複数サービスから参照できる
 volumes:

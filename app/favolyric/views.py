@@ -1,7 +1,6 @@
 from django.shortcuts import render
 from . rating import pearson_score, find_similar_users
 import json
-from pymongo import Connection
 from pymongo import MongoClient
 from django.contrib.auth import login
 from django.http import HttpResponseRedirect
@@ -17,30 +16,13 @@ def index(request):
 def result(request):
     DATABASE_NAME = 'music'
     COLLECTION_NAME = 'lyrics'
-    client = MongoClient('mongodb://root:MongoDB2019!@mongo:27017/music')
+    #client = MongoClient('mongodb://root:MongoDB2019!@mongo:27017/music')
+    client = MongoClient('mongodb://root:MongoDB2019!@localhost:27017/music')
     db = client[DATABASE_NAME]
     collection = db[COLLECTION_NAME]
     music = db[COLLECTION_NAME]
     ratings = list(music.find())
     client.close()
-
-    """
-    mongoPath = "mongodb://mongo:27017/"
-    mongoUsr  = "root"
-    mongoPass = "MongoDB2019!"
-    mongoUsr  = urllib.parse.quote_plus(mongoUsr)
-    mongoPass = urllib.parse.quote_plus(mongoPass)
-    accessor = "mongodb://%s:%s@mongo:27017/" % (mongoUsr, mongoPass)
-    client = MongoClient(accessor)
-    # Get DB "test_database" from MongoDB / Create DB on MongoDB if not found
-    db = client.music
-    # Call collection / Create if nothing
-    collection = db.lyrics
-    ratings = list(collection.find())
-    databaseName = "music"
-    connection = Connection()
-    db = connection[databaseName]
-    """
 
     #ratings_file = 'analyze_image_ituens.json'
     #ratings = json.load(open(ratings_file, "r", encoding="utf-8"))
@@ -50,9 +32,9 @@ def result(request):
     for i in range(len(ratings)):
         dic[ratings[i]['title']] = ratings[i]["emotions"]
 
-    dic['User'] = {'happy': float(request.GET.get('happy')), 'sad': float(request.GET.get('sad')),
-        'disgust': float(request.GET.get('disgust')), 'anger': float(request.GET.get('anger')),
-        'fear': float(request.GET.get('fear')), 'surprise': float(request.GET.get('surprise'))}
+    dic['User'] = {'happy': float(request.POST.get('happy')), 'sad': float(request.POST.get('sad')),
+        'disgust': float(request.POST.get('disgust')), 'anger': float(request.POST.get('anger')),
+        'fear': float(request.POST.get('fear')), 'surprise': float(request.POST.get('surprise'))}
     user = "User"
     similar_users = find_similar_users(dic, user, 3)
     res = []

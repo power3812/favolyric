@@ -164,3 +164,155 @@ django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 19: 's
 [21/Sep/2020 03:52:36] INFO [django.server:154] "GET /admin/ HTTP/1.1" 200 5099
 [21/Sep/2020 03:52:36] INFO [django.server:154] "GET /admin/social_django/association/ HTTP/1.1" 200 3863
 [21/Sep/2020 03:52:36] INFO [django.server:154] "GET /admin/jsi18n/ HTTP/1.1" 200 8752
+[12/Oct/2020 02:55:05] INFO [django.utils.autoreload:586] Watching for file changes with StatReloader
+[12/Oct/2020 02:55:12] INFO [django.server:154] "GET / HTTP/1.1" 200 2645
+[12/Oct/2020 02:55:13] INFO [django.server:154] "GET /static/sample.css HTTP/1.1" 200 1003
+[12/Oct/2020 02:55:13] INFO [django.server:154] "GET /static/sample.js HTTP/1.1" 200 1760
+[12/Oct/2020 02:55:13] INFO [django.server:154] "GET /static/1sample.css HTTP/1.1" 200 44
+[12/Oct/2020 02:55:13] INFO [django.server:154] "GET /static/js/favolyric_index.js HTTP/1.1" 200 132369
+[12/Oct/2020 02:55:13] INFO [django.server:154] "GET /static/chartjs-plugin-dragdata.min.js HTTP/1.1" 200 20605
+[12/Oct/2020 02:55:13] INFO [django.server:154] "GET /static/sample.jpg HTTP/1.1" 200 142825
+[12/Oct/2020 02:55:13] WARNING [django.request:228] Not Found: /favicon.ico
+[12/Oct/2020 02:55:13] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 2538
+[12/Oct/2020 02:55:19] WARNING [django.security.csrf:228] Forbidden (CSRF token missing or incorrect.): /result/
+[12/Oct/2020 02:55:19] WARNING [django.server:154] "POST /result/ HTTP/1.1" 403 2556
+[12/Oct/2020 02:56:45] WARNING [django.security.csrf:228] Forbidden (CSRF token missing or incorrect.): /result/
+[12/Oct/2020 02:56:45] WARNING [django.server:154] "POST /result/ HTTP/1.1" 403 2556
+[12/Oct/2020 03:01:23] INFO [django.server:154] "GET / HTTP/1.1" 200 2685
+[12/Oct/2020 03:01:25] WARNING [django.security.csrf:228] Forbidden (CSRF token missing or incorrect.): /result/
+[12/Oct/2020 03:01:25] WARNING [django.server:154] "POST /result/ HTTP/1.1" 403 2556
+[12/Oct/2020 03:01:32] WARNING [django.security.csrf:228] Forbidden (CSRF token missing or incorrect.): /result/
+[12/Oct/2020 03:01:32] WARNING [django.server:154] "POST /result/ HTTP/1.1" 403 2556
+[12/Oct/2020 03:03:05] WARNING [django.security.csrf:228] Forbidden (CSRF token missing or incorrect.): /result/
+[12/Oct/2020 03:03:05] WARNING [django.server:154] "POST /result/ HTTP/1.1" 403 2556
+[12/Oct/2020 03:03:21] WARNING [django.security.csrf:228] Forbidden (CSRF token missing or incorrect.): /result/
+[12/Oct/2020 03:03:21] WARNING [django.server:154] "POST /result/ HTTP/1.1" 403 2556
+[12/Oct/2020 03:04:16] WARNING [django.security.csrf:228] Forbidden (CSRF token missing or incorrect.): /result/
+[12/Oct/2020 03:04:16] WARNING [django.server:154] "POST /result/ HTTP/1.1" 403 2556
+[12/Oct/2020 03:06:40] INFO [django.server:154] "GET / HTTP/1.1" 200 2819
+[12/Oct/2020 03:06:41] ERROR [django.request:228] Internal Server Error: /result/
+Traceback (most recent call last):
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/pymongo/mongo_client.py", line 366, in __init__
+    self._ensure_connected(True)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/pymongo/mongo_client.py", line 930, in _ensure_connected
+    self.__ensure_member()
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/pymongo/mongo_client.py", line 803, in __ensure_member
+    member, nodes = self.__find_node()
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/pymongo/mongo_client.py", line 894, in __find_node
+    raise AutoReconnect(', '.join(errors))
+pymongo.errors.AutoReconnect: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/Documents/GitHub/favolyric/app/favolyric/views.py", line 19, in result
+    client = MongoClient('mongodb://root:MongoDB2019!@mongo:27017/music')
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/pymongo/mongo_client.py", line 369, in __init__
+    raise ConnectionFailure(str(e))
+pymongo.errors.ConnectionFailure: [Errno 8] nodename nor servname provided, or not known
+[12/Oct/2020 03:06:41] ERROR [django.server:154] "POST /result/ HTTP/1.1" 500 103789
+[12/Oct/2020 03:07:04] INFO [django.server:154] "GET / HTTP/1.1" 200 2836
+[12/Oct/2020 03:07:06] ERROR [django.request:228] Internal Server Error: /result/
+Traceback (most recent call last):
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/pymongo/mongo_client.py", line 366, in __init__
+    self._ensure_connected(True)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/pymongo/mongo_client.py", line 930, in _ensure_connected
+    self.__ensure_member()
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/pymongo/mongo_client.py", line 803, in __ensure_member
+    member, nodes = self.__find_node()
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/pymongo/mongo_client.py", line 894, in __find_node
+    raise AutoReconnect(', '.join(errors))
+pymongo.errors.AutoReconnect: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/Documents/GitHub/favolyric/app/favolyric/views.py", line 19, in result
+    client = MongoClient('mongodb://root:MongoDB2019!@mongo:27017/music')
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/pymongo/mongo_client.py", line 369, in __init__
+    raise ConnectionFailure(str(e))
+pymongo.errors.ConnectionFailure: [Errno 8] nodename nor servname provided, or not known
+[12/Oct/2020 03:07:06] ERROR [django.server:154] "POST /result/ HTTP/1.1" 500 103789
+[12/Oct/2020 03:07:59] INFO [django.utils.autoreload:213] /Users/nakashimayuta/Documents/GitHub/favolyric/app/favolyric/views.py changed, reloading.
+[12/Oct/2020 03:08:00] INFO [django.utils.autoreload:586] Watching for file changes with StatReloader
+[12/Oct/2020 03:08:10] INFO [django.server:154] "GET / HTTP/1.1" 200 2836
+[12/Oct/2020 03:08:12] ERROR [django.request:228] Internal Server Error: /result/
+Traceback (most recent call last):
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/pymongo/mongo_client.py", line 384, in __init__
+    self._cache_credentials(source, credentials, _connect)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/pymongo/mongo_client.py", line 459, in _cache_credentials
+    auth.authenticate(credentials, sock_info, self.__simple_command)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/pymongo/auth.py", line 243, in authenticate
+    auth_func(credentials[1:], sock_info, cmd_func)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/pymongo/auth.py", line 222, in _authenticate_mongo_cr
+    cmd_func(sock_info, source, query)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/pymongo/mongo_client.py", line 693, in __simple_command
+    helpers._check_command_response(response, None, msg)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/pymongo/helpers.py", line 178, in _check_command_response
+    raise OperationFailure(msg % errmsg, code, response)
+pymongo.errors.OperationFailure: command SON([('authenticate', 1), ('user', 'root'), ('nonce', 'c1ea77620541cd55'), ('key', '1b89f7d0989a4f2f74fcdb24bdafd525')]) failed: auth failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/Documents/GitHub/favolyric/app/favolyric/views.py", line 20, in result
+    client = MongoClient('mongodb://root:MongoDB2019!@localhost:27017/music')
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/pymongo/mongo_client.py", line 386, in __init__
+    raise ConfigurationError(str(exc))
+pymongo.errors.ConfigurationError: command SON([('authenticate', 1), ('user', 'root'), ('nonce', 'c1ea77620541cd55'), ('key', '1b89f7d0989a4f2f74fcdb24bdafd525')]) failed: auth failed
+[12/Oct/2020 03:08:12] ERROR [django.server:154] "POST /result/ HTTP/1.1" 500 119019
+[12/Oct/2020 03:09:20] INFO [django.utils.autoreload:586] Watching for file changes with StatReloader
+[12/Oct/2020 03:09:26] INFO [django.server:154] "GET / HTTP/1.1" 200 2836
+[12/Oct/2020 03:09:28] ERROR [django.request:228] Internal Server Error: /result/
+Traceback (most recent call last):
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sentry_sdk/integrations/django/views.py", line 63, in callback
+    return old_callback(*args, **kwargs)
+  File "/Users/nakashimayuta/Documents/GitHub/favolyric/app/favolyric/views.py", line 35, in result
+    dic['User'] = {'happy': float(request.GET.post('happy')), 'sad': float(request.GET.post('sad')),
+AttributeError: 'QueryDict' object has no attribute 'post'
+[12/Oct/2020 03:09:28] ERROR [django.server:154] "POST /result/ HTTP/1.1" 500 89112
+[12/Oct/2020 03:12:53] INFO [django.utils.autoreload:213] /Users/nakashimayuta/Documents/GitHub/favolyric/app/favolyric/views.py changed, reloading.
+[12/Oct/2020 03:12:54] INFO [django.utils.autoreload:586] Watching for file changes with StatReloader
+[12/Oct/2020 03:12:55] INFO [django.server:154] "GET / HTTP/1.1" 200 2836
+[12/Oct/2020 03:12:57] INFO [django.server:154] "POST /result/ HTTP/1.1" 200 4448
+[12/Oct/2020 03:12:57] INFO [django.server:154] "GET /static/2sample.css HTTP/1.1" 200 573
+[12/Oct/2020 03:12:59] INFO [django.server:154] "GET / HTTP/1.1" 200 2836
+[12/Oct/2020 03:13:02] INFO [django.server:154] "POST /result/ HTTP/1.1" 200 4442
