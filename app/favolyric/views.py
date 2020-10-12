@@ -16,8 +16,8 @@ def index(request):
 def result(request):
     DATABASE_NAME = 'music'
     COLLECTION_NAME = 'lyrics'
-    #client = MongoClient('mongodb://root:MongoDB2019!@mongo:27017/music')
-    client = MongoClient('mongodb://root:MongoDB2019!@localhost:27017/music')
+    client = MongoClient('mongodb://root:MongoDB2019!@mongo:27017/music')
+    #client = MongoClient('mongodb://root:MongoDB2019!@localhost:27017/music')
     db = client[DATABASE_NAME]
     collection = db[COLLECTION_NAME]
     music = db[COLLECTION_NAME]

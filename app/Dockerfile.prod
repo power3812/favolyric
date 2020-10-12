@@ -12,11 +12,11 @@ ENV PYTHONUNBUFFERED 1
 
 # psycopg2のインストール
 RUN apk update \
-    && apk add --virtual build-deps gcc python3-dev musl-dev g++ libffi-dev\
+    && apk add --virtual build-deps gcc python3-dev musl-dev g++ libffi-dev musl-dev mariadb-dev \
     && apk add postgresql-dev \
     && pip install psycopg2 \
-    && apk --no-cache add gcc  g++ python3-dev musl-dev zlib-dev libjpeg libjpeg-turbo g++ cython jpeg-dev zlib-dev libffi-dev\
-    && apk del build-deps 
+    && apk --no-cache add gcc  g++ python3-dev musl-dev zlib-dev libjpeg libjpeg-turbo g++ cython jpeg-dev zlib-dev libffi-dev musl-dev mariadb-dev \
+    && apk del build-deps
 
 # Pipenvをインストール
 RUN pip install --upgrade pip \
