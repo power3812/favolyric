@@ -45,6 +45,9 @@ INSTALLED_APPS = [
     'django_cleanup',
     'bootstrap4',
     'social_django',
+    'django_mysql',
+    'favolyric',
+    'accounts',
 ]
 
 MIDDLEWARE = [
@@ -95,6 +98,10 @@ DATABASES = {
         'PASSWORD': 'docker',
         'HOST': 'mysql',
         'PORT': 3306,
+        'OPTIONS': {
+            'charset': 'utf8mb4',
+            'init_command': "SET sql_mode='STRICT_TRANS_TABLES', innodb_strict_mode=1",
+        },
     }
 }
 
@@ -219,3 +226,5 @@ sentry_sdk.init(
     # django.contrib.auth) you may enable sending PII data.
     send_default_pii=True
 )
+
+DJANGO_MYSQL_REWRITE_QUERIES = True

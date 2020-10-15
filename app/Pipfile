@@ -13,6 +13,10 @@ pymongo = "==3.11.0"
 django_demo = "*"
 wagtail = "*"
 mysqlclient = "*"
+django-mysql = "*"
+google-api-python-client = "*"
+google-cloud  = "*"
+google-cloud-vision  = "*"
 
 
 [dev-packages]

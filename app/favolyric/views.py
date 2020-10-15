@@ -8,6 +8,7 @@ from django.urls import reverse_lazy
 from django.views.generic.edit import CreateView
 import urllib.request
 import urllib.parse
+from .models import Views
 
 
 def index(request):
@@ -46,6 +47,7 @@ def result(request):
                 d["artist"] = ratings[i]["artist"]
                 d["music_img"] = ratings[i]["music_img"]
                 d["ituens_img"] = ratings[i]["ituens_img"]
+                Views.objects.create(lyric_id=ratings[i]["_id"])
                 break
         res.append(d)
     data = {
