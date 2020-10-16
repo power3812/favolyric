@@ -9,9 +9,29 @@ from django.views.generic.edit import CreateView
 import urllib.request
 import urllib.parse
 from .models import Views
+from redis import Redis
 
 
 def index(request):
+    #ranking = Ranking(Redis(), 'viewranking')
+    """
+    DATABASE_NAME = 'music'
+    COLLECTION_NAME = 'lyrics'
+    client = MongoClient('mongodb://root:MongoDB2019!@mongo:27017/music')
+    #client = MongoClient('mongodb://root:MongoDB2019!@localhost:27017/music')
+    db = client[DATABASE_NAME]
+    lyric = db[COLLECTION_NAME]
+    ranking = Ranking(Redis(), 'viewranking')
+    ranking_ids = ranking.gen_list()
+    res = [];
+    for id in ranking_ids:
+        col = lyric.find({'_id':id})
+        res.append(col)
+    client.close()
+    data = {
+        'res':res,
+    }
+    """
     return render(request, 'favolyric/index2.html')
 
 def result(request):
@@ -21,8 +41,8 @@ def result(request):
     #client = MongoClient('mongodb://root:MongoDB2019!@localhost:27017/music')
     db = client[DATABASE_NAME]
     collection = db[COLLECTION_NAME]
-    music = db[COLLECTION_NAME]
-    ratings = list(music.find())
+    lyric = db[COLLECTION_NAME]
+    ratings = list(lyric.find())
     client.close()
 
     #ratings_file = 'analyze_image_ituens.json'
@@ -47,7 +67,7 @@ def result(request):
                 d["artist"] = ratings[i]["artist"]
                 d["music_img"] = ratings[i]["music_img"]
                 d["ituens_img"] = ratings[i]["ituens_img"]
-                Views.objects.create(lyric_id=ratings[i]["_id"])
+                Views.objects.create(lyric_id = ratings[i]["_id"])
                 break
         res.append(d)
     data = {

@@ -22,6 +22,7 @@ services:
             - postgres
             - mongo
             - mysql
+            - redis
         networks:
             - db_net
 
@@ -55,6 +56,16 @@ services:
             - db_net
         expose:
             - "3306"
+
+    redis:
+        image: "redis:latest"
+        ports:
+            - "6379:6379"
+        command: redis-server --appendonly yes --requirepass redis2019!
+        volumes:
+            - ./redis/data:/data
+        networks:
+            - db_net
 
     mongo:
         image: mongo:3.4.2
