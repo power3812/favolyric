@@ -20,6 +20,11 @@ services:
         # 接続するサービスを指定
         depends_on:
             - postgres
+            - mongo
+            - mysql
+            - redis
+        networks:
+            - db_net
 
     postgres:
         # 公式からイメージをpull
@@ -28,6 +33,70 @@ services:
         volumes:
             - postgres_data:/var/lib/postgresql/data
         env_file: .env.db
+        networks:
+            - db_net
+
+    mysql:
+        image: mysql:5.7
+        restart: always
+        environment:
+            MYSQL_ROOT_PASSWORD: aabbccdd1239
+            MYSQL_DATABASE: django
+            MYSQL_USER: docker
+            MYSQL_PASSWORD: docker
+            TZ: 'Asia/Tokyo'
+        volumes:
+            - ./mysql/data:/var/lib/mysql
+            - ./mysql/my.cnf:/etc/mysql/conf.d/my.cnf
+            - ./logs:/var/log/mysql
+        ports:
+            - 3306:3306
+        command: mysqld --character-set-server=utf8 --collation-server=utf8_unicode_ci
+        networks:
+            - db_net
+        expose:
+            - "3306"
+
+    redis:
+        image: "redis:latest"
+        ports:
+            - "6379:6379"
+        command: redis-server --appendonly yes --requirepass redis2019!
+        volumes:
+            - ./redis/data:/data
+        networks:
+            - db_net
+
+    mongo:
+        image: mongo:3.4.2
+        restart: always
+        environment:
+            - MONGO_INITDB_ROOT_USERNAME=root
+            - MONGO_INITDB_ROOT_PASSWORD=MongoDB2019!
+            - MONGO_INITDB_DATABASE=music
+        ports:
+            - 27017:27017
+        restart: unless-stopped
+        command: mongod --auth
+        volumes:
+            - ./mongo/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
+        networks:
+            - db_net
+
+    mongo-express:
+        image: mongo-express
+        ports:
+            - 8082:8081
+        environment:
+            ME_CONFIG_BASICAUTH_USERNAME: admin
+            ME_CONFIG_BASICAUTH_PASSWORD: password
+            ME_CONFIG_MONGODB_PORT: 27017
+            ME_CONFIG_MONGODB_ADMINUSERNAME: root
+            ME_CONFIG_MONGODB_ADMINPASSWORD: MongoDB2019!
+        depends_on:
+            - mongo
+        networks:
+            - db_net
 
     nginx:
         build: ./nginx
@@ -37,6 +106,12 @@ services:
             - 1337:80
         depends_on:
             - django
+        networks:
+            - db_net
+
+networks:
+    db_net:
+        external: true
 
 # トップレベルに書く「名前付きvolumes」は複数サービスから参照できる
 volumes:

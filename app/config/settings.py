@@ -45,6 +45,9 @@ INSTALLED_APPS = [
     'django_cleanup',
     'bootstrap4',
     'social_django',
+    'django_mysql',
+    'favolyric',
+    'accounts',
 ]
 
 MIDDLEWARE = [
@@ -71,7 +74,7 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
 				'django.template.context_processors.static',
-                'social_django.context_processors.backends', 
+                'social_django.context_processors.backends',
                 'social_django.context_processors.login_redirect',
             ],
             'builtins': [
@@ -89,12 +92,16 @@ WSGI_APPLICATION = 'config.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        'USER': os.environ.get('DATABASE_USER', 'user'),
-        'PASSWORD': os.environ.get('DATABASE_PASSWORD', 'password'),
-        'HOST': os.environ.get('DATABASE_HOST', 'localhost'),
-        'PORT': os.environ.get('DATABASE_PORT', '5432'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'django',
+        'USER': 'docker',
+        'PASSWORD': 'docker',
+        'HOST': 'mysql',
+        'PORT': 3306,
+        'OPTIONS': {
+            'charset': 'utf8mb4',
+            'init_command': "SET sql_mode='STRICT_TRANS_TABLES', innodb_strict_mode=1",
+        },
     }
 }
 
@@ -135,8 +142,7 @@ LOGIN_URL = 'accounts:login'
 LOGIN_REDIRECT_URL = 'accounts:top'
 LOGOUT_REDIRECT_URL = 'accounts:login'
 SOCIAL_AUTH_URL_NAMESPACE = "accounts:social"
-
-SOCIAL_AUTH_POSTGRES_JSONFIELD = True
+SOCIAL_AUTH_POSTGRES_JSONFIELD = False
 
 
 # Internationalization
@@ -220,3 +226,15 @@ sentry_sdk.init(
     # django.contrib.auth) you may enable sending PII data.
     send_default_pii=True
 )
+
+DJANGO_MYSQL_REWRITE_QUERIES = True
+
+CACHES = {
+    'default': {
+        'BACKEND': 'django_redis.cache.RedisCache',
+        'LOCATION': 'redis://localhost:6379/',
+        'OPTIONS': {
+            'CLIENT_CLASS': 'django_redis.client.DefaultClient'
+        }
+    }
+}

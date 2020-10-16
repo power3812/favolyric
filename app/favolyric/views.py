@@ -1,35 +1,61 @@
 from django.shortcuts import render
 from . rating import pearson_score, find_similar_users
 import json
-from pymongo import Connection
+from pymongo import MongoClient
 from django.contrib.auth import login
 from django.http import HttpResponseRedirect
 from django.urls import reverse_lazy
 from django.views.generic.edit import CreateView
+import urllib.request
+import urllib.parse
+from .models import Views
+from redis import Redis
 
 
 def index(request):
-    return render(request, 'favolyric/index.html')
+    #ranking = Ranking(Redis(), 'viewranking')
+    """
+    DATABASE_NAME = 'music'
+    COLLECTION_NAME = 'lyrics'
+    client = MongoClient('mongodb://root:MongoDB2019!@mongo:27017/music')
+    #client = MongoClient('mongodb://root:MongoDB2019!@localhost:27017/music')
+    db = client[DATABASE_NAME]
+    lyric = db[COLLECTION_NAME]
+    ranking = Ranking(Redis(), 'viewranking')
+    ranking_ids = ranking.gen_list()
+    res = [];
+    for id in ranking_ids:
+        col = lyric.find({'_id':id})
+        res.append(col)
+    client.close()
+    data = {
+        'res':res,
+    }
+    """
+    return render(request, 'favolyric/index2.html')
 
 def result(request):
-    """
-    databaseName = "mydb"
-    connection = Connection()
-    db = connection[databaseName]
-    music = db['music']
-    data=list(music.find())
-    """
-    ratings_file = 'analyze_image_ituens.json'
-    ratings = json.load(open(ratings_file, "r", encoding="utf-8"))
+    DATABASE_NAME = 'music'
+    COLLECTION_NAME = 'lyrics'
+    client = MongoClient('mongodb://root:MongoDB2019!@mongo:27017/music')
+    #client = MongoClient('mongodb://root:MongoDB2019!@localhost:27017/music')
+    db = client[DATABASE_NAME]
+    collection = db[COLLECTION_NAME]
+    lyric = db[COLLECTION_NAME]
+    ratings = list(lyric.find())
+    client.close()
+
+    #ratings_file = 'analyze_image_ituens.json'
+    #ratings = json.load(open(ratings_file, "r", encoding="utf-8"))
 
     #データ変換
     dic = {}
     for i in range(len(ratings)):
         dic[ratings[i]['title']] = ratings[i]["emotions"]
 
-    dic['User'] = {'happy': float(request.GET.get('happy')), 'sad': float(request.GET.get('sad')),
-        'disgust': float(request.GET.get('disgust')), 'anger': float(request.GET.get('anger')),
-        'fear': float(request.GET.get('fear')), 'surprise': float(request.GET.get('surprise'))}
+    dic['User'] = {'happy': float(request.POST.get('happy')), 'sad': float(request.POST.get('sad')),
+        'disgust': float(request.POST.get('disgust')), 'anger': float(request.POST.get('anger')),
+        'fear': float(request.POST.get('fear')), 'surprise': float(request.POST.get('surprise'))}
     user = "User"
     similar_users = find_similar_users(dic, user, 3)
     res = []
@@ -41,6 +67,7 @@ def result(request):
                 d["artist"] = ratings[i]["artist"]
                 d["music_img"] = ratings[i]["music_img"]
                 d["ituens_img"] = ratings[i]["ituens_img"]
+                Views.objects.create(lyric_id = ratings[i]["_id"])
                 break
         res.append(d)
     data = {
