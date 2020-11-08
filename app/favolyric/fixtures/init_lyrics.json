@@ -1,0 +1,3722 @@
+[
+    {
+        "model": "favolyric.lyrics",
+        "pk": 1,
+        "fields": {
+            "id": 1,
+            "title": "廻廻奇譚",
+            "artist_id": 3,
+            "emotion_id": 1,
+            "image_id": 1,
+            "itunes_link_id": 1
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 2,
+        "fields": {
+            "id": 2,
+            "title": "Pretender",
+            "artist_id": 4,
+            "emotion_id": 2,
+            "image_id": 2,
+            "itunes_link_id": 2
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 3,
+        "fields": {
+            "id": 3,
+            "title": "スパークル [original ver.]",
+            "artist_id": 5,
+            "emotion_id": 3,
+            "image_id": 3,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 4,
+        "fields": {
+            "id": 4,
+            "title": "空の青さを知る人よ",
+            "artist_id": 6,
+            "emotion_id": 4,
+            "image_id": 4,
+            "itunes_link_id": 4
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 5,
+        "fields": {
+            "id": 5,
+            "title": "手紙 ～拝啓 十五の君へ～",
+            "artist_id": 7,
+            "emotion_id": 5,
+            "image_id": 5,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 6,
+        "fields": {
+            "id": 6,
+            "title": "Sacred world",
+            "artist_id": 8,
+            "emotion_id": 6,
+            "image_id": 6,
+            "itunes_link_id": 5
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 7,
+        "fields": {
+            "id": 7,
+            "title": "男の勲章",
+            "artist_id": 9,
+            "emotion_id": 7,
+            "image_id": 7,
+            "itunes_link_id": 6
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 8,
+        "fields": {
+            "id": 8,
+            "title": "Focus",
+            "artist_id": 10,
+            "emotion_id": 8,
+            "image_id": 8,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 9,
+        "fields": {
+            "id": 9,
+            "title": "裸の心",
+            "artist_id": 6,
+            "emotion_id": 9,
+            "image_id": 9,
+            "itunes_link_id": 7
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 10,
+        "fields": {
+            "id": 10,
+            "title": "イエスタデイ",
+            "artist_id": 4,
+            "emotion_id": 10,
+            "image_id": 10,
+            "itunes_link_id": 8
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 11,
+        "fields": {
+            "id": 11,
+            "title": "エメラルド",
+            "artist_id": 11,
+            "emotion_id": 11,
+            "image_id": 11,
+            "itunes_link_id": 9
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 12,
+        "fields": {
+            "id": 12,
+            "title": "惑星ループ",
+            "artist_id": 3,
+            "emotion_id": 12,
+            "image_id": 12,
+            "itunes_link_id": 10
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 13,
+        "fields": {
+            "id": 13,
+            "title": "パラボラ",
+            "artist_id": 4,
+            "emotion_id": 13,
+            "image_id": 13,
+            "itunes_link_id": 11
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 14,
+        "fields": {
+            "id": 14,
+            "title": "ANIMA",
+            "artist_id": 12,
+            "emotion_id": 14,
+            "image_id": 14,
+            "itunes_link_id": 12
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 15,
+        "fields": {
+            "id": 15,
+            "title": "どろん",
+            "artist_id": 13,
+            "emotion_id": 15,
+            "image_id": 15,
+            "itunes_link_id": 13
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 16,
+        "fields": {
+            "id": 16,
+            "title": "キンモクセイ",
+            "artist_id": 14,
+            "emotion_id": 16,
+            "image_id": 16,
+            "itunes_link_id": 14
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 17,
+        "fields": {
+            "id": 17,
+            "title": "白日",
+            "artist_id": 13,
+            "emotion_id": 17,
+            "image_id": 17,
+            "itunes_link_id": 15
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 18,
+        "fields": {
+            "id": 18,
+            "title": "CITRUS",
+            "artist_id": 15,
+            "emotion_id": 18,
+            "image_id": 18,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 19,
+        "fields": {
+            "id": 19,
+            "title": "愛のうた",
+            "artist_id": 16,
+            "emotion_id": 19,
+            "image_id": 19,
+            "itunes_link_id": 16
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 20,
+        "fields": {
+            "id": 20,
+            "title": "前前前世 (movie ver.)",
+            "artist_id": 5,
+            "emotion_id": 20,
+            "image_id": 20,
+            "itunes_link_id": 17
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 21,
+        "fields": {
+            "id": 21,
+            "title": "シルエット",
+            "artist_id": 17,
+            "emotion_id": 21,
+            "image_id": 21,
+            "itunes_link_id": 18
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 22,
+        "fields": {
+            "id": 22,
+            "title": "群青",
+            "artist_id": 18,
+            "emotion_id": 22,
+            "image_id": 22,
+            "itunes_link_id": 19
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 23,
+        "fields": {
+            "id": 23,
+            "title": "I LOVE...",
+            "artist_id": 4,
+            "emotion_id": 23,
+            "image_id": 23,
+            "itunes_link_id": 20
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 24,
+        "fields": {
+            "id": 24,
+            "title": "ただ君に晴れ",
+            "artist_id": 19,
+            "emotion_id": 24,
+            "image_id": 24,
+            "itunes_link_id": 21
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 25,
+        "fields": {
+            "id": 25,
+            "title": "未完成",
+            "artist_id": 20,
+            "emotion_id": 25,
+            "image_id": 25,
+            "itunes_link_id": 22
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 26,
+        "fields": {
+            "id": 26,
+            "title": "迷える羊",
+            "artist_id": 2,
+            "emotion_id": 26,
+            "image_id": 26,
+            "itunes_link_id": 23
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 27,
+        "fields": {
+            "id": 27,
+            "title": "帰ろう",
+            "artist_id": 21,
+            "emotion_id": 27,
+            "image_id": 27,
+            "itunes_link_id": 24
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 28,
+        "fields": {
+            "id": 28,
+            "title": "オールドファッション",
+            "artist_id": 11,
+            "emotion_id": 28,
+            "image_id": 28,
+            "itunes_link_id": 25
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 29,
+        "fields": {
+            "id": 29,
+            "title": "あの夢をなぞって",
+            "artist_id": 18,
+            "emotion_id": 29,
+            "image_id": 29,
+            "itunes_link_id": 26
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 30,
+        "fields": {
+            "id": 30,
+            "title": "栄冠は君に輝く",
+            "artist_id": 22,
+            "emotion_id": 30,
+            "image_id": 30,
+            "itunes_link_id": 27
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 31,
+        "fields": {
+            "id": 31,
+            "title": "別の人の彼女になったよ",
+            "artist_id": 23,
+            "emotion_id": 31,
+            "image_id": 31,
+            "itunes_link_id": 28
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 32,
+        "fields": {
+            "id": 32,
+            "title": "Make you happy",
+            "artist_id": 24,
+            "emotion_id": 32,
+            "image_id": 32,
+            "itunes_link_id": 29
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 33,
+        "fields": {
+            "id": 33,
+            "title": "夜明けの街",
+            "artist_id": 25,
+            "emotion_id": 33,
+            "image_id": 33,
+            "itunes_link_id": 30
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 34,
+        "fields": {
+            "id": 34,
+            "title": "木綿のハンカチーフ",
+            "artist_id": 26,
+            "emotion_id": 34,
+            "image_id": 34,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 35,
+        "fields": {
+            "id": 35,
+            "title": "ORION",
+            "artist_id": 27,
+            "emotion_id": 35,
+            "image_id": 35,
+            "itunes_link_id": 31
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 36,
+        "fields": {
+            "id": 36,
+            "title": "砂の惑星 ( + 初音ミク)",
+            "artist_id": 2,
+            "emotion_id": 36,
+            "image_id": 36,
+            "itunes_link_id": 32
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 37,
+        "fields": {
+            "id": 37,
+            "title": "優しさ",
+            "artist_id": 21,
+            "emotion_id": 37,
+            "image_id": 27,
+            "itunes_link_id": 33
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 38,
+        "fields": {
+            "id": 38,
+            "title": "Good Vibes Only feat. JP THE WAVY, EXILE SHOKICHI",
+            "artist_id": 28,
+            "emotion_id": 38,
+            "image_id": 37,
+            "itunes_link_id": 34
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 39,
+        "fields": {
+            "id": 39,
+            "title": "DYING WISH",
+            "artist_id": 29,
+            "emotion_id": 39,
+            "image_id": 38,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 40,
+        "fields": {
+            "id": 40,
+            "title": "優しい人",
+            "artist_id": 2,
+            "emotion_id": 40,
+            "image_id": 26,
+            "itunes_link_id": 35
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 41,
+        "fields": {
+            "id": 41,
+            "title": "カブトムシ",
+            "artist_id": 30,
+            "emotion_id": 41,
+            "image_id": 39,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 42,
+        "fields": {
+            "id": 42,
+            "title": "おジャ魔女カーニバル!!",
+            "artist_id": 31,
+            "emotion_id": 42,
+            "image_id": 40,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 43,
+        "fields": {
+            "id": 43,
+            "title": "HELLO",
+            "artist_id": 4,
+            "emotion_id": 43,
+            "image_id": 41,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 44,
+        "fields": {
+            "id": 44,
+            "title": "YOKAZE",
+            "artist_id": 32,
+            "emotion_id": 44,
+            "image_id": 42,
+            "itunes_link_id": 36
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 45,
+        "fields": {
+            "id": 45,
+            "title": "世界はファンシー",
+            "artist_id": 33,
+            "emotion_id": 45,
+            "image_id": 43,
+            "itunes_link_id": 37
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 46,
+        "fields": {
+            "id": 46,
+            "title": "ヒプノシスマイク -Division Battle Anthem- +",
+            "artist_id": 34,
+            "emotion_id": 46,
+            "image_id": 44,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 47,
+        "fields": {
+            "id": 47,
+            "title": "silent",
+            "artist_id": 35,
+            "emotion_id": 47,
+            "image_id": 45,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 48,
+        "fields": {
+            "id": 48,
+            "title": "スマイル",
+            "artist_id": 36,
+            "emotion_id": 48,
+            "image_id": 46,
+            "itunes_link_id": 38
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 49,
+        "fields": {
+            "id": 49,
+            "title": "タッチ",
+            "artist_id": 37,
+            "emotion_id": 49,
+            "image_id": 47,
+            "itunes_link_id": 39
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 50,
+        "fields": {
+            "id": 50,
+            "title": "願い",
+            "artist_id": 38,
+            "emotion_id": 50,
+            "image_id": 48,
+            "itunes_link_id": 40
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 51,
+        "fields": {
+            "id": 51,
+            "title": "朝陽",
+            "artist_id": 6,
+            "emotion_id": 51,
+            "image_id": 49,
+            "itunes_link_id": 41
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 52,
+        "fields": {
+            "id": 52,
+            "title": "カイト",
+            "artist_id": 39,
+            "emotion_id": 52,
+            "image_id": 50,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 53,
+        "fields": {
+            "id": 53,
+            "title": "メリクリ",
+            "artist_id": 40,
+            "emotion_id": 53,
+            "image_id": 51,
+            "itunes_link_id": 42
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 54,
+        "fields": {
+            "id": 54,
+            "title": "Your Song",
+            "artist_id": 41,
+            "emotion_id": 54,
+            "image_id": 52,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 55,
+        "fields": {
+            "id": 55,
+            "title": "宿命",
+            "artist_id": 4,
+            "emotion_id": 55,
+            "image_id": 53,
+            "itunes_link_id": 43
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 56,
+        "fields": {
+            "id": 56,
+            "title": "会いたい",
+            "artist_id": 42,
+            "emotion_id": 56,
+            "image_id": 54,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 57,
+        "fields": {
+            "id": 57,
+            "title": "Mela!",
+            "artist_id": 43,
+            "emotion_id": 57,
+            "image_id": 55,
+            "itunes_link_id": 44
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 58,
+        "fields": {
+            "id": 58,
+            "title": "星影のエール",
+            "artist_id": 44,
+            "emotion_id": 58,
+            "image_id": 56,
+            "itunes_link_id": 45
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 59,
+        "fields": {
+            "id": 59,
+            "title": "turn over?",
+            "artist_id": 45,
+            "emotion_id": 59,
+            "image_id": 57,
+            "itunes_link_id": 46
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 60,
+        "fields": {
+            "id": 60,
+            "title": "PLACEBO ＋ 野田洋次郎",
+            "artist_id": 2,
+            "emotion_id": 60,
+            "image_id": 26,
+            "itunes_link_id": 47
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 61,
+        "fields": {
+            "id": 61,
+            "title": "躍動",
+            "artist_id": 46,
+            "emotion_id": 61,
+            "image_id": 58,
+            "itunes_link_id": 48
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 62,
+        "fields": {
+            "id": 62,
+            "title": "ダイナミック琉球",
+            "artist_id": 47,
+            "emotion_id": 62,
+            "image_id": 59,
+            "itunes_link_id": 49
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 63,
+        "fields": {
+            "id": 63,
+            "title": "D.D.",
+            "artist_id": 48,
+            "emotion_id": 63,
+            "image_id": 60,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 64,
+        "fields": {
+            "id": 64,
+            "title": "眠り姫",
+            "artist_id": 35,
+            "emotion_id": 64,
+            "image_id": 61,
+            "itunes_link_id": 50
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 65,
+        "fields": {
+            "id": 65,
+            "title": "ロメオ",
+            "artist_id": 49,
+            "emotion_id": 65,
+            "image_id": 62,
+            "itunes_link_id": 51
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 66,
+        "fields": {
+            "id": 66,
+            "title": "ノーダウト",
+            "artist_id": 4,
+            "emotion_id": 66,
+            "image_id": 63,
+            "itunes_link_id": 52
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 67,
+        "fields": {
+            "id": 67,
+            "title": "小さな恋のうた",
+            "artist_id": 50,
+            "emotion_id": 67,
+            "image_id": 64,
+            "itunes_link_id": 53
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 68,
+        "fields": {
+            "id": 68,
+            "title": "Laughter",
+            "artist_id": 4,
+            "emotion_id": 68,
+            "image_id": 41,
+            "itunes_link_id": 54
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 69,
+        "fields": {
+            "id": 69,
+            "title": "わがまま",
+            "artist_id": 51,
+            "emotion_id": 69,
+            "image_id": 65,
+            "itunes_link_id": 55
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 70,
+        "fields": {
+            "id": 70,
+            "title": "劣等上等",
+            "artist_id": 52,
+            "emotion_id": 70,
+            "image_id": 66,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 71,
+        "fields": {
+            "id": 71,
+            "title": "ハニーメモリー",
+            "artist_id": 30,
+            "emotion_id": 71,
+            "image_id": 67,
+            "itunes_link_id": 56
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 72,
+        "fields": {
+            "id": 72,
+            "title": "HANABI",
+            "artist_id": 45,
+            "emotion_id": 72,
+            "image_id": 68,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 73,
+        "fields": {
+            "id": 73,
+            "title": "竈門炭治郎のうた",
+            "artist_id": 53,
+            "emotion_id": 73,
+            "image_id": 69,
+            "itunes_link_id": 57
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 74,
+        "fields": {
+            "id": 74,
+            "title": "Wasted Nights",
+            "artist_id": 54,
+            "emotion_id": 74,
+            "image_id": 70,
+            "itunes_link_id": 58
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 75,
+        "fields": {
+            "id": 75,
+            "title": "春雷",
+            "artist_id": 2,
+            "emotion_id": 75,
+            "image_id": 36,
+            "itunes_link_id": 59
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 76,
+        "fields": {
+            "id": 76,
+            "title": "Gravity",
+            "artist_id": 55,
+            "emotion_id": 76,
+            "image_id": 71,
+            "itunes_link_id": 60
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 77,
+        "fields": {
+            "id": 77,
+            "title": "世界が終るまでは…",
+            "artist_id": 56,
+            "emotion_id": 77,
+            "image_id": 72,
+            "itunes_link_id": 61
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 78,
+        "fields": {
+            "id": 78,
+            "title": "夢見る少女じゃいられない",
+            "artist_id": 57,
+            "emotion_id": 78,
+            "image_id": 73,
+            "itunes_link_id": 62
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 79,
+        "fields": {
+            "id": 79,
+            "title": "僕は君の事が好きだけど君は僕を別に好きじゃないみたい",
+            "artist_id": 11,
+            "emotion_id": 79,
+            "image_id": 74,
+            "itunes_link_id": 63
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 80,
+        "fields": {
+            "id": 80,
+            "title": "アカシア",
+            "artist_id": 55,
+            "emotion_id": 80,
+            "image_id": 75,
+            "itunes_link_id": 64
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 81,
+        "fields": {
+            "id": 81,
+            "title": "クリスマスソング",
+            "artist_id": 11,
+            "emotion_id": 81,
+            "image_id": 76,
+            "itunes_link_id": 65
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 82,
+        "fields": {
+            "id": 82,
+            "title": "Hoodstar",
+            "artist_id": 34,
+            "emotion_id": 82,
+            "image_id": 77,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 83,
+        "fields": {
+            "id": 83,
+            "title": "Flamingo",
+            "artist_id": 2,
+            "emotion_id": 83,
+            "image_id": 78,
+            "itunes_link_id": 66
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 84,
+        "fields": {
+            "id": 84,
+            "title": "FEARS",
+            "artist_id": 58,
+            "emotion_id": 84,
+            "image_id": 79,
+            "itunes_link_id": 67
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 85,
+        "fields": {
+            "id": 85,
+            "title": "結",
+            "artist_id": 59,
+            "emotion_id": 85,
+            "image_id": 80,
+            "itunes_link_id": 68
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 86,
+        "fields": {
+            "id": 86,
+            "title": "Walking with you",
+            "artist_id": 60,
+            "emotion_id": 86,
+            "image_id": 81,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 87,
+        "fields": {
+            "id": 87,
+            "title": "感電",
+            "artist_id": 2,
+            "emotion_id": 87,
+            "image_id": 26,
+            "itunes_link_id": 69
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 88,
+        "fields": {
+            "id": 88,
+            "title": "カムパネルラ",
+            "artist_id": 2,
+            "emotion_id": 88,
+            "image_id": 26,
+            "itunes_link_id": 70
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 89,
+        "fields": {
+            "id": 89,
+            "title": "プロローグ",
+            "artist_id": 61,
+            "emotion_id": 89,
+            "image_id": 82,
+            "itunes_link_id": 71
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 90,
+        "fields": {
+            "id": 90,
+            "title": "怪物さん feat.あいみょん",
+            "artist_id": 62,
+            "emotion_id": 90,
+            "image_id": 83,
+            "itunes_link_id": 72
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 91,
+        "fields": {
+            "id": 91,
+            "title": "イヨマンテの夜",
+            "artist_id": 63,
+            "emotion_id": 91,
+            "image_id": 84,
+            "itunes_link_id": 73
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 92,
+        "fields": {
+            "id": 92,
+            "title": "灰色と青 ( + 菅田将暉)",
+            "artist_id": 2,
+            "emotion_id": 92,
+            "image_id": 36,
+            "itunes_link_id": 74
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 93,
+        "fields": {
+            "id": 93,
+            "title": "新宝島",
+            "artist_id": 64,
+            "emotion_id": 93,
+            "image_id": 85,
+            "itunes_link_id": 75
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 94,
+        "fields": {
+            "id": 94,
+            "title": "お願いマッスル",
+            "artist_id": 65,
+            "emotion_id": 94,
+            "image_id": 86,
+            "itunes_link_id": 76
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 95,
+        "fields": {
+            "id": 95,
+            "title": "STORY OF DUTY",
+            "artist_id": 66,
+            "emotion_id": 95,
+            "image_id": 87,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 96,
+        "fields": {
+            "id": 96,
+            "title": "Gimme×Gimme feat. 初音ミク・鏡音リン",
+            "artist_id": 67,
+            "emotion_id": 96,
+            "image_id": 88,
+            "itunes_link_id": 77
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 97,
+        "fields": {
+            "id": 97,
+            "title": "そっけない",
+            "artist_id": 5,
+            "emotion_id": 97,
+            "image_id": 89,
+            "itunes_link_id": 78
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 98,
+        "fields": {
+            "id": 98,
+            "title": "アイノカタチ feat.HIDE(GReeeeN)",
+            "artist_id": 68,
+            "emotion_id": 98,
+            "image_id": 90,
+            "itunes_link_id": 79
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 99,
+        "fields": {
+            "id": 99,
+            "title": "紅蓮華",
+            "artist_id": 1,
+            "emotion_id": 99,
+            "image_id": 91,
+            "itunes_link_id": 80
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 100,
+        "fields": {
+            "id": 100,
+            "title": "5×20",
+            "artist_id": 39,
+            "emotion_id": 100,
+            "image_id": 92,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 101,
+        "fields": {
+            "id": 101,
+            "title": "自由が丘",
+            "artist_id": 27,
+            "emotion_id": 101,
+            "image_id": 93,
+            "itunes_link_id": 81
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 102,
+        "fields": {
+            "id": 102,
+            "title": "今君に伝えたいこと",
+            "artist_id": 10,
+            "emotion_id": 102,
+            "image_id": 94,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 103,
+        "fields": {
+            "id": 103,
+            "title": "さよならの今日に",
+            "artist_id": 6,
+            "emotion_id": 103,
+            "image_id": 95,
+            "itunes_link_id": 82
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 104,
+        "fields": {
+            "id": 104,
+            "title": "夜永唄",
+            "artist_id": 69,
+            "emotion_id": 104,
+            "image_id": 96,
+            "itunes_link_id": 83
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 105,
+        "fields": {
+            "id": 105,
+            "title": "花に亡霊",
+            "artist_id": 19,
+            "emotion_id": 105,
+            "image_id": 97,
+            "itunes_link_id": 84
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 106,
+        "fields": {
+            "id": 106,
+            "title": "夜に駆ける",
+            "artist_id": 18,
+            "emotion_id": 106,
+            "image_id": 98,
+            "itunes_link_id": 85
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 107,
+        "fields": {
+            "id": 107,
+            "title": "じゃあね。",
+            "artist_id": 70,
+            "emotion_id": 107,
+            "image_id": 99,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 108,
+        "fields": {
+            "id": 108,
+            "title": "NAVIGATOR",
+            "artist_id": 71,
+            "emotion_id": 108,
+            "image_id": 100,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 109,
+        "fields": {
+            "id": 109,
+            "title": "何なんw",
+            "artist_id": 21,
+            "emotion_id": 109,
+            "image_id": 101,
+            "itunes_link_id": 86
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 110,
+        "fields": {
+            "id": 110,
+            "title": "ハルノヒ",
+            "artist_id": 6,
+            "emotion_id": 110,
+            "image_id": 102,
+            "itunes_link_id": 87
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 111,
+        "fields": {
+            "id": 111,
+            "title": "Dragon Night",
+            "artist_id": 35,
+            "emotion_id": 111,
+            "image_id": 103,
+            "itunes_link_id": 88
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 112,
+        "fields": {
+            "id": 112,
+            "title": "あゝオオサカdreamin'night",
+            "artist_id": 72,
+            "emotion_id": 112,
+            "image_id": 104,
+            "itunes_link_id": 89
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 113,
+        "fields": {
+            "id": 113,
+            "title": "LOST IN PARADISE feat. AKLO",
+            "artist_id": 73,
+            "emotion_id": 113,
+            "image_id": 105,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 114,
+        "fields": {
+            "id": 114,
+            "title": "瞬き",
+            "artist_id": 11,
+            "emotion_id": 114,
+            "image_id": 106,
+            "itunes_link_id": 90
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 115,
+        "fields": {
+            "id": 115,
+            "title": "Night Diver",
+            "artist_id": 74,
+            "emotion_id": 115,
+            "image_id": 107,
+            "itunes_link_id": 91
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 116,
+        "fields": {
+            "id": 116,
+            "title": "きらきら",
+            "artist_id": 42,
+            "emotion_id": 116,
+            "image_id": 108,
+            "itunes_link_id": 92
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 117,
+        "fields": {
+            "id": 117,
+            "title": "Fantasista～ファンタジスタ～",
+            "artist_id": 75,
+            "emotion_id": 117,
+            "image_id": 109,
+            "itunes_link_id": 93
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 118,
+        "fields": {
+            "id": 118,
+            "title": "Stand by me, Stand by you.",
+            "artist_id": 76,
+            "emotion_id": 118,
+            "image_id": 110,
+            "itunes_link_id": 94
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 119,
+        "fields": {
+            "id": 119,
+            "title": "だから僕は音楽を辞めた",
+            "artist_id": 19,
+            "emotion_id": 119,
+            "image_id": 111,
+            "itunes_link_id": 95
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 120,
+        "fields": {
+            "id": 120,
+            "title": "マリーゴールド",
+            "artist_id": 6,
+            "emotion_id": 120,
+            "image_id": 112,
+            "itunes_link_id": 96
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 121,
+        "fields": {
+            "id": 121,
+            "title": "Bad Ass Temple Funky Sounds",
+            "artist_id": 77,
+            "emotion_id": 121,
+            "image_id": 113,
+            "itunes_link_id": 97
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 122,
+        "fields": {
+            "id": 122,
+            "title": "恋人ごっこ",
+            "artist_id": 78,
+            "emotion_id": 122,
+            "image_id": 114,
+            "itunes_link_id": 98
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 123,
+        "fields": {
+            "id": 123,
+            "title": "虹",
+            "artist_id": 79,
+            "emotion_id": 123,
+            "image_id": 115,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 124,
+        "fields": {
+            "id": 124,
+            "title": "たぶん",
+            "artist_id": 18,
+            "emotion_id": 124,
+            "image_id": 116,
+            "itunes_link_id": 99
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 125,
+        "fields": {
+            "id": 125,
+            "title": "LOSER",
+            "artist_id": 2,
+            "emotion_id": 125,
+            "image_id": 117,
+            "itunes_link_id": 100
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 126,
+        "fields": {
+            "id": 126,
+            "title": "香水",
+            "artist_id": 80,
+            "emotion_id": 126,
+            "image_id": 118,
+            "itunes_link_id": 101
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 127,
+        "fields": {
+            "id": 127,
+            "title": "サヨナラの意味",
+            "artist_id": 81,
+            "emotion_id": 127,
+            "image_id": 119,
+            "itunes_link_id": 102
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 128,
+        "fields": {
+            "id": 128,
+            "title": "シンデレラガール",
+            "artist_id": 10,
+            "emotion_id": 128,
+            "image_id": 120,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 129,
+        "fields": {
+            "id": 129,
+            "title": "パプリカ",
+            "artist_id": 2,
+            "emotion_id": 129,
+            "image_id": 121,
+            "itunes_link_id": 103
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 130,
+        "fields": {
+            "id": 130,
+            "title": "A・RA・SHI",
+            "artist_id": 39,
+            "emotion_id": 130,
+            "image_id": 122,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 131,
+        "fields": {
+            "id": 131,
+            "title": "紅葉(もみじ)",
+            "artist_id": 82,
+            "emotion_id": 131,
+            "image_id": 123,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 132,
+        "fields": {
+            "id": 132,
+            "title": "高嶺の花子さん",
+            "artist_id": 11,
+            "emotion_id": 132,
+            "image_id": 124,
+            "itunes_link_id": 104
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 133,
+        "fields": {
+            "id": 133,
+            "title": "種のうた",
+            "artist_id": 16,
+            "emotion_id": 133,
+            "image_id": 125,
+            "itunes_link_id": 105
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 134,
+        "fields": {
+            "id": 134,
+            "title": "君はロックを聴かない",
+            "artist_id": 6,
+            "emotion_id": 134,
+            "image_id": 126,
+            "itunes_link_id": 106
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 135,
+        "fields": {
+            "id": 135,
+            "title": "koi-wazurai",
+            "artist_id": 10,
+            "emotion_id": 135,
+            "image_id": 127,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 136,
+        "fields": {
+            "id": 136,
+            "title": "Butter-Fly",
+            "artist_id": 83,
+            "emotion_id": 136,
+            "image_id": 128,
+            "itunes_link_id": 107
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 137,
+        "fields": {
+            "id": 137,
+            "title": "1CHANCE",
+            "artist_id": 84,
+            "emotion_id": 137,
+            "image_id": 129,
+            "itunes_link_id": 108
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 138,
+        "fields": {
+            "id": 138,
+            "title": "合法的トビ方ノススメ",
+            "artist_id": 85,
+            "emotion_id": 138,
+            "image_id": 130,
+            "itunes_link_id": 109
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 139,
+        "fields": {
+            "id": 139,
+            "title": "いつか",
+            "artist_id": 59,
+            "emotion_id": 139,
+            "image_id": 131,
+            "itunes_link_id": 110
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 140,
+        "fields": {
+            "id": 140,
+            "title": "ライオン",
+            "artist_id": 86,
+            "emotion_id": 140,
+            "image_id": 132,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 141,
+        "fields": {
+            "id": 141,
+            "title": "ヒロイン",
+            "artist_id": 11,
+            "emotion_id": 141,
+            "image_id": 133,
+            "itunes_link_id": 111
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 142,
+        "fields": {
+            "id": 142,
+            "title": "ハッピーエンド",
+            "artist_id": 11,
+            "emotion_id": 142,
+            "image_id": 134,
+            "itunes_link_id": 112
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 143,
+        "fields": {
+            "id": 143,
+            "title": "まちがいさがし",
+            "artist_id": 87,
+            "emotion_id": 143,
+            "image_id": 135,
+            "itunes_link_id": 113
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 144,
+        "fields": {
+            "id": 144,
+            "title": "猫",
+            "artist_id": 88,
+            "emotion_id": 144,
+            "image_id": 136,
+            "itunes_link_id": 114
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 145,
+        "fields": {
+            "id": 145,
+            "title": "アイネクライネ",
+            "artist_id": 2,
+            "emotion_id": 145,
+            "image_id": 138,
+            "itunes_link_id": 116
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 146,
+        "fields": {
+            "id": 146,
+            "title": "アイカタ",
+            "artist_id": 90,
+            "emotion_id": 146,
+            "image_id": 139,
+            "itunes_link_id": 117
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 147,
+        "fields": {
+            "id": 147,
+            "title": "風を食む",
+            "artist_id": 19,
+            "emotion_id": 147,
+            "image_id": 140,
+            "itunes_link_id": 118
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 148,
+        "fields": {
+            "id": 148,
+            "title": "朝顔",
+            "artist_id": 91,
+            "emotion_id": 148,
+            "image_id": 141,
+            "itunes_link_id": 119
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 149,
+        "fields": {
+            "id": 149,
+            "title": "チェリー",
+            "artist_id": 92,
+            "emotion_id": 149,
+            "image_id": 142,
+            "itunes_link_id": 120
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 150,
+        "fields": {
+            "id": 150,
+            "title": "カナリヤ",
+            "artist_id": 2,
+            "emotion_id": 150,
+            "image_id": 26,
+            "itunes_link_id": 121
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 151,
+        "fields": {
+            "id": 151,
+            "title": "鱗(うろこ)",
+            "artist_id": 93,
+            "emotion_id": 151,
+            "image_id": 143,
+            "itunes_link_id": 122
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 152,
+        "fields": {
+            "id": 152,
+            "title": "生活(仮)",
+            "artist_id": 10,
+            "emotion_id": 152,
+            "image_id": 144,
+            "itunes_link_id": 123
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 153,
+        "fields": {
+            "id": 153,
+            "title": "napori",
+            "artist_id": 94,
+            "emotion_id": 153,
+            "image_id": 3,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 154,
+        "fields": {
+            "id": 154,
+            "title": "電乱★カウントダウン",
+            "artist_id": 95,
+            "emotion_id": 154,
+            "image_id": 145,
+            "itunes_link_id": 124
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 155,
+        "fields": {
+            "id": 155,
+            "title": "ヒプノシスマイク -Division Rap Battle-＋",
+            "artist_id": 34,
+            "emotion_id": 155,
+            "image_id": 146,
+            "itunes_link_id": 125
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 156,
+        "fields": {
+            "id": 156,
+            "title": "Hug feat. kojikoji (Fantasy club ver.)",
+            "artist_id": 96,
+            "emotion_id": 156,
+            "image_id": 147,
+            "itunes_link_id": 126
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 157,
+        "fields": {
+            "id": 157,
+            "title": "UB",
+            "artist_id": 97,
+            "emotion_id": 157,
+            "image_id": 148,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 158,
+        "fields": {
+            "id": 158,
+            "title": "Decollete",
+            "artist_id": 2,
+            "emotion_id": 158,
+            "image_id": 26,
+            "itunes_link_id": 127
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 159,
+        "fields": {
+            "id": 159,
+            "title": "振り子",
+            "artist_id": 61,
+            "emotion_id": 159,
+            "image_id": 149,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 160,
+        "fields": {
+            "id": 160,
+            "title": "炎",
+            "artist_id": 1,
+            "emotion_id": 160,
+            "image_id": 150,
+            "itunes_link_id": 128
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 161,
+        "fields": {
+            "id": 161,
+            "title": "長崎の鐘",
+            "artist_id": 98,
+            "emotion_id": 161,
+            "image_id": 151,
+            "itunes_link_id": 129
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 162,
+        "fields": {
+            "id": 162,
+            "title": "シャルル",
+            "artist_id": 99,
+            "emotion_id": 162,
+            "image_id": 152,
+            "itunes_link_id": 130
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 163,
+        "fields": {
+            "id": 163,
+            "title": "第六感",
+            "artist_id": 100,
+            "emotion_id": 163,
+            "image_id": 153,
+            "itunes_link_id": 131
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 164,
+        "fields": {
+            "id": 164,
+            "title": "ヒッチコック",
+            "artist_id": 19,
+            "emotion_id": 164,
+            "image_id": 24,
+            "itunes_link_id": 132
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 165,
+        "fields": {
+            "id": 165,
+            "title": "花束",
+            "artist_id": 11,
+            "emotion_id": 165,
+            "image_id": 154,
+            "itunes_link_id": 133
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 166,
+        "fields": {
+            "id": 166,
+            "title": "サントラ",
+            "artist_id": 101,
+            "emotion_id": 166,
+            "image_id": 155,
+            "itunes_link_id": 134
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 167,
+        "fields": {
+            "id": 167,
+            "title": "東京フラッシュ",
+            "artist_id": 94,
+            "emotion_id": 167,
+            "image_id": 156,
+            "itunes_link_id": 135
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 168,
+        "fields": {
+            "id": 168,
+            "title": "ビンテージ",
+            "artist_id": 4,
+            "emotion_id": 168,
+            "image_id": 10,
+            "itunes_link_id": 136
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 169,
+        "fields": {
+            "id": 169,
+            "title": "よるのあと",
+            "artist_id": 102,
+            "emotion_id": 169,
+            "image_id": 157,
+            "itunes_link_id": 137
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 170,
+        "fields": {
+            "id": 170,
+            "title": "ドライフラワー",
+            "artist_id": 103,
+            "emotion_id": 170,
+            "image_id": 158,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 171,
+        "fields": {
+            "id": 171,
+            "title": "Lemon",
+            "artist_id": 2,
+            "emotion_id": 171,
+            "image_id": 159,
+            "itunes_link_id": 138
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 172,
+        "fields": {
+            "id": 172,
+            "title": "HAPPY BIRTHDAY",
+            "artist_id": 11,
+            "emotion_id": 172,
+            "image_id": 160,
+            "itunes_link_id": 139
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 173,
+        "fields": {
+            "id": 173,
+            "title": "あなたがいることで",
+            "artist_id": 61,
+            "emotion_id": 173,
+            "image_id": 161,
+            "itunes_link_id": 140
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 174,
+        "fields": {
+            "id": 174,
+            "title": "点描の唄(feat.井上苑子)",
+            "artist_id": 104,
+            "emotion_id": 174,
+            "image_id": 162,
+            "itunes_link_id": 141
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 175,
+        "fields": {
+            "id": 175,
+            "title": "君がいる世界",
+            "artist_id": 10,
+            "emotion_id": 175,
+            "image_id": 3,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 176,
+        "fields": {
+            "id": 176,
+            "title": "キセキ",
+            "artist_id": 44,
+            "emotion_id": 176,
+            "image_id": 163,
+            "itunes_link_id": 142
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 177,
+        "fields": {
+            "id": 177,
+            "title": "ひまわり",
+            "artist_id": 2,
+            "emotion_id": 177,
+            "image_id": 26,
+            "itunes_link_id": 143
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 178,
+        "fields": {
+            "id": 178,
+            "title": "君の彼氏になりたい。",
+            "artist_id": 48,
+            "emotion_id": 178,
+            "image_id": 164,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 179,
+        "fields": {
+            "id": 179,
+            "title": "ぎゅっと。",
+            "artist_id": 42,
+            "emotion_id": 179,
+            "image_id": 165,
+            "itunes_link_id": 144
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 180,
+        "fields": {
+            "id": 180,
+            "title": "ハルジオン",
+            "artist_id": 18,
+            "emotion_id": 180,
+            "image_id": 166,
+            "itunes_link_id": 145
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 181,
+        "fields": {
+            "id": 181,
+            "title": "不可幸力",
+            "artist_id": 94,
+            "emotion_id": 181,
+            "image_id": 167,
+            "itunes_link_id": 146
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 182,
+        "fields": {
+            "id": 182,
+            "title": "僕が君に出来ること",
+            "artist_id": 76,
+            "emotion_id": 182,
+            "image_id": 168,
+            "itunes_link_id": 147
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 183,
+        "fields": {
+            "id": 183,
+            "title": "僕のこと",
+            "artist_id": 104,
+            "emotion_id": 183,
+            "image_id": 169,
+            "itunes_link_id": 148
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 184,
+        "fields": {
+            "id": 184,
+            "title": "正解(18FES ver.)",
+            "artist_id": 5,
+            "emotion_id": 184,
+            "image_id": 89,
+            "itunes_link_id": 149
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 185,
+        "fields": {
+            "id": 185,
+            "title": "MAGIC",
+            "artist_id": 35,
+            "emotion_id": 185,
+            "image_id": 103,
+            "itunes_link_id": 150
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 186,
+        "fields": {
+            "id": 186,
+            "title": "馬と鹿",
+            "artist_id": 2,
+            "emotion_id": 186,
+            "image_id": 170,
+            "itunes_link_id": 151
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 187,
+        "fields": {
+            "id": 187,
+            "title": "うっせぇわ",
+            "artist_id": 105,
+            "emotion_id": 187,
+            "image_id": 171,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 188,
+        "fields": {
+            "id": 188,
+            "title": "115万キロのフィルム",
+            "artist_id": 4,
+            "emotion_id": 188,
+            "image_id": 63,
+            "itunes_link_id": 152
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 189,
+        "fields": {
+            "id": 189,
+            "title": "インフェルノ",
+            "artist_id": 104,
+            "emotion_id": 189,
+            "image_id": 172,
+            "itunes_link_id": 153
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 190,
+        "fields": {
+            "id": 190,
+            "title": "食虫植物",
+            "artist_id": 106,
+            "emotion_id": 190,
+            "image_id": 173,
+            "itunes_link_id": 154
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 191,
+        "fields": {
+            "id": 191,
+            "title": "海の幽霊",
+            "artist_id": 2,
+            "emotion_id": 191,
+            "image_id": 174,
+            "itunes_link_id": 155
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 192,
+        "fields": {
+            "id": 192,
+            "title": "Break",
+            "artist_id": 61,
+            "emotion_id": 192,
+            "image_id": 149,
+            "itunes_link_id": 156
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 193,
+        "fields": {
+            "id": 193,
+            "title": "Shout Baby",
+            "artist_id": 43,
+            "emotion_id": 193,
+            "image_id": 175,
+            "itunes_link_id": 157
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 194,
+        "fields": {
+            "id": 194,
+            "title": "思想犯",
+            "artist_id": 19,
+            "emotion_id": 194,
+            "image_id": 176,
+            "itunes_link_id": 158
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 195,
+        "fields": {
+            "id": 195,
+            "title": "3月9日",
+            "artist_id": 107,
+            "emotion_id": 195,
+            "image_id": 177,
+            "itunes_link_id": 159
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 196,
+        "fields": {
+            "id": 196,
+            "title": "八卦良",
+            "artist_id": 27,
+            "emotion_id": 196,
+            "image_id": 35,
+            "itunes_link_id": 160
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 197,
+        "fields": {
+            "id": 197,
+            "title": "奏(かなで)",
+            "artist_id": 108,
+            "emotion_id": 197,
+            "image_id": 178,
+            "itunes_link_id": 161
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 198,
+        "fields": {
+            "id": 198,
+            "title": "かくれんぼ",
+            "artist_id": 103,
+            "emotion_id": 198,
+            "image_id": 179,
+            "itunes_link_id": 162
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 199,
+        "fields": {
+            "id": 199,
+            "title": "You & I",
+            "artist_id": 74,
+            "emotion_id": 200,
+            "image_id": 107,
+            "itunes_link_id": 163
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 200,
+        "fields": {
+            "id": 200,
+            "title": "明鏡肆水",
+            "artist_id": 109,
+            "emotion_id": 202,
+            "image_id": 180,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 201,
+        "fields": {
+            "id": 201,
+            "title": "シングルベッド",
+            "artist_id": 110,
+            "emotion_id": 208,
+            "image_id": 181,
+            "itunes_link_id": 164
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 202,
+        "fields": {
+            "id": 202,
+            "title": "3×3×3",
+            "artist_id": 111,
+            "emotion_id": 213,
+            "image_id": 182,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 203,
+        "fields": {
+            "id": 203,
+            "title": "真っ白",
+            "artist_id": 112,
+            "emotion_id": 218,
+            "image_id": 183,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 204,
+        "fields": {
+            "id": 204,
+            "title": "NIGHT ON THE PLANET -Broken World-",
+            "artist_id": 113,
+            "emotion_id": 221,
+            "image_id": 184,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 205,
+        "fields": {
+            "id": 205,
+            "title": "言って。",
+            "artist_id": 19,
+            "emotion_id": 223,
+            "image_id": 185,
+            "itunes_link_id": 165
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 206,
+        "fields": {
+            "id": 206,
+            "title": "心焼け",
+            "artist_id": 30,
+            "emotion_id": 225,
+            "image_id": 67,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 207,
+        "fields": {
+            "id": 207,
+            "title": "リテラチュア",
+            "artist_id": 114,
+            "emotion_id": 230,
+            "image_id": 187,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 208,
+        "fields": {
+            "id": 208,
+            "title": "Joy!!",
+            "artist_id": 115,
+            "emotion_id": 232,
+            "image_id": 188,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 209,
+        "fields": {
+            "id": 209,
+            "title": "幸せ",
+            "artist_id": 11,
+            "emotion_id": 238,
+            "image_id": 190,
+            "itunes_link_id": 168
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 210,
+        "fields": {
+            "id": 210,
+            "title": "NEW WORLD",
+            "artist_id": 71,
+            "emotion_id": 239,
+            "image_id": 191,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 211,
+        "fields": {
+            "id": 211,
+            "title": "突破口",
+            "artist_id": 116,
+            "emotion_id": 244,
+            "image_id": 192,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 212,
+        "fields": {
+            "id": 212,
+            "title": "キケンナアソビ",
+            "artist_id": 117,
+            "emotion_id": 255,
+            "image_id": 115,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 213,
+        "fields": {
+            "id": 213,
+            "title": "SPARK-AGAIN",
+            "artist_id": 118,
+            "emotion_id": 257,
+            "image_id": 193,
+            "itunes_link_id": 169
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 214,
+        "fields": {
+            "id": 214,
+            "title": "未来予想図II",
+            "artist_id": 119,
+            "emotion_id": 260,
+            "image_id": 194,
+            "itunes_link_id": 170
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 215,
+        "fields": {
+            "id": 215,
+            "title": "＆ LOVE",
+            "artist_id": 10,
+            "emotion_id": 261,
+            "image_id": 3,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 216,
+        "fields": {
+            "id": 216,
+            "title": "雨とカプチーノ",
+            "artist_id": 19,
+            "emotion_id": 265,
+            "image_id": 195,
+            "itunes_link_id": 171
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 217,
+        "fields": {
+            "id": 217,
+            "title": "truth",
+            "artist_id": 39,
+            "emotion_id": 266,
+            "image_id": 196,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 218,
+        "fields": {
+            "id": 218,
+            "title": "なんで なんで",
+            "artist_id": 120,
+            "emotion_id": 270,
+            "image_id": 197,
+            "itunes_link_id": 172
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 219,
+        "fields": {
+            "id": 219,
+            "title": "58cm",
+            "artist_id": 30,
+            "emotion_id": 273,
+            "image_id": 67,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 220,
+        "fields": {
+            "id": 220,
+            "title": "play the world! feat.PABLO",
+            "artist_id": 1,
+            "emotion_id": 275,
+            "image_id": 198,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 221,
+        "fields": {
+            "id": 221,
+            "title": "さよならエレジー",
+            "artist_id": 87,
+            "emotion_id": 277,
+            "image_id": 199,
+            "itunes_link_id": 173
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 222,
+        "fields": {
+            "id": 222,
+            "title": "モノマネ",
+            "artist_id": 117,
+            "emotion_id": 280,
+            "image_id": 200,
+            "itunes_link_id": 174
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 223,
+        "fields": {
+            "id": 223,
+            "title": "さよならも言わないままで",
+            "artist_id": 68,
+            "emotion_id": 284,
+            "image_id": 89,
+            "itunes_link_id": 149
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 224,
+        "fields": {
+            "id": 224,
+            "title": "MY PRAYER",
+            "artist_id": 58,
+            "emotion_id": 293,
+            "image_id": 202,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 225,
+        "fields": {
+            "id": 225,
+            "title": "ヒプノシスマイク -Alternative Rap Battle-",
+            "artist_id": 34,
+            "emotion_id": 296,
+            "image_id": 203,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 226,
+        "fields": {
+            "id": 226,
+            "title": "メトロノーム",
+            "artist_id": 2,
+            "emotion_id": 298,
+            "image_id": 204,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 227,
+        "fields": {
+            "id": 227,
+            "title": "タンポポ feat. ZORN",
+            "artist_id": 121,
+            "emotion_id": 299,
+            "image_id": 205,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 228,
+        "fields": {
+            "id": 228,
+            "title": "やってみよう",
+            "artist_id": 84,
+            "emotion_id": 301,
+            "image_id": 206,
+            "itunes_link_id": 175
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 229,
+        "fields": {
+            "id": 229,
+            "title": "unknown",
+            "artist_id": 12,
+            "emotion_id": 304,
+            "image_id": 132,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 230,
+        "fields": {
+            "id": 230,
+            "title": "ORESEN",
+            "artist_id": 10,
+            "emotion_id": 306,
+            "image_id": 3,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 231,
+        "fields": {
+            "id": 231,
+            "title": "Teenager Forever",
+            "artist_id": 13,
+            "emotion_id": 311,
+            "image_id": 15,
+            "itunes_link_id": 176
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 232,
+        "fields": {
+            "id": 232,
+            "title": "盗作",
+            "artist_id": 19,
+            "emotion_id": 319,
+            "image_id": 208,
+            "itunes_link_id": 178
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 233,
+        "fields": {
+            "id": 233,
+            "title": "えんとつ町のプペル",
+            "artist_id": 122,
+            "emotion_id": 324,
+            "image_id": 133,
+            "itunes_link_id": 111
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 234,
+        "fields": {
+            "id": 234,
+            "title": "虹の彼方に",
+            "artist_id": 12,
+            "emotion_id": 330,
+            "image_id": 209,
+            "itunes_link_id": 179
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 235,
+        "fields": {
+            "id": 235,
+            "title": "虹色Passions!",
+            "artist_id": 123,
+            "emotion_id": 346,
+            "image_id": 210,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 236,
+        "fields": {
+            "id": 236,
+            "title": "ドラえもんえかきうた",
+            "artist_id": 124,
+            "emotion_id": 371,
+            "image_id": 211,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 237,
+        "fields": {
+            "id": 237,
+            "title": "知らないどうし",
+            "artist_id": 125,
+            "emotion_id": 376,
+            "image_id": 212,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 238,
+        "fields": {
+            "id": 238,
+            "title": "助演男優賞",
+            "artist_id": 85,
+            "emotion_id": 378,
+            "image_id": 213,
+            "itunes_link_id": 180
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 239,
+        "fields": {
+            "id": 239,
+            "title": "虫のこえ",
+            "artist_id": 82,
+            "emotion_id": 395,
+            "image_id": 214,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 240,
+        "fields": {
+            "id": 240,
+            "title": "カワキヲアメク",
+            "artist_id": 126,
+            "emotion_id": 397,
+            "image_id": 215,
+            "itunes_link_id": 184
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 241,
+        "fields": {
+            "id": 241,
+            "title": "また逢う日まで",
+            "artist_id": 127,
+            "emotion_id": 401,
+            "image_id": 216,
+            "itunes_link_id": 185
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 242,
+        "fields": {
+            "id": 242,
+            "title": "いいから",
+            "artist_id": 84,
+            "emotion_id": 406,
+            "image_id": 217,
+            "itunes_link_id": 186
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 243,
+        "fields": {
+            "id": 243,
+            "title": "Happiness",
+            "artist_id": 39,
+            "emotion_id": 407,
+            "image_id": 218,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 244,
+        "fields": {
+            "id": 244,
+            "title": "糸",
+            "artist_id": 128,
+            "emotion_id": 410,
+            "image_id": 219,
+            "itunes_link_id": 187
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 245,
+        "fields": {
+            "id": 245,
+            "title": "Believe",
+            "artist_id": 39,
+            "emotion_id": 411,
+            "image_id": 220,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 246,
+        "fields": {
+            "id": 246,
+            "title": "Amazing Romance",
+            "artist_id": 10,
+            "emotion_id": 420,
+            "image_id": 3,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 247,
+        "fields": {
+            "id": 247,
+            "title": "コンセントレーション",
+            "artist_id": 129,
+            "emotion_id": 423,
+            "image_id": 221,
+            "itunes_link_id": 188
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 248,
+        "fields": {
+            "id": 248,
+            "title": "Lovers",
+            "artist_id": 38,
+            "emotion_id": 448,
+            "image_id": 222,
+            "itunes_link_id": 190
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 249,
+        "fields": {
+            "id": 249,
+            "title": "全力少年",
+            "artist_id": 108,
+            "emotion_id": 460,
+            "image_id": 223,
+            "itunes_link_id": 191
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 250,
+        "fields": {
+            "id": 250,
+            "title": "再恋愛",
+            "artist_id": 130,
+            "emotion_id": 481,
+            "image_id": 224,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 251,
+        "fields": {
+            "id": 251,
+            "title": "ははうえさま",
+            "artist_id": 131,
+            "emotion_id": 505,
+            "image_id": 225,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 252,
+        "fields": {
+            "id": 252,
+            "title": "カタオモイ",
+            "artist_id": 118,
+            "emotion_id": 520,
+            "image_id": 226,
+            "itunes_link_id": 193
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 253,
+        "fields": {
+            "id": 253,
+            "title": "Snow World",
+            "artist_id": 48,
+            "emotion_id": 526,
+            "image_id": 60,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 254,
+        "fields": {
+            "id": 254,
+            "title": "DNA -Japanese ver.-",
+            "artist_id": 132,
+            "emotion_id": 527,
+            "image_id": 227,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 255,
+        "fields": {
+            "id": 255,
+            "title": "RUN",
+            "artist_id": 27,
+            "emotion_id": 531,
+            "image_id": 35,
+            "itunes_link_id": 194
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 256,
+        "fields": {
+            "id": 256,
+            "title": "PERSONALITY",
+            "artist_id": 27,
+            "emotion_id": 540,
+            "image_id": 35,
+            "itunes_link_id": 195
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 257,
+        "fields": {
+            "id": 257,
+            "title": "青い春",
+            "artist_id": 11,
+            "emotion_id": 543,
+            "image_id": 228,
+            "itunes_link_id": 196
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 258,
+        "fields": {
+            "id": 258,
+            "title": "友へ",
+            "artist_id": 27,
+            "emotion_id": 549,
+            "image_id": 229,
+            "itunes_link_id": 197
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 259,
+        "fields": {
+            "id": 259,
+            "title": "大不正解",
+            "artist_id": 11,
+            "emotion_id": 559,
+            "image_id": 230,
+            "itunes_link_id": 198
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 260,
+        "fields": {
+            "id": 260,
+            "title": "わたがし",
+            "artist_id": 11,
+            "emotion_id": 569,
+            "image_id": 231,
+            "itunes_link_id": 199
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 261,
+        "fields": {
+            "id": 261,
+            "title": "あかるいよるに",
+            "artist_id": 11,
+            "emotion_id": 576,
+            "image_id": 232,
+            "itunes_link_id": 200
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 262,
+        "fields": {
+            "id": 262,
+            "title": "化かしHOUR NIGHT",
+            "artist_id": 133,
+            "emotion_id": 585,
+            "image_id": 233,
+            "itunes_link_id": 201
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 263,
+        "fields": {
+            "id": 263,
+            "title": "日曜日",
+            "artist_id": 11,
+            "emotion_id": 592,
+            "image_id": 234,
+            "itunes_link_id": 202
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 264,
+        "fields": {
+            "id": 264,
+            "title": "チカ",
+            "artist_id": 6,
+            "emotion_id": 594,
+            "image_id": 49,
+            "itunes_link_id": 203
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 265,
+        "fields": {
+            "id": 265,
+            "title": "泡の影",
+            "artist_id": 10,
+            "emotion_id": 603,
+            "image_id": 3,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 266,
+        "fields": {
+            "id": 266,
+            "title": "アスファルトのワニ",
+            "artist_id": 27,
+            "emotion_id": 604,
+            "image_id": 35,
+            "itunes_link_id": 204
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 267,
+        "fields": {
+            "id": 267,
+            "title": "SISTER",
+            "artist_id": 11,
+            "emotion_id": 629,
+            "image_id": 235,
+            "itunes_link_id": 205
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 268,
+        "fields": {
+            "id": 268,
+            "title": "little more",
+            "artist_id": 134,
+            "emotion_id": 746,
+            "image_id": 163,
+            "itunes_link_id": 142
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 269,
+        "fields": {
+            "id": 269,
+            "title": "Dream",
+            "artist_id": 135,
+            "emotion_id": 772,
+            "image_id": 236,
+            "itunes_link_id": 207
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 270,
+        "fields": {
+            "id": 270,
+            "title": "ノンフィクション",
+            "artist_id": 62,
+            "emotion_id": 773,
+            "image_id": 237,
+            "itunes_link_id": 208
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 271,
+        "fields": {
+            "id": 271,
+            "title": "Blue Star",
+            "artist_id": 136,
+            "emotion_id": 798,
+            "image_id": 238,
+            "itunes_link_id": 209
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 272,
+        "fields": {
+            "id": 272,
+            "title": "虹の向こうへ",
+            "artist_id": 24,
+            "emotion_id": 816,
+            "image_id": 239,
+            "itunes_link_id": 210
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 273,
+        "fields": {
+            "id": 273,
+            "title": "怪獣の花唄",
+            "artist_id": 94,
+            "emotion_id": 842,
+            "image_id": 241,
+            "itunes_link_id": 211
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 274,
+        "fields": {
+            "id": 274,
+            "title": "Spring Day -Japanese ver.-",
+            "artist_id": 132,
+            "emotion_id": 843,
+            "image_id": 133,
+            "itunes_link_id": 111
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 275,
+        "fields": {
+            "id": 275,
+            "title": "カントリー・ロード",
+            "artist_id": 137,
+            "emotion_id": 849,
+            "image_id": 242,
+            "itunes_link_id": 212
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 276,
+        "fields": {
+            "id": 276,
+            "title": "ピーターパン",
+            "artist_id": 103,
+            "emotion_id": 874,
+            "image_id": 206,
+            "itunes_link_id": 175
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 277,
+        "fields": {
+            "id": 277,
+            "title": "黒ネコのタンゴ",
+            "artist_id": 138,
+            "emotion_id": 899,
+            "image_id": 244,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 278,
+        "fields": {
+            "id": 278,
+            "title": "足跡",
+            "artist_id": 139,
+            "emotion_id": 901,
+            "image_id": 245,
+            "itunes_link_id": 214
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 279,
+        "fields": {
+            "id": 279,
+            "title": "時のしおり",
+            "artist_id": 140,
+            "emotion_id": 915,
+            "image_id": 246,
+            "itunes_link_id": 215
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 280,
+        "fields": {
+            "id": 280,
+            "title": "あなた",
+            "artist_id": 141,
+            "emotion_id": 943,
+            "image_id": 247,
+            "itunes_link_id": 216
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 281,
+        "fields": {
+            "id": 281,
+            "title": "打上花火",
+            "artist_id": 142,
+            "emotion_id": 950,
+            "image_id": 248,
+            "itunes_link_id": 217
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 282,
+        "fields": {
+            "id": 282,
+            "title": "ASH feat. Vaundy",
+            "artist_id": 143,
+            "emotion_id": 963,
+            "image_id": 30,
+            "itunes_link_id": 27
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 283,
+        "fields": {
+            "id": 283,
+            "title": "Sasanqua",
+            "artist_id": 144,
+            "emotion_id": 965,
+            "image_id": 249,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 284,
+        "fields": {
+            "id": 284,
+            "title": "David Bowieのように",
+            "artist_id": 56,
+            "emotion_id": 21,
+            "image_id": 21,
+            "itunes_link_id": 18
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 285,
+        "fields": {
+            "id": 285,
+            "title": "Burning Free",
+            "artist_id": 56,
+            "emotion_id": 993,
+            "image_id": 250,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 286,
+        "fields": {
+            "id": 286,
+            "title": "Never Mine",
+            "artist_id": 145,
+            "emotion_id": 1009,
+            "image_id": 252,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 287,
+        "fields": {
+            "id": 287,
+            "title": "アイリメンバーU",
+            "artist_id": 56,
+            "emotion_id": 1015,
+            "image_id": 250,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 288,
+        "fields": {
+            "id": 288,
+            "title": "ダイヤモンド",
+            "artist_id": 146,
+            "emotion_id": 1051,
+            "image_id": 253,
+            "itunes_link_id": 218
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 289,
+        "fields": {
+            "id": 289,
+            "title": "賞味期限切れ I love you",
+            "artist_id": 56,
+            "emotion_id": 1052,
+            "image_id": 250,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 290,
+        "fields": {
+            "id": 290,
+            "title": "風のとおり道",
+            "artist_id": 147,
+            "emotion_id": 1061,
+            "image_id": 254,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 291,
+        "fields": {
+            "id": 291,
+            "title": "シャイノグラフィ",
+            "artist_id": 148,
+            "emotion_id": 1064,
+            "image_id": 255,
+            "itunes_link_id": 219
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 292,
+        "fields": {
+            "id": 292,
+            "title": "三文小説",
+            "artist_id": 13,
+            "emotion_id": 1065,
+            "image_id": 256,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 293,
+        "fields": {
+            "id": 293,
+            "title": "青春病",
+            "artist_id": 21,
+            "emotion_id": 1071,
+            "image_id": 257,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 294,
+        "fields": {
+            "id": 294,
+            "title": "それでいいよ",
+            "artist_id": 149,
+            "emotion_id": 1082,
+            "image_id": 258,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 295,
+        "fields": {
+            "id": 295,
+            "title": "へでもねーよ",
+            "artist_id": 21,
+            "emotion_id": 1083,
+            "image_id": 259,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 296,
+        "fields": {
+            "id": 296,
+            "title": "マシマロ",
+            "artist_id": 6,
+            "emotion_id": 1105,
+            "image_id": 49,
+            "itunes_link_id": 220
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 297,
+        "fields": {
+            "id": 297,
+            "title": "Good Love Your Love",
+            "artist_id": 150,
+            "emotion_id": 1111,
+            "image_id": 260,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 298,
+        "fields": {
+            "id": 298,
+            "title": "Never Grow Up",
+            "artist_id": 151,
+            "emotion_id": 1115,
+            "image_id": 261,
+            "itunes_link_id": 222
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 299,
+        "fields": {
+            "id": 299,
+            "title": "TEENAGE RIOT",
+            "artist_id": 2,
+            "emotion_id": 1123,
+            "image_id": 78,
+            "itunes_link_id": 223
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 300,
+        "fields": {
+            "id": 300,
+            "title": "Telescope",
+            "artist_id": 152,
+            "emotion_id": 1130,
+            "image_id": 263,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 301,
+        "fields": {
+            "id": 301,
+            "title": "ノクターン",
+            "artist_id": 153,
+            "emotion_id": 1138,
+            "image_id": 63,
+            "itunes_link_id": 52
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 302,
+        "fields": {
+            "id": 302,
+            "title": "だんご3兄弟",
+            "artist_id": 154,
+            "emotion_id": 1148,
+            "image_id": 265,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 303,
+        "fields": {
+            "id": 303,
+            "title": "愛を伝えたいだとか",
+            "artist_id": 6,
+            "emotion_id": 1149,
+            "image_id": 5,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 304,
+        "fields": {
+            "id": 304,
+            "title": "Zombie Step",
+            "artist_id": 41,
+            "emotion_id": 1157,
+            "image_id": 267,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 305,
+        "fields": {
+            "id": 305,
+            "title": "貴方解剖純愛歌 ～死ね～",
+            "artist_id": 6,
+            "emotion_id": 1159,
+            "image_id": 115,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 306,
+        "fields": {
+            "id": 306,
+            "title": "HALLOWEEN PARTY (プペル Ver.)",
+            "artist_id": 155,
+            "emotion_id": 1167,
+            "image_id": 269,
+            "itunes_link_id": 228
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 307,
+        "fields": {
+            "id": 307,
+            "title": "ふるさと",
+            "artist_id": 39,
+            "emotion_id": 1172,
+            "image_id": 270,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 308,
+        "fields": {
+            "id": 308,
+            "title": "星合",
+            "artist_id": 156,
+            "emotion_id": 1176,
+            "image_id": 271,
+            "itunes_link_id": 3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 309,
+        "fields": {
+            "id": 309,
+            "title": "Crazy Party Night ～ぱんぷきんの逆襲～",
+            "artist_id": 157,
+            "emotion_id": 1184,
+            "image_id": 272,
+            "itunes_link_id": 229
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 310,
+        "fields": {
+            "id": 310,
+            "title": "KOUGU維新のテーマ",
+            "artist_id": 158,
+            "emotion_id": 1197,
+            "image_id": 273,
+            "itunes_link_id": 231
+        }
+    }
+]

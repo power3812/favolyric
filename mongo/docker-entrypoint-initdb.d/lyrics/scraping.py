@@ -109,25 +109,25 @@ def main():
         for i, page in enumerate(musics_url):
             print('{}曲目:{}'.format(50*(p-1) + i + 1, page))
             html = load(page)
-            infomations[1][i]=infomations[1][i].replace('/','_')
+            infomations[1][i] = infomations[1][i].replace('/','_')
             soup = BeautifulSoup(html,'lxml')
             #amazonの画像リンクを取得
             imgs = soup.find_all('img',src=re.compile('^https://m.media-amazon.com/'))
 
-            kashis += infomations[2][i] + '\n'
-            kashis += infomations[1][i] + '\n'
-            f=open(dirname+"/"+str(50*(p-1) + i + 1)+'.txt', 'a')
+            f = open(dirname+"/"+str(50*(p-1) + i + 1)+'.txt', 'w')
+
+            writing_document  = infomations[2][i] + '\n'
+            writing_document += infomations[1][i] + '\n'
 
             if len(imgs) == 0:
                 imgs = soup.find_all('img',src=re.compile('^/libs/cacheimg'))
                 if len(imgs) == 0:
-                    kashis += '*' + '\n'
+                    img_link = '*' + '\n'
                 for img in imgs:
-                    kashis+='https://www.uta-net.com'+img['src']+'\n'
-
+                    img_link = 'https://www.uta-net.com' + img['src'] + '\n'
             else:
                 for img in imgs:
-                    kashis+=img['src']+'\n'
+                    img_link = img['src'] + '\n'
 
             #itunesリンクを取得
             itunes = None
@@ -135,9 +135,9 @@ def main():
                 if "https://itunes.apple.com/" in link.get("href"):
                     itunes = link.get("href")
             if itunes == None:
-                kashis += '*' + '\n'
+                itunes_link = '*' + '\n'
             else:
-                kashis += itunes + '\n'
+                itunes_link = itunes + '\n'
 
             #amazonリンクを取得
             amazon = None
@@ -145,12 +145,11 @@ def main():
                 if "https://amazon.co.jp/" in link.get("href"):
                     amazon = link.get("href")
             if amazon == None:
-                kashis += '*' + '\n'
+                amazon_link = '*' + '\n'
             else:
-                kashis += amazon + '\n'
+                amazon_link = amazon + '\n'
 
-
-
+            writing_document += img_link + itunes_link + amazon_link
             for div in pickup_tag(html, 'div'):
                 # id検索がうまく行えなかった為、一度strにキャスト
                 div = str(div)
@@ -158,22 +157,25 @@ def main():
                 if r'itemprop="text"' in div:
                     # 不要なデータを取り除く
                     #print(html)
-                    kashi = parse(div)
-                    #print(kashi)
-                    #print(kashi, end = '\n\n')
-                    # 歌詞を１つにまとめる
-                    #print(kashi)
-                    k=str(i+1)
-                    #kashis += k+ '曲目:' + str(page)
-                    kashis += kashi
+                    soup = BeautifulSoup(div, 'html.parser')
+                    while (soup.div):
+                        soup.div.unwrap()
+                    soup_text = str(soup.get_text(','))
 
+                    k = str(i+1)
+                    #kashis += k+ '曲目:' + str(page)
+                    kashis = soup_text.split(',')
+                    for kashi in kashis:
+                        if kashi != '\n':
+                            if '\n' not in kashi:
+                                kashi += '\n'
+                            writing_document += kashi
                     # １秒待機
                     time.sleep(1)
-                    f.write(kashis)
                     kashis = ''
                     break
         # 歌詞の書き込み
-            f.write(kashis)
+            f.write(writing_document)
             f.close()
 
 if __name__ == '__main__':
