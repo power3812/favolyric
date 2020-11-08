@@ -1,0 +1,1266 @@
+[
+    {
+        "model": "favolyric.artists",
+        "pk": 1,
+        "fields": {
+            "id": 1,
+            "name": "LiSA"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 2,
+        "fields": {
+            "id": 2,
+            "name": "米津玄師"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 3,
+        "fields": {
+            "id": 3,
+            "name": "Eve"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 4,
+        "fields": {
+            "id": 4,
+            "name": "Official髭男dism"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 5,
+        "fields": {
+            "id": 5,
+            "name": "RADWIMPS"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 6,
+        "fields": {
+            "id": 6,
+            "name": "あいみょん"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 7,
+        "fields": {
+            "id": 7,
+            "name": "アンジェラ・アキ"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 8,
+        "fields": {
+            "id": 8,
+            "name": "RAISE A SUILEN"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 9,
+        "fields": {
+            "id": 9,
+            "name": "嶋大輔"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 10,
+        "fields": {
+            "id": 10,
+            "name": "King & Prince"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 11,
+        "fields": {
+            "id": 11,
+            "name": "back number"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 12,
+        "fields": {
+            "id": 12,
+            "name": "ReoNa"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 13,
+        "fields": {
+            "id": 13,
+            "name": "King Gnu"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 14,
+        "fields": {
+            "id": 14,
+            "name": "オレンジスパイニクラブ"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 15,
+        "fields": {
+            "id": 15,
+            "name": "Da-iCE"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 16,
+        "fields": {
+            "id": 16,
+            "name": "ストロベリー・フラワー"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 17,
+        "fields": {
+            "id": 17,
+            "name": "KANA-BOON"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 18,
+        "fields": {
+            "id": 18,
+            "name": "YOASOBI"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 19,
+        "fields": {
+            "id": 19,
+            "name": "ヨルシカ"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 20,
+        "fields": {
+            "id": 20,
+            "name": "家入レオ"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 21,
+        "fields": {
+            "id": 21,
+            "name": "藤井風"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 22,
+        "fields": {
+            "id": 22,
+            "name": "コロムビア合唱団"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 23,
+        "fields": {
+            "id": 23,
+            "name": "wacci"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 24,
+        "fields": {
+            "id": 24,
+            "name": "NiziU"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 25,
+        "fields": {
+            "id": 25,
+            "name": "石原裕次郎"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 26,
+        "fields": {
+            "id": 26,
+            "name": "太田裕美"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 27,
+        "fields": {
+            "id": 27,
+            "name": "高橋優"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 28,
+        "fields": {
+            "id": 28,
+            "name": "SALU"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 29,
+        "fields": {
+            "id": 29,
+            "name": "畠中祐"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 30,
+        "fields": {
+            "id": 30,
+            "name": "aiko"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 31,
+        "fields": {
+            "id": 31,
+            "name": "MAHO堂"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 32,
+        "fields": {
+            "id": 32,
+            "name": "変態紳士クラブ"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 33,
+        "fields": {
+            "id": 33,
+            "name": "UNISON SQUARE GARDEN"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 34,
+        "fields": {
+            "id": 34,
+            "name": "Division All Stars"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 35,
+        "fields": {
+            "id": 35,
+            "name": "SEKAI NO OWARI"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 36,
+        "fields": {
+            "id": 36,
+            "name": "森七菜"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 37,
+        "fields": {
+            "id": 37,
+            "name": "岩崎良美"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 38,
+        "fields": {
+            "id": 38,
+            "name": "sumika"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 39,
+        "fields": {
+            "id": 39,
+            "name": "嵐"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 40,
+        "fields": {
+            "id": 40,
+            "name": "BoA"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 41,
+        "fields": {
+            "id": 41,
+            "name": "Hey! Say! JUMP"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 42,
+        "fields": {
+            "id": 42,
+            "name": "もさを。"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 43,
+        "fields": {
+            "id": 43,
+            "name": "緑黄色社会"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 44,
+        "fields": {
+            "id": 44,
+            "name": "GReeeeN"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 45,
+        "fields": {
+            "id": 45,
+            "name": "Mr.Children"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 46,
+        "fields": {
+            "id": 46,
+            "name": "坂本真綾"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 47,
+        "fields": {
+            "id": 47,
+            "name": "川畑アキラ"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 48,
+        "fields": {
+            "id": 48,
+            "name": "Snow Man"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 49,
+        "fields": {
+            "id": 49,
+            "name": "LIP×LIP"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 50,
+        "fields": {
+            "id": 50,
+            "name": "MONGOL800"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 51,
+        "fields": {
+            "id": 51,
+            "name": "KALMA"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 52,
+        "fields": {
+            "id": 52,
+            "name": "Giga feat. 鏡音リン・レン"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 53,
+        "fields": {
+            "id": 53,
+            "name": "椎名豪 featuring 中川奈美"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 54,
+        "fields": {
+            "id": 54,
+            "name": "ONE OK ROCK"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 55,
+        "fields": {
+            "id": 55,
+            "name": "BUMP OF CHICKEN"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 56,
+        "fields": {
+            "id": 56,
+            "name": "WANDS"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 57,
+        "fields": {
+            "id": 57,
+            "name": "相川七瀬"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 58,
+        "fields": {
+            "id": 58,
+            "name": "THE RAMPAGE from EXILE TRIBE"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 59,
+        "fields": {
+            "id": 59,
+            "name": "Saucy Dog"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 60,
+        "fields": {
+            "id": 60,
+            "name": "Novelbright"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 61,
+        "fields": {
+            "id": 61,
+            "name": "Uru"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 62,
+        "fields": {
+            "id": 62,
+            "name": "平井堅"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 63,
+        "fields": {
+            "id": 63,
+            "name": "伊藤久男"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 64,
+        "fields": {
+            "id": 64,
+            "name": "サカナクション"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 65,
+        "fields": {
+            "id": 65,
+            "name": "紗倉ひびき(ファイルーズあい)＆街雄鳴造(石川界人)"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 66,
+        "fields": {
+            "id": 66,
+            "name": "BiSH"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 67,
+        "fields": {
+            "id": 67,
+            "name": "八王子P × Giga"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 68,
+        "fields": {
+            "id": 68,
+            "name": "MISIA"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 69,
+        "fields": {
+            "id": 69,
+            "name": "神はサイコロを振らない"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 70,
+        "fields": {
+            "id": 70,
+            "name": "白石麻衣(乃木坂46)"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 71,
+        "fields": {
+            "id": 71,
+            "name": "SixTONES"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 72,
+        "fields": {
+            "id": 72,
+            "name": "どついたれ本舗"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 73,
+        "fields": {
+            "id": 73,
+            "name": "ALI"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 74,
+        "fields": {
+            "id": 74,
+            "name": "三浦春馬"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 75,
+        "fields": {
+            "id": 75,
+            "name": "DA PUMP"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 76,
+        "fields": {
+            "id": 76,
+            "name": "平井大"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 77,
+        "fields": {
+            "id": 77,
+            "name": "Bad Ass Temple"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 78,
+        "fields": {
+            "id": 78,
+            "name": "マカロニえんぴつ"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 79,
+        "fields": {
+            "id": 79,
+            "name": "二宮和也(嵐)"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 80,
+        "fields": {
+            "id": 80,
+            "name": "瑛人"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 81,
+        "fields": {
+            "id": 81,
+            "name": "乃木坂46"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 82,
+        "fields": {
+            "id": 82,
+            "name": "童謡・唱歌"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 83,
+        "fields": {
+            "id": 83,
+            "name": "和田光司"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 84,
+        "fields": {
+            "id": 84,
+            "name": "WANIMA"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 85,
+        "fields": {
+            "id": 85,
+            "name": "Creepy Nuts"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 86,
+        "fields": {
+            "id": 86,
+            "name": "May'n / 中島愛"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 87,
+        "fields": {
+            "id": 87,
+            "name": "菅田将暉"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 88,
+        "fields": {
+            "id": 88,
+            "name": "DISH//"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 89,
+        "fields": {
+            "id": 89,
+            "name": "Foorin"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 90,
+        "fields": {
+            "id": 90,
+            "name": "ベリーグッドマン"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 91,
+        "fields": {
+            "id": 91,
+            "name": "折坂悠太"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 92,
+        "fields": {
+            "id": 92,
+            "name": "スピッツ"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 93,
+        "fields": {
+            "id": 93,
+            "name": "秦基博"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 94,
+        "fields": {
+            "id": 94,
+            "name": "Vaundy"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 95,
+        "fields": {
+            "id": 95,
+            "name": "Peaky P-key"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 96,
+        "fields": {
+            "id": 96,
+            "name": "空音"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 97,
+        "fields": {
+            "id": 97,
+            "name": "相葉雅紀・二宮和也(嵐)"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 98,
+        "fields": {
+            "id": 98,
+            "name": "藤山一郎"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 99,
+        "fields": {
+            "id": 99,
+            "name": "バルーン"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 100,
+        "fields": {
+            "id": 100,
+            "name": "Reol"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 101,
+        "fields": {
+            "id": 101,
+            "name": "Creepy Nuts × 菅田将暉"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 102,
+        "fields": {
+            "id": 102,
+            "name": "adieu"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 103,
+        "fields": {
+            "id": 103,
+            "name": "優里"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 104,
+        "fields": {
+            "id": 104,
+            "name": "Mrs. GREEN APPLE"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 105,
+        "fields": {
+            "id": 105,
+            "name": "Ado"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 106,
+        "fields": {
+            "id": 106,
+            "name": "理芽"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 107,
+        "fields": {
+            "id": 107,
+            "name": "レミオロメン"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 108,
+        "fields": {
+            "id": 108,
+            "name": "スキマスイッチ"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 109,
+        "fields": {
+            "id": 109,
+            "name": "KOCHO"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 110,
+        "fields": {
+            "id": 110,
+            "name": "シャ乱Q"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 111,
+        "fields": {
+            "id": 111,
+            "name": "ゆらゆら帝国"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 112,
+        "fields": {
+            "id": 112,
+            "name": "yama"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 113,
+        "fields": {
+            "id": 113,
+            "name": "大森靖子"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 114,
+        "fields": {
+            "id": 114,
+            "name": "上田麗奈"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 115,
+        "fields": {
+            "id": 115,
+            "name": "SMAP"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 116,
+        "fields": {
+            "id": 116,
+            "name": "SUPER BEAVER"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 117,
+        "fields": {
+            "id": 117,
+            "name": "クリープハイプ"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 118,
+        "fields": {
+            "id": 118,
+            "name": "Aimer"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 119,
+        "fields": {
+            "id": 119,
+            "name": "DREAMS COME TRUE"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 120,
+        "fields": {
+            "id": 120,
+            "name": "COLOR CREATION"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 121,
+        "fields": {
+            "id": 121,
+            "name": "KREVA"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 122,
+        "fields": {
+            "id": 122,
+            "name": "キングコング"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 123,
+        "fields": {
+            "id": 123,
+            "name": "虹ヶ咲学園スクールアイドル同好会"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 124,
+        "fields": {
+            "id": 124,
+            "name": "大山のぶ代"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 125,
+        "fields": {
+            "id": 125,
+            "name": "松任谷由実"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 126,
+        "fields": {
+            "id": 126,
+            "name": "美波"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 127,
+        "fields": {
+            "id": 127,
+            "name": "尾崎紀世彦"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 128,
+        "fields": {
+            "id": 128,
+            "name": "中島みゆき"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 129,
+        "fields": {
+            "id": 129,
+            "name": "欅坂46"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 130,
+        "fields": {
+            "id": 130,
+            "name": "MACO"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 131,
+        "fields": {
+            "id": 131,
+            "name": "藤田淑子"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 132,
+        "fields": {
+            "id": 132,
+            "name": "BTS (防弾少年団)"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 133,
+        "fields": {
+            "id": 133,
+            "name": "ビッケブランカ VS 岡崎体育"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 134,
+        "fields": {
+            "id": 134,
+            "name": "FAKY"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 135,
+        "fields": {
+            "id": 135,
+            "name": "吉幾三"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 136,
+        "fields": {
+            "id": 136,
+            "name": "陽香留"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 137,
+        "fields": {
+            "id": 137,
+            "name": "本名陽子"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 138,
+        "fields": {
+            "id": 138,
+            "name": "皆川おさむ"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 139,
+        "fields": {
+            "id": 139,
+            "name": "Little Glee Monster"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 140,
+        "fields": {
+            "id": 140,
+            "name": "上沼恵美子"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 141,
+        "fields": {
+            "id": 141,
+            "name": "小坂明子"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 142,
+        "fields": {
+            "id": 142,
+            "name": "DAOKO×米津玄師"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 143,
+        "fields": {
+            "id": 143,
+            "name": "Nulbarich"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 144,
+        "fields": {
+            "id": 144,
+            "name": "Afterglow"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 145,
+        "fields": {
+            "id": 145,
+            "name": "超特急"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 146,
+        "fields": {
+            "id": 146,
+            "name": "コブクロ"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 147,
+        "fields": {
+            "id": 147,
+            "name": "井上あずみ"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 148,
+        "fields": {
+            "id": 148,
+            "name": "シャイニーカラーズ"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 149,
+        "fields": {
+            "id": 149,
+            "name": "Sexy Zone"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 150,
+        "fields": {
+            "id": 150,
+            "name": "DEEP SQUAD"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 151,
+        "fields": {
+            "id": 151,
+            "name": "ちゃんみな"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 152,
+        "fields": {
+            "id": 152,
+            "name": "MAN WITH A MISSION"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 153,
+        "fields": {
+            "id": 153,
+            "name": "中島美嘉"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 154,
+        "fields": {
+            "id": 154,
+            "name": "茂森あゆみ・速水けんたろう"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 155,
+        "fields": {
+            "id": 155,
+            "name": "HYDE"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 156,
+        "fields": {
+            "id": 156,
+            "name": "all at once"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 157,
+        "fields": {
+            "id": 157,
+            "name": "きゃりーぱみゅぱみゅ"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 158,
+        "fields": {
+            "id": 158,
+            "name": "KOUGU維新"
+        }
+    }
+]

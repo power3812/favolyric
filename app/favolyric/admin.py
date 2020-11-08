@@ -1,3 +1,7 @@
 from django.contrib import admin
+from .models import Views
 
-# Register your models here.
+
+@admin.register(Views)
+class Views(admin.ModelAdmin):
+    pass

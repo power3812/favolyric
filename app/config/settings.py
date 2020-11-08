@@ -43,6 +43,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_cleanup',
+    'django_evolution',
+    'rest_framework',
     'bootstrap4',
     'social_django',
     'django_mysql',
@@ -237,4 +239,8 @@ CACHES = {
             'CLIENT_CLASS': 'django_redis.client.DefaultClient'
         }
     }
+}
+
+REST_FRAMEWORK = {
+   'DEFAULT_PERMISSION_CLASSES': ( 'rest_framework.permissions.AllowAny', ),
 }
