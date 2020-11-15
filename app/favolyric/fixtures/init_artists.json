@@ -1262,5 +1262,405 @@
             "id": 158,
             "name": "KOUGU維新"
         }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 159,
+        "fields": {
+            "id": 159,
+            "name": "さユり"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 160,
+        "fields": {
+            "id": 160,
+            "name": "福山雅治"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 161,
+        "fields": {
+            "id": 161,
+            "name": "清水翔太"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 162,
+        "fields": {
+            "id": 162,
+            "name": "[Alexandros]"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 163,
+        "fields": {
+            "id": 163,
+            "name": "クリスマスソング"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 164,
+        "fields": {
+            "id": 164,
+            "name": "松田聖子"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 165,
+        "fields": {
+            "id": 165,
+            "name": "すとぷり"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 166,
+        "fields": {
+            "id": 166,
+            "name": "坂本冬美"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 167,
+        "fields": {
+            "id": 167,
+            "name": "LINDBERG"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 168,
+        "fields": {
+            "id": 168,
+            "name": "近江俊郎"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 169,
+        "fields": {
+            "id": 169,
+            "name": "TWICE"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 170,
+        "fields": {
+            "id": 170,
+            "name": "岡本敦郎"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 171,
+        "fields": {
+            "id": 171,
+            "name": "島倉千代子"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 172,
+        "fields": {
+            "id": 172,
+            "name": "GLAY"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 173,
+        "fields": {
+            "id": 173,
+            "name": "後藤輝基"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 174,
+        "fields": {
+            "id": 174,
+            "name": "山口百恵"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 175,
+        "fields": {
+            "id": 175,
+            "name": "近藤真彦"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 176,
+        "fields": {
+            "id": 176,
+            "name": "川田孝子"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 177,
+        "fields": {
+            "id": 177,
+            "name": "ストレイテナー"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 178,
+        "fields": {
+            "id": 178,
+            "name": "JUJU"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 179,
+        "fields": {
+            "id": 179,
+            "name": "高野洸"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 180,
+        "fields": {
+            "id": 180,
+            "name": "アンティーカ"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 181,
+        "fields": {
+            "id": 181,
+            "name": "恋夏。"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 182,
+        "fields": {
+            "id": 182,
+            "name": "宇野実彩子 (AAA)"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 183,
+        "fields": {
+            "id": 183,
+            "name": "岸洋子"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 184,
+        "fields": {
+            "id": 184,
+            "name": "マルシィ"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 185,
+        "fields": {
+            "id": 185,
+            "name": "ケツメイシ"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 186,
+        "fields": {
+            "id": 186,
+            "name": "櫻井翔(嵐)"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 187,
+        "fields": {
+            "id": 187,
+            "name": "彩音"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 188,
+        "fields": {
+            "id": 188,
+            "name": "大野智(嵐)"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 189,
+        "fields": {
+            "id": 189,
+            "name": "ビッケブランカ"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 190,
+        "fields": {
+            "id": 190,
+            "name": "ジャニーズWEST"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 191,
+        "fields": {
+            "id": 191,
+            "name": "並木路子"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 192,
+        "fields": {
+            "id": 192,
+            "name": "渥美清"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 193,
+        "fields": {
+            "id": 193,
+            "name": "日食なつこ"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 194,
+        "fields": {
+            "id": 194,
+            "name": "石川さゆり"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 195,
+        "fields": {
+            "id": 195,
+            "name": "沢田研二"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 196,
+        "fields": {
+            "id": 196,
+            "name": "竹原ピストル"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 197,
+        "fields": {
+            "id": 197,
+            "name": "GENERATIONS from EXILE TRIBE"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 198,
+        "fields": {
+            "id": 198,
+            "name": "相葉雅紀(嵐)"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 199,
+        "fields": {
+            "id": 199,
+            "name": "Hey! Say! BEST"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 200,
+        "fields": {
+            "id": 200,
+            "name": "中孝介"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 201,
+        "fields": {
+            "id": 201,
+            "name": "森口博子"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 202,
+        "fields": {
+            "id": 202,
+            "name": "Superfly"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 203,
+        "fields": {
+            "id": 203,
+            "name": "大黒摩季"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 204,
+        "fields": {
+            "id": 204,
+            "name": "スヤリス姫(水瀬いのり)"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 205,
+        "fields": {
+            "id": 205,
+            "name": "影山ヒロノブ"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 206,
+        "fields": {
+            "id": 206,
+            "name": "星野源"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 207,
+        "fields": {
+            "id": 207,
+            "name": "Juice=Juice"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 208,
+        "fields": {
+            "id": 208,
+            "name": "鬼束ちひろ"
+        }
     }
 ]

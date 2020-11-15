@@ -87,14 +87,6 @@ def index(request):
         'res':res,
     }
     """
-    cursor = connection.cursor()
-    sql = 'select * from favolyric_lyrics inner join favolyric_images on favolyric_lyrics.image_id = favolyric_images.id \
-    inner join favolyric_artists on favolyric_lyrics.artist_id = favolyric_artists.id  \
-    inner join favolyric_emotions on favolyric_lyrics.emotion_id = favolyric_emotions.id \
-    inner join favolyric_itunes_links on favolyric_lyrics.itunes_link_id = favolyric_itunes_links.id;'
-    cursor.execute(sql)
-    rows = cursor.fetchall()
-    print(rows)
 
     return render(request, 'favolyric/index2.html' )
 
@@ -144,18 +136,23 @@ def result(request):
 
     cursor = connection.cursor()
     sql = 'select * from favolyric_lyrics inner join favolyric_images on favolyric_lyrics.image_id = favolyric_images.id \
-    inner join favolyric_artists on favolyric_lyrics.artist_id = favolyric_artists.id  \
-    inner join favolyric_emotions on favolyric_lyrics.emotion_id = favolyric_emotions.id \
-    inner join favolyric_itunes_links on favolyric_lyrics.itunes_link_id = favolyric_itunes_links.id;'
+    inner join favolyric_artists on favolyric_lyrics.artist_id = favolyric_artists.id;'
     cursor.execute(sql)
     rows = cursor.fetchall()
     print(rows)
 
     dic = {}
     for row in rows:
-        dic[row[1]] = [row[17], row[18], row[19], row[20], row[21], row[22]]
+        dic[row[1]] = {
+            "happy":row[5],
+            "sad":row[6],
+            "disgust":row[7],
+            "anger":row[8],
+            "fear":row[9],
+            "surprise":row[10]
+        }
 
-    dic['User'] = {'happy': float(request.POST.get('happy')), 'sad': float(request.POST.get('sad')),
+    dic["User"] = {'happy': float(request.POST.get('happy')), 'sad': float(request.POST.get('sad')),
         'disgust': float(request.POST.get('disgust')), 'anger': float(request.POST.get('anger')),
         'fear': float(request.POST.get('fear')), 'surprise': float(request.POST.get('surprise'))}
     user = "User"
@@ -166,9 +163,9 @@ def result(request):
         d["title"] = item[0]
         for i in range(len(rows)):
             if  rows[i][1] == item[0]:
-                d["artist"] = rows[i][13]
-                d["music_img"] = rows[i][9]
-                d["ituens_img"] = rows[i][26]
+                d["artist"] = rows[i][1]
+                d["music_img"] = rows[i][14]
+                d["ituens_img"] = rows[i][18]
                 break
         res.append(d)
     data = {
