@@ -1662,5 +1662,445 @@
             "id": 208,
             "name": "鬼束ちひろ"
         }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 209,
+        "fields": {
+            "id": 209,
+            "name": "放課後クライマックスガールズ"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 210,
+        "fields": {
+            "id": 210,
+            "name": "村田英雄"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 211,
+        "fields": {
+            "id": 211,
+            "name": "フレデリック"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 212,
+        "fields": {
+            "id": 212,
+            "name": "赤西仁"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 213,
+        "fields": {
+            "id": 213,
+            "name": "ビートたけし"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 214,
+        "fields": {
+            "id": 214,
+            "name": "小田和正"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 215,
+        "fields": {
+            "id": 215,
+            "name": "kobore"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 216,
+        "fields": {
+            "id": 216,
+            "name": "My Hair is Bad"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 217,
+        "fields": {
+            "id": 217,
+            "name": "渋谷凛(福原綾香)・森久保乃々(高橋花林)・大和亜季(村中知)"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 218,
+        "fields": {
+            "id": 218,
+            "name": "どぶろっかーず"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 219,
+        "fields": {
+            "id": 219,
+            "name": "島本須美"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 220,
+        "fields": {
+            "id": 220,
+            "name": "松原みき"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 221,
+        "fields": {
+            "id": 221,
+            "name": "B'z"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 222,
+        "fields": {
+            "id": 222,
+            "name": "ボビー"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 223,
+        "fields": {
+            "id": 223,
+            "name": "THE BLUE HEARTS"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 224,
+        "fields": {
+            "id": 224,
+            "name": "TANEBI"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 225,
+        "fields": {
+            "id": 225,
+            "name": "大塚愛"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 226,
+        "fields": {
+            "id": 226,
+            "name": "水木一郎"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 227,
+        "fields": {
+            "id": 227,
+            "name": "ピート・マック・ジュニア"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 228,
+        "fields": {
+            "id": 228,
+            "name": "reGretGirl"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 229,
+        "fields": {
+            "id": 229,
+            "name": "学芸大青春"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 230,
+        "fields": {
+            "id": 230,
+            "name": "Omoinotake"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 231,
+        "fields": {
+            "id": 231,
+            "name": "イルカ"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 232,
+        "fields": {
+            "id": 232,
+            "name": "ハチ"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 233,
+        "fields": {
+            "id": 233,
+            "name": "EXILE"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 234,
+        "fields": {
+            "id": 234,
+            "name": "Rain Drops"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 235,
+        "fields": {
+            "id": 235,
+            "name": "AI"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 236,
+        "fields": {
+            "id": 236,
+            "name": "いきものがかり"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 237,
+        "fields": {
+            "id": 237,
+            "name": "西岡徳馬"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 238,
+        "fields": {
+            "id": 238,
+            "name": "ナオト・インティライミ"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 239,
+        "fields": {
+            "id": 239,
+            "name": "-真天地開闢集団-ジグザグ"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 240,
+        "fields": {
+            "id": 240,
+            "name": "コレサワ"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 241,
+        "fields": {
+            "id": 241,
+            "name": "浦島坂田船"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 242,
+        "fields": {
+            "id": 242,
+            "name": "関ジャニ∞"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 243,
+        "fields": {
+            "id": 243,
+            "name": "iri"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 244,
+        "fields": {
+            "id": 244,
+            "name": "Lyrico"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 245,
+        "fields": {
+            "id": 245,
+            "name": "宮本浩次"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 246,
+        "fields": {
+            "id": 246,
+            "name": "AKINO"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 247,
+        "fields": {
+            "id": 247,
+            "name": "夏川りみ"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 248,
+        "fields": {
+            "id": 248,
+            "name": "ずっと真夜中でいいのに。"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 249,
+        "fields": {
+            "id": 249,
+            "name": "二葉あき子"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 250,
+        "fields": {
+            "id": 250,
+            "name": "岩崎宏美"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 251,
+        "fields": {
+            "id": 251,
+            "name": "ザ・ピーナッツ"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 252,
+        "fields": {
+            "id": 252,
+            "name": "=LOVE"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 253,
+        "fields": {
+            "id": 253,
+            "name": "めいちゃん"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 254,
+        "fields": {
+            "id": 254,
+            "name": "りりあ。"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 255,
+        "fields": {
+            "id": 255,
+            "name": "流線形／一十三十一"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 256,
+        "fields": {
+            "id": 256,
+            "name": "ASCA"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 257,
+        "fields": {
+            "id": 257,
+            "name": "はてな"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 258,
+        "fields": {
+            "id": 258,
+            "name": "ゆず"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 259,
+        "fields": {
+            "id": 259,
+            "name": "milet"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 260,
+        "fields": {
+            "id": 260,
+            "name": "真心ブラザーズ"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 261,
+        "fields": {
+            "id": 261,
+            "name": "BLUE ENCOUNT"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 262,
+        "fields": {
+            "id": 262,
+            "name": "長渕剛"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 263,
+        "fields": {
+            "id": 263,
+            "name": "ひらめ"
+        }
     }
 ]
