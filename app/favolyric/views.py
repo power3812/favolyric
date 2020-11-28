@@ -135,11 +135,11 @@ def result(request):
     """
 
     cursor = connection.cursor()
-    sql = 'select * from favolyric_lyrics inner join favolyric_images on favolyric_lyrics.image_id = favolyric_images.id \
-    inner join favolyric_artists on favolyric_lyrics.artist_id = favolyric_artists.id;'
+    sql    = 'SELECT * FROM favolyric_lyrics INNER JOIN favolyric_images ON \
+    favolyric_lyrics.image_id = favolyric_images.id INNER JOIN \
+    favolyric_artists ON favolyric_lyrics.artist_id = favolyric_artists.id;'
     cursor.execute(sql)
     rows = cursor.fetchall()
-    print(rows)
 
     dic = {}
     for row in rows:
@@ -155,22 +155,26 @@ def result(request):
     dic["User"] = {'happy': float(request.POST.get('happy')), 'sad': float(request.POST.get('sad')),
         'disgust': float(request.POST.get('disgust')), 'anger': float(request.POST.get('anger')),
         'fear': float(request.POST.get('fear')), 'surprise': float(request.POST.get('surprise'))}
-    user = "User"
+
+    user          = "User"
     similar_users = find_similar_users(dic, user, 3)
-    res = []
+    res           = []
+
     for item in similar_users:
-        d = {}
-        d["title"] = item[0]
+        lyric          = {}
+        lyric["title"] = item[0]
+
         for i in range(len(rows)):
             if  rows[i][1] == item[0]:
-                d["artist"] = rows[i][1]
-                d["music_img"] = rows[i][14]
-                d["ituens_img"] = rows[i][18]
+                lyric["artist"]     = rows[i][1]
+                lyric["music_img"]  = rows[i][14]
+                lyric["ituens_img"] = rows[i][18]
                 break
-        res.append(d)
+
+        res.append(lyric)
+
     data = {
         'res':res,
     }
-
 
     return render(request, 'favolyric/result.html', data)
