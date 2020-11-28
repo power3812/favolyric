@@ -4,19 +4,19 @@ from django_mysql.models import QuerySet
 # Create your models here.
 
 class Lyrics(models.Model):
-    id             = models.AutoField(primary_key = True)
-    title          = models.CharField(max_length = 255, db_index = True)
-    artist_id      = models.IntegerField(db_index = True)
-    image_id       = models.IntegerField(db_index = True)
-    itunes_link    = models.CharField(max_length = 255, db_index = True)
-    happy          = models.FloatField(db_index = True)
-    sad            = models.FloatField(db_index = True)
-    angry          = models.FloatField(db_index = True)
-    disgust        = models.FloatField(db_index = True)
-    surprise       = models.FloatField(db_index = True)
-    fear           = models.FloatField(db_index = True)
-    created_at     = models.DateTimeField(auto_now_add = True, null = True)
-    updated_at     = models.DateTimeField(auto_now = True, null = True)
+    id          = models.AutoField(primary_key = True)
+    title       = models.CharField(max_length = 255, db_index = True)
+    artist_id   = models.IntegerField(db_index = True)
+    image_id    = models.IntegerField(db_index = True)
+    itunes_link = models.CharField(max_length = 255, db_index = True)
+    happy       = models.FloatField(db_index = True)
+    sad         = models.FloatField(db_index = True)
+    angry       = models.FloatField(db_index = True)
+    disgust     = models.FloatField(db_index = True)
+    surprise    = models.FloatField(db_index = True)
+    fear        = models.FloatField(db_index = True)
+    created_at  = models.DateTimeField(auto_now_add = True, null = True)
+    updated_at  = models.DateTimeField(auto_now = True, null = True)
 
     objects = QuerySet.as_manager()
 
