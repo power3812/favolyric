@@ -166,9 +166,9 @@ def result(request):
 
         for i in range(len(rows)):
             if  rows[i][1] == item[0]:
-                lyric["artist"]     = rows[i][1]
+                lyric["artist"]     = rows[i][18]
                 lyric["music_img"]  = rows[i][14]
-                lyric["ituens_img"] = rows[i][18]
+                lyric["ituens_img"] = rows[i][4]
                 break
 
         res.append(lyric)
