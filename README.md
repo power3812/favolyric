@@ -1,5 +1,5 @@
 # Summary
-感情で音楽推薦アプリ <br>
+感情で音楽推薦WEBアプリケーション <br>
 [システム要件(暫定)](./system_requirements) <br>
 
 # Requirement
