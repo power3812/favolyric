@@ -18,6 +18,9 @@ sentimentjaという日本語テキストの感情を6種類(happy, sad, angry, 
     - Docker
     - Nginx
 
+# テーブル定義
+[テーブル定義(暫定)](./db_schema) <br>
+
 # システム構成図
 todo
 
