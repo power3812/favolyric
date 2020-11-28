@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 
-class RecochokuConfig(AppConfig):
+class FavolyricConfig(AppConfig):
     name = 'favolyric'
