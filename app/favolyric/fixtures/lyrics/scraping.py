@@ -154,14 +154,12 @@ def main():
                 # 歌詞が格納されているdiv要素か
                 if r'itemprop="text"' in div:
                     # 不要なデータを取り除く
-                    #print(html)
                     soup = BeautifulSoup(div, 'html.parser')
                     while (soup.div):
                         soup.div.unwrap()
                     soup_text = str(soup.get_text(','))
 
                     k = str(i+1)
-                    #kashis += k+ '曲目:' + str(page)
                     kashis = soup_text.split(',')
                     for kashi in kashis:
                         if kashi != '\n':
