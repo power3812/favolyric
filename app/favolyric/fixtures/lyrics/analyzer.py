@@ -11,18 +11,18 @@ dt_now = datetime.datetime.now()
 
 time = dt_now.strftime('%Y_%m_%d')
 #dirname  = "ranking/" + time + "/"
-dirname  =  "ranking/2020_11_01/"
+dirname  =  "ranking/*/"
 filename = "*.txt"
 #dirname_result = "result/" + time + "/"
-dirname_result  =  "result/2020_11_01/"
+dirname_result  =  "result/*/"
 files = glob.glob(dirname + filename)
 analyzer = Analyzer()
 
 lyrics_csv       = pd.read_csv("lyrics.csv",  sep=',', encoding='utf-8')
 artists_csv      = pd.read_csv("artists.csv",  sep=',', encoding='utf-8')
-emotions_csv     = pd.read_csv("emotions.csv",  sep=',', encoding='utf-8')
+#emotions_csv     = pd.read_csv("emotions.csv",  sep=',', encoding='utf-8')
 images_csv       = pd.read_csv("images.csv",  sep=',', encoding='utf-8')
-itunes_links_csv = pd.read_csv("itunes_links.csv",  sep=',', encoding='utf-8')
+#itunes_links_csv = pd.read_csv("itunes_links.csv",  sep=',', encoding='utf-8')
 
 for i, file in enumerate(files):
     f = open(file)
@@ -67,15 +67,6 @@ for i, file in enumerate(files):
     image       = data[2].replace('\n', '')
     itunes_link = data[3].replace('\n', '')
 
-    emotion_exist_flag = False
-    for index, row in emotions_csv.iterrows():
-        if happy == row['happy'] and sad == row['sad'] and angry == row['angry'] and disgust == row['disgust'] and surprise == row['surprise'] and fear == row['fear']:
-            emotion_exist_flag = True
-            break
-
-    if not emotion_exist_flag:
-        emotion_id  = int(emotions_csv.tail(1).id.iloc[-1] + 1)
-        emotions_csv = emotions_csv.append({"id":int(emotion_id), "happy" : happy, "sad" : sad, "angry" : angry, "disgust" : disgust, "surprise" : surprise, "fear" : fear}, ignore_index=True)
 
     artist_exist_flag = False
     for index, row in artists_csv.iterrows():
@@ -95,15 +86,6 @@ for i, file in enumerate(files):
     if not image_exist_flag:
         images_csv = images_csv.append({"id": images_csv.tail(1).id.iloc[-1] + 1, "url":image}, ignore_index=True)
 
-    itunes_link_exist_flag = False
-    for index, row in itunes_links_csv.iterrows():
-        if itunes_link == row['url']:
-            itunes_link_exist_flag = True
-            break
-
-    if not itunes_link_exist_flag:
-        itunes_links_csv = itunes_links_csv.append({"id": itunes_links_csv.tail(1).id.iloc[-1] + 1, "url":itunes_link}, ignore_index=True)
-
     title_exist_flag = False
     for index, row in lyrics_csv.iterrows():
         if title == row['title']:
@@ -113,20 +95,32 @@ for i, file in enumerate(files):
     if not title_exist_flag:
         artist_id = artists_csv[artists_csv['name'] == artist].id.iloc[-1]
         image_id  = images_csv[images_csv['url'] == image].id.iloc[-1]
-        itunes_link  = itunes_links_csv[itunes_links_csv['url'] == itunes_link].id.iloc[-1]
-        emotion_id = emotions_csv[(emotions_csv['happy'] == happy) & (emotions_csv['sad'] == sad) & (emotions_csv['angry'] == angry) & (emotions_csv['disgust'] == disgust) & (emotions_csv['surprise'] == surprise) & (emotions_csv['fear'] == fear)].id.iloc[-1]
+        #itunes_link  = itunes_links_csv[itunes_links_csv['url'] == itunes_link].id.iloc[-1]
+        #emotion_id = emotions_csv[(emotions_csv['happy'] == happy) & (emotions_csv['sad'] == sad) & (emotions_csv['angry'] == angry) & (emotions_csv['disgust'] == disgust) & (emotions_csv['surprise'] == surprise) & (emotions_csv['fear'] == fear)].id.iloc[-1]
         #print(lyrics_csv.tail(1).id.iloc[-1])
-        lyric_json = {"id": lyrics_csv.tail(1).id.iloc[-1] + 1, "title":title, "artist_id":artist_id, "emotion_id":emotion_id, "image_id":image_id, "itunes_link_id":itunes_link}
+        lyric_json = {
+            "id": lyrics_csv.tail(1).id.iloc[-1] + 1,\
+            "title":title, \
+            "artist_id":artist_id, \
+            "image_id":image_id, \
+            "itunes_link":itunes_link, \
+            "happy":happy, \
+            "sad":sad, \
+            "angry":angry, \
+            "disgust":disgust, \
+            "surprise":surprise, \
+            "fear":fear, \
+        }
         lyrics_csv = lyrics_csv.append(lyric_json, ignore_index=True)
 
 print(artists_csv)
 artists_csv.to_csv('artists.csv', index=False)
-emotions_csv["id"] = emotions_csv["id"].astype(int)
-emotions_csv.to_csv('emotions.csv', index=False)
+#emotions_csv["id"] = emotions_csv["id"].astype(int)
+#emotions_csv.to_csv('emotions.csv', index=False)
 images_csv.to_csv('images.csv', index=False)
-itunes_links_csv.to_csv('itunes_links.csv', index=False)
-lyrics_csv["itunes_link_id"] = lyrics_csv["itunes_link_id"].astype(int)
-lyrics_csv["emotion_id"] = lyrics_csv["emotion_id"].astype(int)
+#itunes_links_csv.to_csv('itunes_links.csv', index=False)
+#lyrics_csv["itunes_link_id"] = lyrics_csv["itunes_link_id"].astype(int)
+#lyrics_csv["emotion_id"] = lyrics_csv["emotion_id"].astype(int)
 lyrics_csv.to_csv('lyrics.csv', index=False)
 #os.mkdir(dirname_result)
 #fw = open(dirname_result + 'lyric.json','w')

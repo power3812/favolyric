@@ -7,16 +7,21 @@ class Lyrics(models.Model):
     id             = models.AutoField(primary_key = True)
     title          = models.CharField(max_length = 255, db_index = True)
     artist_id      = models.IntegerField(db_index = True)
-    emotion_id     = models.IntegerField(db_index = True)
     image_id       = models.IntegerField(db_index = True)
-    itunes_link_id = models.IntegerField(db_index = True)
+    itunes_link    = models.CharField(max_length = 255, db_index = True)
+    happy          = models.FloatField(db_index = True)
+    sad            = models.FloatField(db_index = True)
+    angry          = models.FloatField(db_index = True)
+    disgust        = models.FloatField(db_index = True)
+    surprise       = models.FloatField(db_index = True)
+    fear           = models.FloatField(db_index = True)
     created_at     = models.DateTimeField(auto_now_add = True, null = True)
     updated_at     = models.DateTimeField(auto_now = True, null = True)
 
     objects = QuerySet.as_manager()
 
     class Meta:
-        unique_together=(("title", "artist_id", "emotion_id"))
+        unique_together=(("title", "artist_id"))
 
 class Artists(models.Model):
     id         = models.AutoField(primary_key = True)
@@ -26,30 +31,9 @@ class Artists(models.Model):
 
     objects = QuerySet.as_manager()
 
-class Emotions(models.Model):
-    id         = models.AutoField(primary_key = True)
-    happy      = models.FloatField(db_index = True)
-    sad        = models.FloatField(db_index = True)
-    angry      = models.FloatField(db_index = True)
-    disgust    = models.FloatField(db_index = True)
-    surprise   = models.FloatField(db_index = True)
-    fear       = models.FloatField(db_index = True)
-    created_at = models.DateTimeField(auto_now_add = True, null = True)
-    updated_at = models.DateTimeField(auto_now = True, null = True)
-
-    objects = QuerySet.as_manager()
-
 class Images(models.Model):
     id         = models.AutoField(primary_key = True)
     url        = models.CharField(max_length = 255, db_index = True, unique = True)
-    created_at = models.DateTimeField(auto_now_add = True, null = True)
-    updated_at = models.DateTimeField(auto_now = True, null = True)
-
-    objects = QuerySet.as_manager()
-
-class Itunes_links(models.Model):
-    id         = models.AutoField(primary_key = True)
-    link       = models.CharField(max_length = 255, db_index = True, unique = True)
     created_at = models.DateTimeField(auto_now_add = True, null = True)
     updated_at = models.DateTimeField(auto_now = True, null = True)
 

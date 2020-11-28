@@ -51,7 +51,7 @@ def scraping_web_page(url):
 def main():
     dt_now = datetime.datetime.now()
     time_now = dt_now.strftime('%Y_%m_%d')
-    dirname  = "ranking/" + time_now  + "/"
+    dirname  = "/Users/nakashimayuta/Documents/GitHub/favolyric/app/favolyric/fixtures/lyrics/ranking/" + time_now  + "/"
     os.mkdir(dirname)
     # 曲ページの先頭アドレス
     base_url = 'https://www.uta-net.com'

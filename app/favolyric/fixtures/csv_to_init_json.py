@@ -9,12 +9,10 @@ import json
 
 def main():
     args = sys.argv
-    """
     if len(args) != 3:
         print("引数は2です。(csvファイル名とjson名)")
         exit(1)
-    """
-    
+
     csv_file = pd.read_csv(args[1],  sep=',', encoding='utf-8')
     table_name = args[1].split("/")[1].split(".")[0]
     column_names = []
@@ -36,13 +34,13 @@ def main():
             "fields":fields
         }
         csv_jsons.append(csv_json)
-    
+
     print(csv_jsons)
 
     json_file = open(args[2], 'w')
     json.dump(csv_jsons, json_file, indent=4, ensure_ascii=False)
 
-    
+
     """
     json_file = open(args[2], 'w')
     dt_now = datetime.datetime.now()
