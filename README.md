@@ -1,5 +1,6 @@
 # Summary
 感情で音楽推薦アプリ <br>
+[システム要件(暫定)](./SYSTEM_REQUIREMENTS.md) <br>
 
 # Requirement
 docker <br>
