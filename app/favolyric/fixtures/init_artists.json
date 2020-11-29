@@ -2102,5 +2102,21 @@
             "id": 263,
             "name": "ひらめ"
         }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 264,
+        "fields": {
+            "id": 264,
+            "name": "LiSA×Uru"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 265,
+        "fields": {
+            "id": 265,
+            "name": "伊弉冉一二三(木島隆一)"
+        }
     }
 ]
