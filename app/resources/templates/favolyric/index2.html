@@ -16,12 +16,12 @@
     </head>
     <body>
         <header>
-            <h1 id="title"><a href="/">～favolyric～</a></h1>
+            <h1 id="title"><a href="/api/index">～favolyric～</a></h1>
         </header>
         <section id="wrapper">
             <h1>どんな気持ちになりたいですか？</h1>
             <canvas id="chart"></canvas>
-            <form id="form" name="form" method="GET" onsubmit="beforeSubmit()" action="{% url 'favolyric:result' %}">
+            <form id="form" name="form" method="GET" onsubmit="beforeSubmit()" action="{% url 'favolyric:result' %}" novalidate>
                 <div id="submit-wrapper">
                     <button type="submit" id="submit" name="submit">送信</button>
                 </div>
