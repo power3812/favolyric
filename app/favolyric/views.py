@@ -46,9 +46,9 @@ class Result(APIView):
         for i in range(len(ratings)):
             dic[ratings[i]['title']] = ratings[i]["emotions"]
 
-        dic['User'] = {'happy': float(request.POST.get('happy')), 'sad': float(request.POST.get('sad')),
-            'disgust': float(request.POST.get('disgust')), 'anger': float(request.POST.get('anger')),
-            'fear': float(request.POST.get('fear')), 'surprise': float(request.POST.get('surprise'))}
+        dic['User'] = {'happy': float(request.GET.get('happy')), 'sad': float(request.GET.get('sad')),
+            'disgust': float(request.GET.get('disgust')), 'anger': float(request.GET.get('anger')),
+            'fear': float(request.GET.get('fear')), 'surprise': float(request.GET.get('surprise'))}
         user = "User"
         similar_users = find_similar_users(dic, user, 3)
         res = []
@@ -109,9 +109,9 @@ def result(request):
             "surprise":row[10]
         }
 
-    dic["User"] = {'happy': float(request.POST.get('happy')), 'sad': float(request.POST.get('sad')),
-        'disgust': float(request.POST.get('disgust')), 'anger': float(request.POST.get('anger')),
-        'fear': float(request.POST.get('fear')), 'surprise': float(request.POST.get('surprise'))}
+    dic["User"] = {'happy': float(request.GET.get('happy')), 'sad': float(request.GET.get('sad')),
+        'disgust': float(request.GET.get('disgust')), 'anger': float(request.GET.get('anger')),
+        'fear': float(request.GET.get('fear')), 'surprise': float(request.GET.get('surprise'))}
 
     user          = "User"
     similar_users = find_similar_users(dic, user, 3)
@@ -122,7 +122,7 @@ def result(request):
         lyric["title"] = item[0]
 
         for row in rows:
-            if  rows[i][1] == item[0]:
+            if  row[1] == item[0]:
                 lyric["artist"]     = row[18]
                 lyric["music_img"]  = row[14]
                 lyric["ituens_img"] = row[4]
