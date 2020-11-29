@@ -17,6 +17,9 @@ from .models import Views
 from . rating import pearson_score, find_similar_users
 from redis import Redis
 
+def is_num(s):
+    return s.replace(',', '').replace('.', '').replace('-', '').isnumeric()
+
 """
 class Index(APIView):
     permission_classes = (permissions.AllowAny,)
@@ -109,11 +112,22 @@ def result(request):
             "surprise":row[10]
         }
 
-    dic["User"] = {'happy': float(request.GET.get('happy')), 'sad': float(request.GET.get('sad')),
-        'disgust': float(request.GET.get('disgust')), 'anger': float(request.GET.get('anger')),
-        'fear': float(request.GET.get('fear')), 'surprise': float(request.GET.get('surprise'))}
+    dic["user"] = {
+        "happy": request.GET.get("happy"),
+        "sad": request.GET.get("sad"),
+        "disgust": request.GET.get("disgust"),
+        "anger": request.GET.get("anger"),
+        "fear": request.GET.get("fear"),
+        "surprise": request.GET.get("surprise"),
+    }
 
-    user          = "User"
+    for emotion, user_param in dic["user"].items():
+        if user_param is None or not is_num(user_param):
+            dic["user"][emotion] = 0.0
+        else:
+            dic["user"][emotion] = float(user_param)
+
+    user          = "user"
     similar_users = find_similar_users(dic, user, 3)
     res           = []
 
