@@ -2118,5 +2118,13 @@
             "id": 265,
             "name": "伊弉冉一二三(木島隆一)"
         }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 266,
+        "fields": {
+            "id": 266,
+            "name": "mona(夏川椎菜)"
+        }
     }
 ]
