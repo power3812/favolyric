@@ -2126,5 +2126,37 @@
             "id": 266,
             "name": "mona(夏川椎菜)"
         }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 267,
+        "fields": {
+            "id": 267,
+            "name": "木村カエラ"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 268,
+        "fields": {
+            "id": 268,
+            "name": "Kis-My-Ft2"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 269,
+        "fields": {
+            "id": 269,
+            "name": "Hilcrhyme"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 270,
+        "fields": {
+            "id": 270,
+            "name": "KOH+"
+        }
     }
 ]
