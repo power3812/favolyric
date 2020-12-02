@@ -2158,5 +2158,77 @@
             "id": 270,
             "name": "KOH+"
         }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 271,
+        "fields": {
+            "id": 271,
+            "name": "山下達郎"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 272,
+        "fields": {
+            "id": 272,
+            "name": "崎山蒼志"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 273,
+        "fields": {
+            "id": 273,
+            "name": "宮本フレデリカ(高野麻美)、棟方愛海(藤本彩花)、及川雫(のぐちゆり)、荒木比奈(田辺留依)、姫川友紀(杜野まこ)"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 274,
+        "fields": {
+            "id": 274,
+            "name": "Fling Posse"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 275,
+        "fields": {
+            "id": 275,
+            "name": "Twenty★Twenty"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 276,
+        "fields": {
+            "id": 276,
+            "name": "CHAGE and ASKA"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 277,
+        "fields": {
+            "id": 277,
+            "name": "竹内まりや"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 278,
+        "fields": {
+            "id": 278,
+            "name": "ベイビーレイズJAPAN"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 279,
+        "fields": {
+            "id": 279,
+            "name": "YUI"
+        }
     }
 ]
