@@ -2230,5 +2230,117 @@
             "id": 279,
             "name": "YUI"
         }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 280,
+        "fields": {
+            "id": 280,
+            "name": "英亜里"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 281,
+        "fields": {
+            "id": 281,
+            "name": "KAT-TUN"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 282,
+        "fields": {
+            "id": 282,
+            "name": "NEWS"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 283,
+        "fields": {
+            "id": 283,
+            "name": "w-inds."
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 284,
+        "fields": {
+            "id": 284,
+            "name": "松尾雄史"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 285,
+        "fields": {
+            "id": 285,
+            "name": "秋岡秀治"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 286,
+        "fields": {
+            "id": 286,
+            "name": "GYROAXIA"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 287,
+        "fields": {
+            "id": 287,
+            "name": "浜崎あゆみ"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 288,
+        "fields": {
+            "id": 288,
+            "name": "赤い公園"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 289,
+        "fields": {
+            "id": 289,
+            "name": "チェッカーズ"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 290,
+        "fields": {
+            "id": 290,
+            "name": "水瀬いのり"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 291,
+        "fields": {
+            "id": 291,
+            "name": "木梨憲武"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 292,
+        "fields": {
+            "id": 292,
+            "name": "安全地帯"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 293,
+        "fields": {
+            "id": 293,
+            "name": "倖田來未"
+        }
     }
 ]
