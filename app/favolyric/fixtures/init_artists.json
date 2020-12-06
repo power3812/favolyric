@@ -2118,5 +2118,229 @@
             "id": 265,
             "name": "伊弉冉一二三(木島隆一)"
         }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 266,
+        "fields": {
+            "id": 266,
+            "name": "mona(夏川椎菜)"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 267,
+        "fields": {
+            "id": 267,
+            "name": "木村カエラ"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 268,
+        "fields": {
+            "id": 268,
+            "name": "Kis-My-Ft2"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 269,
+        "fields": {
+            "id": 269,
+            "name": "Hilcrhyme"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 270,
+        "fields": {
+            "id": 270,
+            "name": "KOH+"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 271,
+        "fields": {
+            "id": 271,
+            "name": "山下達郎"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 272,
+        "fields": {
+            "id": 272,
+            "name": "崎山蒼志"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 273,
+        "fields": {
+            "id": 273,
+            "name": "宮本フレデリカ(高野麻美)、棟方愛海(藤本彩花)、及川雫(のぐちゆり)、荒木比奈(田辺留依)、姫川友紀(杜野まこ)"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 274,
+        "fields": {
+            "id": 274,
+            "name": "Fling Posse"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 275,
+        "fields": {
+            "id": 275,
+            "name": "Twenty★Twenty"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 276,
+        "fields": {
+            "id": 276,
+            "name": "CHAGE and ASKA"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 277,
+        "fields": {
+            "id": 277,
+            "name": "竹内まりや"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 278,
+        "fields": {
+            "id": 278,
+            "name": "ベイビーレイズJAPAN"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 279,
+        "fields": {
+            "id": 279,
+            "name": "YUI"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 280,
+        "fields": {
+            "id": 280,
+            "name": "英亜里"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 281,
+        "fields": {
+            "id": 281,
+            "name": "KAT-TUN"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 282,
+        "fields": {
+            "id": 282,
+            "name": "NEWS"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 283,
+        "fields": {
+            "id": 283,
+            "name": "w-inds."
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 284,
+        "fields": {
+            "id": 284,
+            "name": "松尾雄史"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 285,
+        "fields": {
+            "id": 285,
+            "name": "秋岡秀治"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 286,
+        "fields": {
+            "id": 286,
+            "name": "GYROAXIA"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 287,
+        "fields": {
+            "id": 287,
+            "name": "浜崎あゆみ"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 288,
+        "fields": {
+            "id": 288,
+            "name": "赤い公園"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 289,
+        "fields": {
+            "id": 289,
+            "name": "チェッカーズ"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 290,
+        "fields": {
+            "id": 290,
+            "name": "水瀬いのり"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 291,
+        "fields": {
+            "id": 291,
+            "name": "木梨憲武"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 292,
+        "fields": {
+            "id": 292,
+            "name": "安全地帯"
+        }
+    },
+    {
+        "model": "favolyric.artists",
+        "pk": 293,
+        "fields": {
+            "id": 293,
+            "name": "倖田來未"
+        }
     }
 ]

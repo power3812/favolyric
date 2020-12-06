@@ -2920,7 +2920,7 @@
             "angry": 5.131578947368421,
             "disgust": 5.2631578947368425,
             "surprise": 2.263157894736842,
-            "fear": 2.8947368421052637
+            "fear": 2.894736842105264
         }
     },
     {
@@ -3851,7 +3851,7 @@
             "image_id": 208,
             "itunes_link": "https://itunes.apple.com/jp/album/id1250709912?i=1250709921&uo=4&app=itunes&at=1l3v3es",
             "happy": 2.026315789473684,
-            "sad": 2.8947368421052633,
+            "sad": 2.8947368421052637,
             "angry": 13.552631578947368,
             "disgust": 4.157894736842104,
             "surprise": 2.736842105263158,
@@ -5805,7 +5805,7 @@
             "artist_id": 39,
             "image_id": 278,
             "itunes_link": "*",
-            "happy": 3.3947368421052633,
+            "happy": 3.3947368421052637,
             "sad": 3.4210526315789487,
             "angry": 3.763157894736842,
             "disgust": 2.394736842105264,
@@ -5927,7 +5927,7 @@
             "happy": 3.4444444444444446,
             "sad": 2.1777777777777776,
             "angry": 4.977777777777779,
-            "disgust": 4.6444444444444475,
+            "disgust": 4.644444444444448,
             "surprise": 2.7333333333333334,
             "fear": 2.7777777777777777
         }
@@ -8663,7 +8663,7 @@
             "itunes_link": "*",
             "happy": 1.5714285714285714,
             "sad": 1.8095238095238089,
-            "angry": 3.619047619047618,
+            "angry": 3.6190476190476177,
             "disgust": 3.571428571428572,
             "surprise": 3.2857142857142856,
             "fear": 3.571428571428572
@@ -8870,7 +8870,7 @@
             "angry": 4.538461538461538,
             "disgust": 4.653846153846153,
             "surprise": 2.0,
-            "fear": 2.4230769230769234
+            "fear": 2.423076923076924
         }
     },
     {
@@ -8882,7 +8882,7 @@
             "artist_id": 60,
             "image_id": 449,
             "itunes_link": "https://itunes.apple.com/jp/album/id1526090251?i=1526090252&uo=4&app=itunes&at=1l3v3es",
-            "happy": 3.939393939393939,
+            "happy": 3.9393939393939386,
             "sad": 4.212121212121212,
             "angry": 5.393939393939394,
             "disgust": 3.6666666666666665,
@@ -8972,7 +8972,7 @@
             "angry": 7.242424242424242,
             "disgust": 5.878787878787879,
             "surprise": 2.9393939393939394,
-            "fear": 3.0909090909090913
+            "fear": 3.090909090909092
         }
     },
     {
@@ -9058,6 +9058,1213 @@
             "disgust": 3.2962962962962963,
             "surprise": 2.0370370370370368,
             "fear": 3.6666666666666665
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 534,
+        "fields": {
+            "id": 534,
+            "title": "ファンサ",
+            "artist_id": 266,
+            "image_id": 456,
+            "itunes_link": "https://itunes.apple.com/jp/album/id1493907318?i=1493907432&uo=4&app=itunes&at=1l3v3es",
+            "happy": 2.2790697674418605,
+            "sad": 2.8372093023255816,
+            "angry": 9.209302325581397,
+            "disgust": 3.9069767441860463,
+            "surprise": 1.9534883720930232,
+            "fear": 1.6511627906976745
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 535,
+        "fields": {
+            "id": 535,
+            "title": "All You Need",
+            "artist_id": 152,
+            "image_id": 457,
+            "itunes_link": "*",
+            "happy": 5.1521739130434785,
+            "sad": 4.0,
+            "angry": 4.260869565217392,
+            "disgust": 1.6956521739130437,
+            "surprise": 4.065217391304348,
+            "fear": 2.1956521739130435
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 536,
+        "fields": {
+            "id": 536,
+            "title": "love u...",
+            "artist_id": 71,
+            "image_id": 100,
+            "itunes_link": "*",
+            "happy": 5.114285714285714,
+            "sad": 3.0428571428571427,
+            "angry": 3.4,
+            "disgust": 1.5857142857142856,
+            "surprise": 4.242857142857143,
+            "fear": 2.242857142857143
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 537,
+        "fields": {
+            "id": 537,
+            "title": "愛の奴隷",
+            "artist_id": 190,
+            "image_id": 458,
+            "itunes_link": "*",
+            "happy": 1.9464285714285716,
+            "sad": 2.446428571428572,
+            "angry": 5.625,
+            "disgust": 4.821428571428571,
+            "surprise": 2.9107142857142856,
+            "fear": 3.0535714285714284
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 538,
+        "fields": {
+            "id": 538,
+            "title": "Squall",
+            "artist_id": 160,
+            "image_id": 459,
+            "itunes_link": "https://itunes.apple.com/jp/album/id848905648?i=848905874&uo=4&app=itunes&at=1l3v3es",
+            "happy": 2.6785714285714284,
+            "sad": 5.071428571428571,
+            "angry": 3.321428571428572,
+            "disgust": 3.821428571428572,
+            "surprise": 3.2142857142857144,
+            "fear": 3.071428571428572
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 539,
+        "fields": {
+            "id": 539,
+            "title": "Tokyo Hipster",
+            "artist_id": 149,
+            "image_id": 258,
+            "itunes_link": "*",
+            "happy": 4.857142857142857,
+            "sad": 1.9714285714285715,
+            "angry": 4.285714285714286,
+            "disgust": 3.4,
+            "surprise": 2.6,
+            "fear": 2.2857142857142856
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 540,
+        "fields": {
+            "id": 540,
+            "title": "ふわふわポムポム",
+            "artist_id": 242,
+            "image_id": 461,
+            "itunes_link": "*",
+            "happy": 2.6388888888888893,
+            "sad": 1.75,
+            "angry": 5.6944444444444455,
+            "disgust": 4.472222222222221,
+            "surprise": 4.02777777777778,
+            "fear": 3.4166666666666665
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 541,
+        "fields": {
+            "id": 541,
+            "title": "パチもん",
+            "artist_id": 190,
+            "image_id": 462,
+            "itunes_link": "*",
+            "happy": 1.7111111111111108,
+            "sad": 1.022222222222222,
+            "angry": 13.711111111111107,
+            "disgust": 5.022222222222221,
+            "surprise": 3.3777777777777778,
+            "fear": 3.088888888888889
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 542,
+        "fields": {
+            "id": 542,
+            "title": "あわてんぼうのサンタクロース",
+            "artist_id": 163,
+            "image_id": 463,
+            "itunes_link": "*",
+            "happy": 3.8285714285714287,
+            "sad": 1.1714285714285717,
+            "angry": 6.571428571428571,
+            "disgust": 6.2857142857142865,
+            "surprise": 3.8,
+            "fear": 2.742857142857144
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 543,
+        "fields": {
+            "id": 543,
+            "title": "からっぽ",
+            "artist_id": 258,
+            "image_id": 464,
+            "itunes_link": "https://itunes.apple.com/jp/album/id1223976246?i=1223976741&uo=4&app=itunes&at=1l3v3es",
+            "happy": 1.7222222222222223,
+            "sad": 2.6666666666666665,
+            "angry": 8.555555555555555,
+            "disgust": 3.6666666666666665,
+            "surprise": 1.6111111111111112,
+            "fear": 2.055555555555556
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 544,
+        "fields": {
+            "id": 544,
+            "title": "道標",
+            "artist_id": 160,
+            "image_id": 465,
+            "itunes_link": "https://itunes.apple.com/jp/album/id847870664?i=847870760&uo=4&app=itunes&at=1l3v3es",
+            "happy": 6.1,
+            "sad": 2.1,
+            "angry": 5.533333333333332,
+            "disgust": 3.6666666666666665,
+            "surprise": 2.2666666666666666,
+            "fear": 2.3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 545,
+        "fields": {
+            "id": 545,
+            "title": "Butterfly",
+            "artist_id": 267,
+            "image_id": 466,
+            "itunes_link": "https://itunes.apple.com/jp/album/id880943689?i=880943697&uo=4&app=itunes&at=1l3v3es",
+            "happy": 5.3478260869565215,
+            "sad": 2.8260869565217392,
+            "angry": 4.260869565217392,
+            "disgust": 3.0434782608695654,
+            "surprise": 4.0,
+            "fear": 1.9130434782608696
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 546,
+        "fields": {
+            "id": 546,
+            "title": "「ありがとう」～世界のどこにいても～",
+            "artist_id": 41,
+            "image_id": 467,
+            "itunes_link": "*",
+            "happy": 6.351351351351353,
+            "sad": 1.5945945945945943,
+            "angry": 4.378378378378378,
+            "disgust": 2.6486486486486487,
+            "surprise": 2.972972972972973,
+            "fear": 1.4324324324324325
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 547,
+        "fields": {
+            "id": 547,
+            "title": "MAHARAJA",
+            "artist_id": 268,
+            "image_id": 468,
+            "itunes_link": "*",
+            "happy": 2.8181818181818183,
+            "sad": 1.8409090909090908,
+            "angry": 8.181818181818182,
+            "disgust": 3.3181818181818183,
+            "surprise": 3.772727272727273,
+            "fear": 2.772727272727273
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 548,
+        "fields": {
+            "id": 548,
+            "title": "春夏秋冬",
+            "artist_id": 269,
+            "image_id": 37,
+            "itunes_link": "*",
+            "happy": 4.784313725490196,
+            "sad": 4.254901960784314,
+            "angry": 2.9607843137254903,
+            "disgust": 3.0,
+            "surprise": 2.9411764705882355,
+            "fear": 2.1372549019607843
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 549,
+        "fields": {
+            "id": 549,
+            "title": "3.1415926535",
+            "artist_id": 190,
+            "image_id": 386,
+            "itunes_link": "*",
+            "happy": 3.0,
+            "sad": 1.7866666666666666,
+            "angry": 7.866666666666666,
+            "disgust": 5.64,
+            "surprise": 3.4266666666666667,
+            "fear": 2.72
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 550,
+        "fields": {
+            "id": 550,
+            "title": "どこにでもある唄。",
+            "artist_id": 79,
+            "image_id": 469,
+            "itunes_link": "*",
+            "happy": 1.6363636363636365,
+            "sad": 4.909090909090909,
+            "angry": 5.090909090909091,
+            "disgust": 2.9545454545454546,
+            "surprise": 2.272727272727273,
+            "fear": 3.954545454545455
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 551,
+        "fields": {
+            "id": 551,
+            "title": "ホルモン～関西に伝わりしダイアモンド～",
+            "artist_id": 190,
+            "image_id": 386,
+            "itunes_link": "*",
+            "happy": 2.235294117647059,
+            "sad": 1.3088235294117647,
+            "angry": 9.014705882352944,
+            "disgust": 5.720588235294117,
+            "surprise": 2.5441176470588243,
+            "fear": 2.2058823529411766
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 552,
+        "fields": {
+            "id": 552,
+            "title": "恋がはじまるよーー!!!",
+            "artist_id": 149,
+            "image_id": 470,
+            "itunes_link": "*",
+            "happy": 3.375,
+            "sad": 1.78125,
+            "angry": 3.3125,
+            "disgust": 4.28125,
+            "surprise": 2.8125,
+            "fear": 2.75
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 553,
+        "fields": {
+            "id": 553,
+            "title": "OH! サマー KING",
+            "artist_id": 10,
+            "image_id": 471,
+            "itunes_link": "*",
+            "happy": 2.4545454545454546,
+            "sad": 1.4772727272727273,
+            "angry": 5.386363636363637,
+            "disgust": 6.0681818181818175,
+            "surprise": 2.7954545454545454,
+            "fear": 2.090909090909091
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 554,
+        "fields": {
+            "id": 554,
+            "title": "ココ マドモアゼル",
+            "artist_id": 241,
+            "image_id": 412,
+            "itunes_link": "https://itunes.apple.com/jp/album/id1540194879?i=1540194895&uo=4&app=itunes&at=1l3v3es",
+            "happy": 2.2105263157894743,
+            "sad": 2.8421052631578947,
+            "angry": 5.63157894736842,
+            "disgust": 4.3421052631578965,
+            "surprise": 2.7894736842105257,
+            "fear": 2.4473684210526314
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 555,
+        "fields": {
+            "id": 555,
+            "title": "Sexy Summerに雪が降る",
+            "artist_id": 149,
+            "image_id": 472,
+            "itunes_link": "*",
+            "happy": 5.1951219512195115,
+            "sad": 3.024390243902439,
+            "angry": 2.6829268292682933,
+            "disgust": 2.0,
+            "surprise": 3.2439024390243905,
+            "fear": 1.951219512195122
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 556,
+        "fields": {
+            "id": 556,
+            "title": "バィバィDuバィ ～See you again～",
+            "artist_id": 149,
+            "image_id": 474,
+            "itunes_link": "*",
+            "happy": 6.981132075471697,
+            "sad": 1.5660377358490567,
+            "angry": 5.811320754716983,
+            "disgust": 4.39622641509434,
+            "surprise": 2.1320754716981134,
+            "fear": 1.6037735849056605
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 557,
+        "fields": {
+            "id": 557,
+            "title": "大阪とんとんダンス",
+            "artist_id": 190,
+            "image_id": 475,
+            "itunes_link": "*",
+            "happy": 1.9024390243902445,
+            "sad": 1.9878048780487805,
+            "angry": 8.085365853658537,
+            "disgust": 4.7317073170731705,
+            "surprise": 6.817073170731707,
+            "fear": 3.1707317073170733
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 558,
+        "fields": {
+            "id": 558,
+            "title": "アレルギー",
+            "artist_id": 39,
+            "image_id": 476,
+            "itunes_link": "*",
+            "happy": 1.875,
+            "sad": 1.75,
+            "angry": 6.666666666666668,
+            "disgust": 3.7083333333333335,
+            "surprise": 3.9166666666666665,
+            "fear": 3.208333333333333
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 559,
+        "fields": {
+            "id": 559,
+            "title": "ぶつかっちゃうよ",
+            "artist_id": 149,
+            "image_id": 477,
+            "itunes_link": "*",
+            "happy": 4.38,
+            "sad": 1.96,
+            "angry": 4.64,
+            "disgust": 2.58,
+            "surprise": 6.22,
+            "fear": 2.78
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 560,
+        "fields": {
+            "id": 560,
+            "title": "君は、綺麗だ。",
+            "artist_id": 10,
+            "image_id": 127,
+            "itunes_link": "*",
+            "happy": 7.695652173913044,
+            "sad": 3.4565217391304346,
+            "angry": 5.021739130434782,
+            "disgust": 3.0,
+            "surprise": 3.3695652173913038,
+            "fear": 2.4347826086956523
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 561,
+        "fields": {
+            "id": 561,
+            "title": "冬のプレゼント",
+            "artist_id": 42,
+            "image_id": 478,
+            "itunes_link": "*",
+            "happy": 2.58974358974359,
+            "sad": 3.0256410256410247,
+            "angry": 4.256410256410256,
+            "disgust": 4.6923076923076925,
+            "surprise": 2.5641025641025643,
+            "fear": 3.8461538461538463
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 562,
+        "fields": {
+            "id": 562,
+            "title": "クリスマス・イブ",
+            "artist_id": 271,
+            "image_id": 479,
+            "itunes_link": "https://itunes.apple.com/jp/album/id1300669892?i=1300670407&uo=4&app=itunes&at=1l3v3es",
+            "happy": 4.178571428571429,
+            "sad": 2.4642857142857144,
+            "angry": 2.2142857142857144,
+            "disgust": 2.7142857142857144,
+            "surprise": 2.7142857142857144,
+            "fear": 2.6785714285714284
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 563,
+        "fields": {
+            "id": 563,
+            "title": "ノートルダム",
+            "artist_id": 125,
+            "image_id": 480,
+            "itunes_link": "*",
+            "happy": 2.1621621621621623,
+            "sad": 3.027027027027027,
+            "angry": 4.216216216216216,
+            "disgust": 3.9459459459459465,
+            "surprise": 2.189189189189189,
+            "fear": 2.4054054054054053
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 564,
+        "fields": {
+            "id": 564,
+            "title": "Heaven",
+            "artist_id": 272,
+            "image_id": 481,
+            "itunes_link": "*",
+            "happy": 2.6666666666666665,
+            "sad": 1.8,
+            "angry": 6.1555555555555586,
+            "disgust": 4.911111111111111,
+            "surprise": 2.8666666666666667,
+            "fear": 2.7555555555555555
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 565,
+        "fields": {
+            "id": 565,
+            "title": "ヒプノシスマイク -Rhyme Anima-",
+            "artist_id": 34,
+            "image_id": 174,
+            "itunes_link": "https://itunes.apple.com/jp/album/id1478109978?i=1478109981&uo=4&app=itunes&at=1l3v3es",
+            "happy": 2.32,
+            "sad": 2.44,
+            "angry": 5.64,
+            "disgust": 4.52,
+            "surprise": 2.28,
+            "fear": 3.32
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 566,
+        "fields": {
+            "id": 566,
+            "title": "ミラーボール・ラブ(M@STER VERSION)",
+            "artist_id": 273,
+            "image_id": 482,
+            "itunes_link": "*",
+            "happy": 2.08,
+            "sad": 2.42,
+            "angry": 5.78,
+            "disgust": 5.06,
+            "surprise": 3.02,
+            "fear": 2.96
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 567,
+        "fields": {
+            "id": 567,
+            "title": "Stella",
+            "artist_id": 274,
+            "image_id": 465,
+            "itunes_link": "https://itunes.apple.com/jp/album/id847870664?i=847870760&uo=4&app=itunes&at=1l3v3es",
+            "happy": 6.1,
+            "sad": 2.1,
+            "angry": 5.533333333333332,
+            "disgust": 3.6666666666666665,
+            "surprise": 2.2666666666666666,
+            "fear": 2.3
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 568,
+        "fields": {
+            "id": 568,
+            "title": "smile",
+            "artist_id": 275,
+            "image_id": 484,
+            "itunes_link": "https://itunes.apple.com/jp/album/id1518742951?i=1518742954&uo=4&app=itunes&at=1l3v3es",
+            "happy": 2.9148936170212765,
+            "sad": 3.3404255319148937,
+            "angry": 4.6382978723404245,
+            "disgust": 3.6595744680851054,
+            "surprise": 1.9361702127659568,
+            "fear": 2.48936170212766
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 569,
+        "fields": {
+            "id": 569,
+            "title": "1920",
+            "artist_id": 125,
+            "image_id": 480,
+            "itunes_link": "*",
+            "happy": 2.642857142857143,
+            "sad": 2.0,
+            "angry": 6.321428571428571,
+            "disgust": 5.4642857142857135,
+            "surprise": 2.5,
+            "fear": 2.8928571428571432
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 570,
+        "fields": {
+            "id": 570,
+            "title": "higher ground",
+            "artist_id": 276,
+            "image_id": 485,
+            "itunes_link": "*",
+            "happy": 1.56,
+            "sad": 1.72,
+            "angry": 5.12,
+            "disgust": 4.76,
+            "surprise": 3.24,
+            "fear": 4.16
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 571,
+        "fields": {
+            "id": 571,
+            "title": "離れる日が来るなんて",
+            "artist_id": 125,
+            "image_id": 480,
+            "itunes_link": "*",
+            "happy": 1.8484848484848484,
+            "sad": 2.9090909090909087,
+            "angry": 5.96969696969697,
+            "disgust": 5.0606060606060606,
+            "surprise": 1.8787878787878791,
+            "fear": 2.878787878787879
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 572,
+        "fields": {
+            "id": 572,
+            "title": "すてきなホリデイ",
+            "artist_id": 277,
+            "image_id": 382,
+            "itunes_link": "https://itunes.apple.com/jp/album/id1533935612?i=1533935613&uo=4&app=itunes&at=1l3v3es",
+            "happy": 2.363636363636364,
+            "sad": 2.696969696969697,
+            "angry": 4.636363636363637,
+            "disgust": 4.787878787878788,
+            "surprise": 3.272727272727273,
+            "fear": 4.454545454545454
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 573,
+        "fields": {
+            "id": 573,
+            "title": "暦の上ではディセンバー",
+            "artist_id": 278,
+            "image_id": 461,
+            "itunes_link": "*",
+            "happy": 2.6388888888888893,
+            "sad": 1.75,
+            "angry": 5.6944444444444455,
+            "disgust": 4.472222222222221,
+            "surprise": 4.0277777777777795,
+            "fear": 3.4166666666666665
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 574,
+        "fields": {
+            "id": 574,
+            "title": "雪の道しるべ",
+            "artist_id": 125,
+            "image_id": 480,
+            "itunes_link": "*",
+            "happy": 2.6,
+            "sad": 2.28,
+            "angry": 5.52,
+            "disgust": 6.08,
+            "surprise": 2.32,
+            "fear": 2.92
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 575,
+        "fields": {
+            "id": 575,
+            "title": "HELLO ～Paradise Kiss～",
+            "artist_id": 279,
+            "image_id": 488,
+            "itunes_link": "*",
+            "happy": 1.8604651162790693,
+            "sad": 3.1627906976744184,
+            "angry": 5.372093023255813,
+            "disgust": 3.930232558139535,
+            "surprise": 2.6046511627906983,
+            "fear": 2.953488372093023
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 576,
+        "fields": {
+            "id": 576,
+            "title": "others",
+            "artist_id": 45,
+            "image_id": 489,
+            "itunes_link": "*",
+            "happy": 2.642857142857143,
+            "sad": 1.738095238095238,
+            "angry": 6.5,
+            "disgust": 5.976190476190476,
+            "surprise": 3.261904761904762,
+            "fear": 3.333333333333333
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 577,
+        "fields": {
+            "id": 577,
+            "title": "花の手拍子",
+            "artist_id": 280,
+            "image_id": 37,
+            "itunes_link": "*",
+            "happy": 5.0,
+            "sad": 2.3846153846153846,
+            "angry": 4.769230769230768,
+            "disgust": 3.615384615384616,
+            "surprise": 2.0,
+            "fear": 2.3076923076923075
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 578,
+        "fields": {
+            "id": 578,
+            "title": "Documentary film",
+            "artist_id": 45,
+            "image_id": 489,
+            "itunes_link": "*",
+            "happy": 4.205882352941177,
+            "sad": 3.941176470588236,
+            "angry": 6.029411764705883,
+            "disgust": 4.352941176470588,
+            "surprise": 1.8823529411764703,
+            "fear": 1.9117647058823528
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 579,
+        "fields": {
+            "id": 579,
+            "title": "Keep the faith",
+            "artist_id": 281,
+            "image_id": 490,
+            "itunes_link": "*",
+            "happy": 3.212121212121212,
+            "sad": 2.333333333333333,
+            "angry": 3.6666666666666665,
+            "disgust": 2.9696969696969697,
+            "surprise": 4.787878787878788,
+            "fear": 2.8484848484848486
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 580,
+        "fields": {
+            "id": 580,
+            "title": "weeeek",
+            "artist_id": 282,
+            "image_id": 280,
+            "itunes_link": "https://itunes.apple.com/jp/album/id916163967?i=916163980&uo=4&app=itunes&at=1l3v3es",
+            "happy": 2.12,
+            "sad": 3.5,
+            "angry": 7.36,
+            "disgust": 3.8,
+            "surprise": 1.78,
+            "fear": 2.66
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 581,
+        "fields": {
+            "id": 581,
+            "title": "Beautiful Now",
+            "artist_id": 283,
+            "image_id": 491,
+            "itunes_link": "*",
+            "happy": 4.7073170731707314,
+            "sad": 2.024390243902439,
+            "angry": 3.7073170731707314,
+            "disgust": 2.6341463414634148,
+            "surprise": 3.2926829268292686,
+            "fear": 2.731707317073171
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 582,
+        "fields": {
+            "id": 582,
+            "title": "流れ舟",
+            "artist_id": 284,
+            "image_id": 492,
+            "itunes_link": "*",
+            "happy": 1.6,
+            "sad": 3.6,
+            "angry": 8.2,
+            "disgust": 4.0,
+            "surprise": 2.466666666666667,
+            "fear": 3.733333333333333
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 583,
+        "fields": {
+            "id": 583,
+            "title": "千両役者",
+            "artist_id": 13,
+            "image_id": 256,
+            "itunes_link": "*",
+            "happy": 2.191780821917808,
+            "sad": 1.3150684931506849,
+            "angry": 8.575342465753424,
+            "disgust": 7.7534246575342465,
+            "surprise": 2.602739726027397,
+            "fear": 2.5068493150684934
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 584,
+        "fields": {
+            "id": 584,
+            "title": "命 道づれ",
+            "artist_id": 285,
+            "image_id": 494,
+            "itunes_link": "*",
+            "happy": 1.5,
+            "sad": 3.2777777777777777,
+            "angry": 16.055555555555557,
+            "disgust": 3.555555555555556,
+            "surprise": 2.3888888888888893,
+            "fear": 2.055555555555556
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 585,
+        "fields": {
+            "id": 585,
+            "title": "memories",
+            "artist_id": 45,
+            "image_id": 489,
+            "itunes_link": "*",
+            "happy": 2.7096774193548385,
+            "sad": 2.2580645161290325,
+            "angry": 6.96774193548387,
+            "disgust": 4.096774193548387,
+            "surprise": 2.064516129032258,
+            "fear": 2.1935483870967745
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 586,
+        "fields": {
+            "id": 586,
+            "title": "GETTING HIGH",
+            "artist_id": 286,
+            "image_id": 495,
+            "itunes_link": "*",
+            "happy": 2.9743589743589745,
+            "sad": 1.4102564102564104,
+            "angry": 5.628205128205129,
+            "disgust": 3.0,
+            "surprise": 5.32051282051282,
+            "fear": 3.4615384615384617
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 587,
+        "fields": {
+            "id": 587,
+            "title": "オヒアの木",
+            "artist_id": 287,
+            "image_id": 496,
+            "itunes_link": "https://itunes.apple.com/jp/album/id1521611915?i=1521612216&uo=4&app=itunes&at=1l3v3es",
+            "happy": 2.9090909090909087,
+            "sad": 2.787878787878788,
+            "angry": 5.454545454545454,
+            "disgust": 4.333333333333333,
+            "surprise": 3.8181818181818175,
+            "fear": 2.878787878787879
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 588,
+        "fields": {
+            "id": 588,
+            "title": "オレンジ",
+            "artist_id": 288,
+            "image_id": 497,
+            "itunes_link": "*",
+            "happy": 1.7,
+            "sad": 2.033333333333333,
+            "angry": 10.566666666666666,
+            "disgust": 3.7,
+            "surprise": 2.1,
+            "fear": 2.1
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 589,
+        "fields": {
+            "id": 589,
+            "title": "ジュリアに傷心",
+            "artist_id": 289,
+            "image_id": 498,
+            "itunes_link": "https://itunes.apple.com/jp/album/id330000832?i=330001213&uo=4&app=itunes&at=1l3v3es",
+            "happy": 3.103448275862069,
+            "sad": 3.4482758620689653,
+            "angry": 4.068965517241379,
+            "disgust": 3.4137931034482767,
+            "surprise": 4.172413793103448,
+            "fear": 3.103448275862069
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 590,
+        "fields": {
+            "id": 590,
+            "title": "終わりなき旅",
+            "artist_id": 45,
+            "image_id": 499,
+            "itunes_link": "*",
+            "happy": 2.40625,
+            "sad": 3.0,
+            "angry": 5.6875,
+            "disgust": 4.34375,
+            "surprise": 2.21875,
+            "fear": 2.0625
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 591,
+        "fields": {
+            "id": 591,
+            "title": "Brand new planet",
+            "artist_id": 45,
+            "image_id": 489,
+            "itunes_link": "*",
+            "happy": 2.21875,
+            "sad": 1.9375,
+            "angry": 5.5,
+            "disgust": 4.53125,
+            "surprise": 2.125,
+            "fear": 2.25
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 592,
+        "fields": {
+            "id": 592,
+            "title": "白雪",
+            "artist_id": 184,
+            "image_id": 500,
+            "itunes_link": "*",
+            "happy": 1.6857142857142855,
+            "sad": 3.1714285714285717,
+            "angry": 4.971428571428572,
+            "disgust": 4.085714285714285,
+            "surprise": 2.4571428571428573,
+            "fear": 3.2
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 593,
+        "fields": {
+            "id": 593,
+            "title": "クリスタライズ",
+            "artist_id": 290,
+            "image_id": 501,
+            "itunes_link": "*",
+            "happy": 4.404255319148937,
+            "sad": 2.0851063829787235,
+            "angry": 5.74468085106383,
+            "disgust": 4.170212765957447,
+            "surprise": 4.0212765957446805,
+            "fear": 3.404255319148936
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 594,
+        "fields": {
+            "id": 594,
+            "title": "Joyful",
+            "artist_id": 24,
+            "image_id": 399,
+            "itunes_link": "*",
+            "happy": 4.34065934065934,
+            "sad": 1.945054945054945,
+            "angry": 4.791208791208791,
+            "disgust": 4.307692307692308,
+            "surprise": 3.0549450549450547,
+            "fear": 2.021978021978022
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 595,
+        "fields": {
+            "id": 595,
+            "title": "losstime",
+            "artist_id": 45,
+            "image_id": 489,
+            "itunes_link": "*",
+            "happy": 2.9047619047619047,
+            "sad": 1.7142857142857142,
+            "angry": 7.7142857142857135,
+            "disgust": 5.190476190476192,
+            "surprise": 2.095238095238096,
+            "fear": 2.333333333333333
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 596,
+        "fields": {
+            "id": 596,
+            "title": "Birthday",
+            "artist_id": 45,
+            "image_id": 502,
+            "itunes_link": "*",
+            "happy": 2.473684210526316,
+            "sad": 2.026315789473684,
+            "angry": 6.894736842105262,
+            "disgust": 2.9736842105263164,
+            "surprise": 2.0526315789473686,
+            "fear": 2.0526315789473686
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 597,
+        "fields": {
+            "id": 597,
+            "title": "The song of praise",
+            "artist_id": 45,
+            "image_id": 489,
+            "itunes_link": "*",
+            "happy": 1.9090909090909087,
+            "sad": 1.3636363636363635,
+            "angry": 8.977272727272727,
+            "disgust": 4.727272727272728,
+            "surprise": 2.25,
+            "fear": 2.340909090909091
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 598,
+        "fields": {
+            "id": 598,
+            "title": "冬の予感",
+            "artist_id": 76,
+            "image_id": 503,
+            "itunes_link": "*",
+            "happy": 2.2666666666666666,
+            "sad": 2.6,
+            "angry": 4.266666666666667,
+            "disgust": 4.6,
+            "surprise": 2.9,
+            "fear": 3.333333333333333
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 599,
+        "fields": {
+            "id": 599,
+            "title": "Sweet Bomb！",
+            "artist_id": 24,
+            "image_id": 399,
+            "itunes_link": "*",
+            "happy": 5.564102564102564,
+            "sad": 2.2948717948717947,
+            "angry": 3.217948717948718,
+            "disgust": 2.6153846153846154,
+            "surprise": 3.8461538461538463,
+            "fear": 2.551282051282051
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 600,
+        "fields": {
+            "id": 600,
+            "title": "DANCING SHOES",
+            "artist_id": 45,
+            "image_id": 489,
+            "itunes_link": "*",
+            "happy": 3.459016393442623,
+            "sad": 1.6065573770491803,
+            "angry": 6.836065573770492,
+            "disgust": 5.2950819672131155,
+            "surprise": 2.7704918032786887,
+            "fear": 2.5901639344262297
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 601,
+        "fields": {
+            "id": 601,
+            "title": "生きてるうちが花なんだぜ feat. 宇崎竜童、佐藤浩市",
+            "artist_id": 291,
+            "image_id": 504,
+            "itunes_link": "*",
+            "happy": 4.047619047619048,
+            "sad": 2.142857142857143,
+            "angry": 4.380952380952381,
+            "disgust": 2.095238095238096,
+            "surprise": 6.095238095238094,
+            "fear": 2.9047619047619047
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 602,
+        "fields": {
+            "id": 602,
+            "title": "じれったい",
+            "artist_id": 292,
+            "image_id": 505,
+            "itunes_link": "https://itunes.apple.com/jp/album/id90625078?i=90625351&uo=4&app=itunes&at=1l3v3es",
+            "happy": 1.1176470588235294,
+            "sad": 1.9117647058823528,
+            "angry": 9.411764705882351,
+            "disgust": 4.794117647058823,
+            "surprise": 2.3529411764705883,
+            "fear": 3.5
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 603,
+        "fields": {
+            "id": 603,
+            "title": "君と重ねたモノローグ",
+            "artist_id": 45,
+            "image_id": 502,
+            "itunes_link": "*",
+            "happy": 4.027027027027027,
+            "sad": 2.216216216216216,
+            "angry": 5.783783783783784,
+            "disgust": 3.8378378378378377,
+            "surprise": 2.4324324324324325,
+            "fear": 2.216216216216216
+        }
+    },
+    {
+        "model": "favolyric.lyrics",
+        "pk": 604,
+        "fields": {
+            "id": 604,
+            "title": "you",
+            "artist_id": 293,
+            "image_id": 506,
+            "itunes_link": "https://itunes.apple.com/jp/album/id615283261?i=615284101&uo=4&app=itunes&at=1l3v3es",
+            "happy": 1.90625,
+            "sad": 3.90625,
+            "angry": 3.84375,
+            "disgust": 3.90625,
+            "surprise": 3.125,
+            "fear": 3.34375
         }
     }
 ]
