@@ -5,7 +5,7 @@ services:
     django:
         build:
             # 読み込むファイル名が`Dockerfile`ではない場合contextに相対パス、dockerfileにファイル名を記載
-            context: ./app
+            context: ./server/app
             dockerfile: Dockerfile.prod
         # サービス起動後に入力されるコマンドを設定
         command: gunicorn config.wsgi:application --bind 0.0.0.0:8000
@@ -16,7 +16,7 @@ services:
         expose:
             - 8000
         # 環境変数を指定
-        env_file: .env
+        env_file: ./server/.env
         # 接続するサービスを指定
         depends_on:
             - postgres
@@ -26,13 +26,23 @@ services:
         networks:
             - db_net
 
-    vue:
+    # vue:
+    #     build:
+    #         context: ./vue
+    #     command: 'npm run serve'
+    #     volumes:
+    #         - ./vue/favolyric:/app
+    #         - ./vue/favolyric/node_modules:/app/node_modules
+    #     ports:
+    #         - 8080:8080
+    client:
         build:
-            context: ./vue
-        command: 'npm run serve'
+            context: ./client
+            dockerfile: Dockerfile.prod
         volumes:
-            - ./vue/favolyric:/app
-            - ./vue/favolyric/node_modules:/app/node_modules
+            - ./client:/app
+        expose:
+            - 8080
         ports:
             - 8080:8080
 
@@ -42,7 +52,7 @@ services:
         # データベースの永続化
         volumes:
             - postgres_data:/var/lib/postgresql/data
-        env_file: .env.db
+        env_file: ./server/.env.db
         networks:
             - db_net
 
@@ -56,10 +66,10 @@ services:
             MYSQL_PASSWORD: docker
             TZ: 'Asia/Tokyo'
         volumes:
-            - ./mysql/data:/var/lib/mysql
-            - ./mysql/my.cnf:/etc/mysql/conf.d/my.cnf
-            - ./mysql/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
-            - ./logs:/var/log/mysql
+            - ./server/mysql/data:/var/lib/mysql
+            - ./server/mysql/my.cnf:/etc/mysql/conf.d/my.cnf
+            - ./server/mysql/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
+            - ./server/logs:/var/log/mysql
         ports:
             - 3306:3306
         command: mysqld --character-set-server=utf8 --collation-server=utf8_unicode_ci
@@ -74,7 +84,7 @@ services:
             - 6379:6379
         command: redis-server --appendonly yes --requirepass redis2019!
         volumes:
-            - ./redis/data:/data
+            - ./server/redis/data:/data
         networks:
             - db_net
 
@@ -90,7 +100,7 @@ services:
         restart: unless-stopped
         command: mongod --auth
         volumes:
-            - ./mongo/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
+            - ./server/mongo/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
         networks:
             - db_net
 
@@ -110,11 +120,11 @@ services:
             - db_net
 
     nginx:
-        build: ./nginx
+        build: ./server/nginx
         environment:
             TZ: 'Asia/Tokyo'
         volumes:
-            - ./nginx/logs:/var/log/nginx/
+            - ./server/nginx/logs:/var/log/nginx/
             - static_volume:/usr/src/app/static
         ports:
             - 1337:80
