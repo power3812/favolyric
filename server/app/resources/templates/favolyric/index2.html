@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<!DOCTYPE html>
+<html lang = "ja">
+    <head>
+        <meta name="viewpont" content="width=device-width, initial-scale=1, maximum=1" charset="UTF-8">
+        <title>favolyric</title>
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+        <script defer src="/static/chartjs-plugin-dragdata.min.js"></script>
+        <script defer src="/static/sample.js"></script>
+        <link rel="stylesheet" type="text/css"  href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.css" >
+        <link rel="stylesheet" type="text/css"  href="/static/sample.css" >
+        <link rel="stylesheet" type="text/css"  href="/static/1sample.css" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <h1 id="title"><a href="/">～favolyric～</a></h1>
+        </header>
+        <section id="wrapper">
+            <h1>どんな気持ちになりたいですか？</h1>
+            <canvas id="chart"></canvas>
+            <form id="form" name="form" method="post" onsubmit="beforeSubmit()" action="{% url 'favolyric:result' %}">
+                {% csrf_token %}
+                <div id="submit-wrapper">
+                    <input type="number" name="happy" hidden>
+                    <input type="number" name="sad" hidden>
+                    <input type="number" name="disgust" hidden>
+                    <input type="number" name="anger" hidden>
+                    <input type="number" name="fear" hidden>
+                    <input type="number" name="surprise" hidden>
+                    <button type="submit" id="submit" name="submit">送信</button>
+                </div>
+            </form>
+        </section>
+    </body>
+    <script src="{% static 'js/favolyric_index.js' %}"></script>
+</html>
+{% endblock %}
